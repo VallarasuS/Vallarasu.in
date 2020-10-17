@@ -3,40 +3,28 @@ html, body {
     margin: 0%;
 }
 
-.margin-a-10 {
-    margin: 10px;
+.h-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.margin-top-bottom-20 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.margin-h-5 {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.h-scale-80 {
+.content-h-80 {
+    margin-left: 10%;
+    margin-right: 10%;
     width: 80%;
 }
 
-.d-flex-row {
-    display: flex;
-    flex-direction: row;
+.text-center {
+    text-align: center;
 }
 
 .d-flex-col {
     display: flex;
     flex-direction: column;
-}
-
-.d-flex-row-space {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.personal-image {
-    width: 350px;
-}
-
-.title-name {
-    font-weight: bold;
-    font-size: large;
 }
