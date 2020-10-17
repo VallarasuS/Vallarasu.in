@@ -3,6 +3,23 @@ html, body {
     margin: 0%;
 }
 
+html {
+    background-color: #1b262c;
+    color: #bbe1fa;
+}
+
+a:link {
+    color:#bbe1fa;
+}
+
+a:visited {
+    color:#3282b8;
+}
+
+a:hover {
+    color:#3282b8;
+}
+
 .h-center {
     display: flex;
     flex-direction: row;
