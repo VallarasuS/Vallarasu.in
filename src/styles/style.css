@@ -31,6 +31,10 @@ a:hover {
     margin-right: 5px;
 }
 
+.margin-a-10 {
+    margin: 10px;
+}
+
 .content-h-80 {
     margin-left: 10%;
     margin-right: 10%;
@@ -44,4 +48,12 @@ a:hover {
 .d-flex-col {
     display: flex;
     flex-direction: column;
+}
+
+.code-container {
+    background-color: black;
+    color: yellow;
+    border-radius: 3px;
+    min-height: 200px;
+    padding: 10px;
 }

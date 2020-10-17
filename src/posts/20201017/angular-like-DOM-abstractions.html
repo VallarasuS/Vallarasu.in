@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vallarasu Sambathkumar</title>
+    <link rel="stylesheet" href="../../styles/style.css">
+    <script src="./angular-like-DOM-abstractions.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="h-center">
+            <h1>Val's</h1>
+        </div>
+        <div class="h-center">
+            <a class="margin-h-5" href="https://vallarasu.in/">home</a>
+            <a class="margin-h-5" href="https://www.linkedin.com/in/vallarasus/" target="_blank">linkedin</a>
+            <a class="margin-h-5" href="https://github.com/VallarasuS" target="_blank">github</a>
+            <a class="margin-h-5" href="https://www.codeproject.com/Members/VallarasuS" target="_blank">codeproject</a>
+        </div>
+        <hr>
+    </div>
+    <div id="content" class="content-h-80" role="doc-introduction">
+
+        <h2>Angular like DOM abstraction</h2>
+
+        <p>
+            In the age of SPA, all UI frameworks or libraries manipulate the DOM in one way are the other to achieve
+            desired output.
+            Angular offers structural directives to manipulate the DOM, there are a few of them to meet various
+            application needs, let's look at couple of them and mimic in plain Javascript.
+        </p>
+
+        <ul>
+            <li><a href="#ngFor">ngFor</a></li>
+            <li><a href="#ngIf">ngIf</a></li>
+        </ul>
+
+        <section id="ngFor">
+            <h3> NgFor Directive:</h3>
+
+            Imagine having a long list of items to display, it would be time taking and error prone to hand code them.
+            Given a template expression angular generates elements for each data item provided and appends it to the DOM
+            tree, well angular does more than that, keeps track of changes to the data item update, remove the
+            elements when needed and much more. To keep it simple for the discussion, lets limit the scope to creation
+            alone for now.
+            <br>
+            <br>
+            To being let's get to the questions that needs to be answered.
+            <br>
+            <ol>
+                <li>We need to know what needs to be displayed? - list of items to display</li>
+                <li>How will each item look like? - the template for an items for instance 'li'</li>
+                <li>Where will it be displayed? - reference to an element with-in the document, for isntance body</li>
+            </ol>
+
+            <section role="presentation">
+                <div class="code-container">
+                    <p> 
+                        const items = ["Pen", "Papper", "Ruler"];
+                    </p>
+                </div>
+            </section>
+
+        </section>
+
+        <section id="ngIf">
+            <h3> NgIf Directive:</h3>
+
+            Given a boolean expression, when it evaluates to true or false NgIf adds or removes the elements from the
+            DOM.
+            This is helpful when you need to display or hide elements conditionally from the view.
+            For instance when user searches from a large list of items, you may want to hide the elements that does not
+            fit the serach query.
+
+        </section>
+
+    </div>
+</body>
+
+</html>
