@@ -1,0 +1,25 @@
+title: Vallarasu Sambathkumar
+author: Vallarasu Sambathkumar
+email: vals@live.in
+url: https://vallarasu.in
+baseurl: ""
+description: A personal blogging space for mostly tech related contents.
+
+permalink: /:slug.html
+
+favicon: "logo.png"
+
+remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto"
+  back_home_text: "back"
+  date_format: "%Y-%m-%d"
+  show_description: false
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
