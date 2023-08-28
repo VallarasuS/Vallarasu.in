@@ -27,3 +27,8 @@ entries:
 
   - title: rss
     url: feed.xml
+
+  - title: reading lists
+    entries:
+      - title: STAFF ENGINEER’S PATH RESOURCE LIST
+        url: https://noidea.dog/staff-resources
