@@ -32,3 +32,5 @@ entries:
     entries:
       - title: STAFF ENGINEER’S PATH RESOURCE LIST
         url: https://noidea.dog/staff-resources
+      - title: The 37signals Guide to Making Decisions
+        url: https://37signals.com/how-we-make-decisions
