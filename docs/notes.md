@@ -5,9 +5,9 @@ title: Notes & Ideas
 
 Software
 - Tools for SMB
--- Jira
--- Confluence
--- Chat / IM
+- Jira
+- Confluence
+- Chat / IM
 
 Content
 - Edu Videos in Tamil (NCERT)
