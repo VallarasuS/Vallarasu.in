@@ -10,7 +10,7 @@ In recent times, I was only buying technical books and they mostly serve as a re
 
 But this book is about content creation and marketing by an Indian author Ashish Chopra,
 It was an easy read, filled with lot of interesting experiences and ideas author encountered in his job as a content marketer.
-Author being an Indian the writing felt like talking to someone you know very well, and finished it in two sittings over a week end.
+Author being an Indian the writing felt like talking to someone you know very well, and finished it in two sittings over a weekend.
 
 If you are in the market for a while, you may have seen some of these ideas in play. You might even feel like 'yeah I know this already!'.
 What separates this book from others is, the author comes up with a framework starting from ideation, production and to distribution.
