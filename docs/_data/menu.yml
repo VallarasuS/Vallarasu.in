@@ -1,17 +1,4 @@
 entries:
-  - title: info
-    entries:
-      - title: about
-        url: about.html
-      - title: notes
-        url: notes.html
-      - title: github
-        url: https://github.com/VallarasuS
-      - title: linkedin
-        url: https://www.linkedin.com/in/vallarasus/
-      - title: resume
-        url: https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/resume/Vallarasu_Sambathkumar.pdf
-
   - title: posts
     post_list:
       limit: 10
@@ -38,3 +25,16 @@ entries:
         url: https://37signals.com/how-we-make-decisions
       - title: How to use design thinking to create a happier life for yourself
         url: https://ideas.ted.com/how-to-use-design-thinking-to-create-a-happier-life-for-yourself
+ 
+ - title: info
+    entries:
+      - title: about
+        url: about.html
+      - title: notes
+        url: notes.html
+      - title: github
+        url: https://github.com/VallarasuS
+      - title: linkedin
+        url: https://www.linkedin.com/in/vallarasus/
+      - title: resume
+        url: https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/resume/Vallarasu_Sambathkumar.pdf
