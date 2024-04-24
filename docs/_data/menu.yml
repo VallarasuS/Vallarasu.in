@@ -30,8 +30,8 @@ entries:
     entries:
       - title: about
         url: about.html
-      - title: notes
-        url: notes.html
+#      - title: notes
+#        url: notes.html
       - title: github
         url: https://github.com/VallarasuS
       - title: linkedin
