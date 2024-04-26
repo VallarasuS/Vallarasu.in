@@ -30,7 +30,7 @@ category: Sivaganga
 
 தேர்தல் நேரம் ஆதலால், ஓர் இளைஞர் இதே கேள்வியை காணொளியில் எழுப்பியிருந்தார்.
 நிறைய மாற்றங்கள் வேண்டும், தலைவர்கள் அதற்கான வழிவகை செய்யவேண்டும் 
-- என்பது அவர் கோரிக்கை!
+என்பது அவர் கோரிக்கை!
 
 இங்குதான் எனக்கு கருத்து வேறுபாடு எழுந்தது!
 நாம என் எப்பொழுதும் தலைவர்களை எதிர்பார்க்கிறோம்?
@@ -71,9 +71,9 @@ category: Sivaganga
 வாருங்கள் ஒன்றிணைவோம், 
 நம் கனவு திட்டங்களுக்கு உயிர் கொடுப்போம்!
 
-https://t.me/+avpDNJ-CHWxiYWY1
+[Join Telegram](https://t.me/+avpDNJ-CHWxiYWY1)
 
-![Insertion Sort Example](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/Pro-Sivaganga.png)
+![Project Sivaganga](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/Pro-Sivaganga.png)
 
 ஆயிரம் இளைஞர்கள் துணிந்து விட்டால் 
 ஆயுதம் எதுவும் தேவையில்லை! 
