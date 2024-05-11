@@ -3,8 +3,6 @@ layout: post
 category: Sivaganga
 ---
 
-### Project Sivaganga
-
 வணக்கம் சிவகங்கை!
 
 "எங்க இருக்கு உங்க ஊர்?" 
@@ -75,5 +73,4 @@ category: Sivaganga
 
 ![Project Sivaganga](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/Pro-Sivaganga.png)
 
-ஆயிரம் இளைஞர்கள் துணிந்து விட்டால் 
-ஆயுதம் எதுவும் தேவையில்லை! 
+மாற்றம் நம்மிடம் இருந்து துவங்கட்டும்!
