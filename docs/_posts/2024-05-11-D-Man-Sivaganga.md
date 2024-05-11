@@ -7,7 +7,7 @@ category: Sivaganga
 
 வணக்கம் சிவகங்கை!
 
-Project Sivaganga - ன் ஒரு பகுதியாக,
+[Project Sivaganga](http://vallarasu.in/project-sivaganga.html) - ன் ஒரு பகுதியாக,
 நமது ஊரின் இளம் தலைமுறை 
 தொழில் முனைவோர்களை 
 அடையாளம் காண விழைந்தேன்!
