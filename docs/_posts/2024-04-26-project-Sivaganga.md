@@ -69,7 +69,7 @@ category: Sivaganga
 வாருங்கள் ஒன்றிணைவோம், 
 நம் கனவு திட்டங்களுக்கு உயிர் கொடுப்போம்!
 
-[Join Telegram](https://t.me/+avpDNJ-CHWxiYWY1)
+[Join Telegram](https://t.me/ProjectSivaganga)
 
 ![Project Sivaganga](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/Pro-Sivaganga.png)
 
