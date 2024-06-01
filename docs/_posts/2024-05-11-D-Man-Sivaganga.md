@@ -16,8 +16,8 @@ category: Sivaganga
 சுரேஷ் குமார் (Suresh Kumar C) அவர்களின் 
 நேர்காணல் இதோ!
 
-[Youtube](https://www.youtube.com/watch?v=vqE81jpQ8Fk)
-[Spotify](https://podcasters.spotify.com/pod/show/pro-sivaganga/episodes/Building-a-delivery-business-from-Sivaganga---Suresh-Kumar-C-e2jgn4s)
+[Youtube](https://youtu.be/45gLsNhIy6k)
+[Spotify](https://open.spotify.com/episode/5H3g75oRGpOCImDAEaQ1i7?si=f6e4B6LuSsqVHzd22Ma83g)
 
 இது தொழில் செய்ய விளையும் 
 இளம்பிரார்களுக்கு 
