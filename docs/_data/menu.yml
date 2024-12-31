@@ -2,9 +2,9 @@ entries:
   - title: posts
     post_list:
       limit: 10
-  #     show_more: true
-  #     show_more_text: See archive...
-  #     show_more_url: archive.html
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
 
   # - title: networking
   #   post_list:
@@ -14,8 +14,8 @@ entries:
   #   post_list:
   #     category: Algorithms
 
-  - title: rss
-    url: feed.xml
+  # - title: rss
+  #   url: feed.xml
 
   - title: reading lists
     entries:
