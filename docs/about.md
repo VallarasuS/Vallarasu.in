@@ -7,7 +7,7 @@ Hello! ✋ This is Vallarasu Sambathkumar from Bangalore, India.
 
 I have a decade of experince in building applications for the web, desktop and mobile.
 
-Worked on various domains including Capital Markets, Video Surveilance (Network Video Recorders), HVAC Simulation Systems and various domains in between.
+Worked on various domains including Capital Markets (Trading Desk Front office), Video Surveilance (Network Video Recorders), HVAC Simulation Systems and various domains in between.
 
 Skills
 

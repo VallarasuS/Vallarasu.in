@@ -1,4 +1,10 @@
 entries:
+
+  - title: trends
+    entries:
+      - title: finance-trends
+        url: finance.html
+
   - title: posts
     post_list:
       limit: 10
