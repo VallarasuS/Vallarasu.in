@@ -5,24 +5,23 @@ title: Finance News Today
 
 ### 4-JAN-2025
 
-- Big Order Win: Stock makes new post-listing high post ₹1,085 crore order from DRDO [news](https://www.cnbctv18.com/market/afcons-infra-share-price-1085-crore-order-win-from-drdo-shapoorji-pallonji-group-outlook-ipo-19534017.htm) <br/><br/> 	
+- Shapoorji Pallonji Group wins ₹1,085 crore order from DRDO [news](https://www.cnbctv18.com/market/afcons-infra-share-price-1085-crore-order-win-from-drdo-shapoorji-pallonji-group-outlook-ipo-19534017.htm) <br/><br/> 	
+- Cable penny stock at Rs 20 in focus as company bags new orders worth Rs 7,17,00,000 from Maharashtra State Electricity Transmission Company Ltd [news](https://www.dsij.in/dsijarticledetail/cable-penny-stock-at-rs-20-in-focus-as-company-bags-new-orders-worth-rs-71700000-from-maharashtra-state-electricity-transmission-company-ltd-id001-45490) <br/><br/> 	
 - Credit card lounge access: Rules changed for these two credit cards from January 1, 2025 [news](https://m.economictimes.com/wealth/spend/credit-card-lounge-access-rules-changed-for-these-two-credit-cards-from-january-1-2025/articleshow/116887539.cms) <br/><br/> 	
 - Sell Bajaj Housing shares, says Kotak; here are target prices for Bajaj Finance and Bajaj Finserv [news](https://www.businesstoday.in/markets/company-stock/story/sell-bajaj-housing-shares-says-kotak-here-are-target-prices-for-bajaj-finance-and-bajaj-finserv-459448-2025-01-03) <br/><br/> 	
 - Dyson Purifier Hot+Cool Gen1 Review: An idealistic and versatile device to have in places like Delhi [news](https://www.thehindu.com/sci-tech/technology/gadgets/dyson-purifier-hotcool-gen1-review-an-idealistic-and-versatile-device-to-have-in-places-like-delhi/article69056799.ece) <br/><br/> 	
 - Telecom stock hits the 20% upper circuit following robust orderbook and frequent volume spikes [news](https://tradebrains.in/features/telecom-stock-hits-the-20-upper-circuit-following-robust-orderbook-and-frequent-volume-spikes/) <br/><br/> 	
-- Cable penny stock at Rs 20 in focus as company bags new orders worth Rs 7,17,00,000 from Maharashtra State Electricity Transmission Company Ltd [news](https://www.dsij.in/dsijarticledetail/cable-penny-stock-at-rs-20-in-focus-as-company-bags-new-orders-worth-rs-71700000-from-maharashtra-state-electricity-transmission-company-ltd-id001-45490) <br/><br/> 	
 - LiveScore Group turnover up 38% on UK gains as losses shrink further [news](https://www.egr.global/intel/news/livescore-group-turnover-up-38-on-uk-gains-as-losses-shrink-further/) <br/><br/> 	
 - IDFC First Bank announces business updates for Q3, check details [news](https://www.businesstoday.in/markets/company-stock/story/idfc-first-bank-announces-business-updates-for-q3-check-details-459492-2025-01-03) <br/><br/> 	
 - What do the State of Forest Report 2023 findings mean? [news](https://www.thehindu.com/sci-tech/energy-and-environment/what-do-the-state-of-forest-report-2023-findings-mean-explained/article69045865.ece) <br/><br/> 	
-- Hindustan Unilever in talks to buy skincare brand Minimalist for Rs 3K cr [news](https://www.business-standard.com/companies/news/hindustan-unilever-in-talks-to-buy-skincare-brand-minimalist-for-rs-3k-cr-125010300966_1.html) <br/><br/> 	
+- Hindustan Unilever in talks to buy skincare brand Minimalist for Rs 3,000 crore [news](https://www.business-standard.com/companies/news/hindustan-unilever-in-talks-to-buy-skincare-brand-minimalist-for-rs-3k-cr-125010300966_1.html) <br/><br/> 	
 - REC stock price 1.01 per cent as Sensex [news](https://m.economictimes.com/markets/stocks/stock-watch/rec-stock-price-1-01-per-cent-as-sensex/articleshow/116902701.cms) <br/><br/> 	
 - Saregama India Stock Rises 5.88% on January 3, Outperforming Sector and Sensex [news](https://www.marketsmojo.com/news/stocks-in-action/saregama-india-stock-rises-5-88-on-january-3-outperforming-sector-and-sensex-322500) <br/><br/> 	
 - Leo Dryfruits and Spices SME IPO attracts over 169 times bids on Day 3, shares to debut next week [news](https://www.moneycontrol.com/news/business/ipo/leo-dryfruits-and-spices-sme-ipo-attracts-over-169-times-bids-on-day-3-shares-to-debut-next-week-12903023.html) <br/><br/> 	
-- IOC Q3 results FY25 date and time: PSU Indian Oil's quarterly earnings schedule out - Details [news](https://www.etnownews.com/markets/ioc-q3-results-fy25-date-and-time-psu-indian-oils-quarterly-earnings-schedule-out-details-article-116883157) <br/><br/> 	
+- IOC Q3 results FY25 date and time: PSU Indian Oil's quarterly earnings schedule out [news](https://www.etnownews.com/markets/ioc-q3-results-fy25-date-and-time-psu-indian-oils-quarterly-earnings-schedule-out-details-article-116883157) <br/><br/> 	
 
 ### 3-JAN-2025
 
-- HUL in acquisition talks with D2C brands Minimalist in Rs 3,000 crore deal [news](https://m.economictimes.com/tech/technology/hul-in-acquisition-talks-with-d2c-brands-minimalist-in-rs-3000-crore-deal/articleshow/116915990.cms) <br/><br/> 	
 - CMD, IREDA Vision for 2025: Market Innovations, Retail Renewable Push and Global Expansion [news](https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2089202) <br/><br/> 	
 - Noida Airport signs 30-year fuel station deal with Indian Oil [news](https://energy.economictimes.indiatimes.com/news/oil-and-gas/noida-airport-signs-30-year-fuel-station-deal-with-indian-oil/116879890) <br/><br/> 	
 - Leading auto companies Tata Motors, M&M to get incentives worth Rs 246 crore under PLI scheme [news](https://www.moneycontrol.com/news/business/companies/leading-auto-companies-tata-motors-m-m-to-get-incentives-worth-rs-246-crore-under-pli-scheme-12902127.html) <br/><br/> 	
