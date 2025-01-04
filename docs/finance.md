@@ -5,6 +5,8 @@ title: Finance News Today
 
 ### 4-JAN-2025
 
+- Decoded: How does front-running work, and what is Ketan Parekh's role? [news](https://www.business-standard.com/amp/markets/news/decoded-front-running-ketan-parekh-role-sebi-investigation-125010300637_1.html) <br/><br/>
+
 - Shapoorji Pallonji Group wins ₹1,085 crore order from DRDO [news](https://www.cnbctv18.com/market/afcons-infra-share-price-1085-crore-order-win-from-drdo-shapoorji-pallonji-group-outlook-ipo-19534017.htm) <br/><br/> 	
 - Cable penny stock at Rs 20 in focus as company bags new orders worth Rs 7,17,00,000 from Maharashtra State Electricity Transmission Company Ltd [news](https://www.dsij.in/dsijarticledetail/cable-penny-stock-at-rs-20-in-focus-as-company-bags-new-orders-worth-rs-71700000-from-maharashtra-state-electricity-transmission-company-ltd-id001-45490) <br/><br/> 	
 - Credit card lounge access: Rules changed for these two credit cards from January 1, 2025 [news](https://m.economictimes.com/wealth/spend/credit-card-lounge-access-rules-changed-for-these-two-credit-cards-from-january-1-2025/articleshow/116887539.cms) <br/><br/> 	
