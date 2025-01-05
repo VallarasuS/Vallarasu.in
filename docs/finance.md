@@ -3,22 +3,32 @@ layout: page
 title: Finance News Today
 ---
 
+### 5-JAN-2025
+
+- Indian CEO earning ₹48 crore per day is world’s highest-paid employee. [news](https://www.hindustantimes.com/trending/this-indian-ceo-earning-rs-48-crore-per-day-is-world-s-highest-paid-employee-it-s-not-sundar-pichai-or-satya-nadella-101735970291924.html) <br/><br/> 	
+- CRED lost Rs 12 crore in fraud from two accounts in Axis Bank [news](https://timesofindia.indiatimes.com/technology/tech-news/reliance-backed-dunzo-may-see-founder-exit-cred-lost-rs-12-crore-in-fraud-from-two-accounts-in-axis-bank-blinkit-launches-10-minutes-ambulance-service-and-other-top-tech-news-of-the-week/articleshow/116943350.cms) <br/><br/> 	
+- Revolutionizing Digital Commerce: The ONDC Initiative [news](https://pib.gov.in/PressReleasePage.aspx?PRID=2090097) <br/><br/> 	
+- SBI Opens Applications For 150 Specialist Cadre Officer Posts, Deadline January 23 [news](https://www.ndtv.com/education/sbi-sco-recruitment-2025-state-bank-of-india-opens-applications-for-150-specialist-cadre-officer-posts-deadline-january-23-7398651) <br/><br/> 	
+- IPPB Recruitment 2024-25: Apply Online For 68 Manager Posts at ippbonline.com [news](https://www.jagranjosh.com/articles/ippb-manager-recruitment-2024-25-notification-for-68-posts-pdf-eligibility-salary-apply-online-link-1735482016-1) <br/><br/> 	
+- Print ads are the new fad [news](https://www.mid-day.com/sunday-mid-day/article/print-ads-are-the-new-fad-23458811) <br/><br/> 	
+- UK Pound to PKR latest rate today [news](https://www.samaa.tv/2087326731-uk-pound-to-pkr-latest-rate-today-04-january-2025) <br/><br/> 	
+- Upcoming IPOs: 7 new public issues, 6 listings scheduled for next week [news](https://www.livemint.com/market/ipo/upcoming-ipos-7-new-public-issues-5-listings-scheduled-for-next-week-check-full-list-11736048664408.html) <br/><br/> 	
+- Overhead wire snag causes disruption to Konkan rly service [news](https://timesofindia.indiatimes.com/city/goa/overhead-wire-snag-causes-disruption-to-konkan-rly-service/articleshow/116950035.cms) <br/><br/> 	
+- IDFC First Bank announces business updates for Q3 [news](https://www.businesstoday.in/markets/company-stock/story/idfc-first-bank-announces-business-updates-for-q3-check-details-459492-2025-01-03) <br/><br/> 	
+- CoinDCX’s crypto withdrawal vacillation confuses customers over the exchange’s KYC policy [news](https://www.thehindu.com/sci-tech/technology/coindcxs-crypto-withdrawal-vacillation-confuses-customers-over-the-exchanges-kyc-policy/article69056985.ece) <br/><br/> 	
+
 ### 4-JAN-2025
 
 - Decoded: How does front-running work, and what is Ketan Parekh's role? [news](https://www.business-standard.com/amp/markets/news/decoded-front-running-ketan-parekh-role-sebi-investigation-125010300637_1.html) <br/><br/>
-
 - Shapoorji Pallonji Group wins ₹1,085 crore order from DRDO [news](https://www.cnbctv18.com/market/afcons-infra-share-price-1085-crore-order-win-from-drdo-shapoorji-pallonji-group-outlook-ipo-19534017.htm) <br/><br/> 	
-- Cable penny stock at Rs 20 in focus as company bags new orders worth Rs 7,17,00,000 from Maharashtra State Electricity Transmission Company Ltd [news](https://www.dsij.in/dsijarticledetail/cable-penny-stock-at-rs-20-in-focus-as-company-bags-new-orders-worth-rs-71700000-from-maharashtra-state-electricity-transmission-company-ltd-id001-45490) <br/><br/> 	
 - Credit card lounge access: Rules changed for these two credit cards from January 1, 2025 [news](https://m.economictimes.com/wealth/spend/credit-card-lounge-access-rules-changed-for-these-two-credit-cards-from-january-1-2025/articleshow/116887539.cms) <br/><br/> 	
 - Sell Bajaj Housing shares, says Kotak; here are target prices for Bajaj Finance and Bajaj Finserv [news](https://www.businesstoday.in/markets/company-stock/story/sell-bajaj-housing-shares-says-kotak-here-are-target-prices-for-bajaj-finance-and-bajaj-finserv-459448-2025-01-03) <br/><br/> 	
 - Dyson Purifier Hot+Cool Gen1 Review: An idealistic and versatile device to have in places like Delhi [news](https://www.thehindu.com/sci-tech/technology/gadgets/dyson-purifier-hotcool-gen1-review-an-idealistic-and-versatile-device-to-have-in-places-like-delhi/article69056799.ece) <br/><br/> 	
-- Telecom stock hits the 20% upper circuit following robust orderbook and frequent volume spikes [news](https://tradebrains.in/features/telecom-stock-hits-the-20-upper-circuit-following-robust-orderbook-and-frequent-volume-spikes/) <br/><br/> 	
 - LiveScore Group turnover up 38% on UK gains as losses shrink further [news](https://www.egr.global/intel/news/livescore-group-turnover-up-38-on-uk-gains-as-losses-shrink-further/) <br/><br/> 	
 - IDFC First Bank announces business updates for Q3, check details [news](https://www.businesstoday.in/markets/company-stock/story/idfc-first-bank-announces-business-updates-for-q3-check-details-459492-2025-01-03) <br/><br/> 	
 - What do the State of Forest Report 2023 findings mean? [news](https://www.thehindu.com/sci-tech/energy-and-environment/what-do-the-state-of-forest-report-2023-findings-mean-explained/article69045865.ece) <br/><br/> 	
 - Hindustan Unilever in talks to buy skincare brand Minimalist for Rs 3,000 crore [news](https://www.business-standard.com/companies/news/hindustan-unilever-in-talks-to-buy-skincare-brand-minimalist-for-rs-3k-cr-125010300966_1.html) <br/><br/> 	
 - REC stock price 1.01 per cent as Sensex [news](https://m.economictimes.com/markets/stocks/stock-watch/rec-stock-price-1-01-per-cent-as-sensex/articleshow/116902701.cms) <br/><br/> 	
-- Saregama India Stock Rises 5.88% on January 3, Outperforming Sector and Sensex [news](https://www.marketsmojo.com/news/stocks-in-action/saregama-india-stock-rises-5-88-on-january-3-outperforming-sector-and-sensex-322500) <br/><br/> 	
 - Leo Dryfruits and Spices SME IPO attracts over 169 times bids on Day 3, shares to debut next week [news](https://www.moneycontrol.com/news/business/ipo/leo-dryfruits-and-spices-sme-ipo-attracts-over-169-times-bids-on-day-3-shares-to-debut-next-week-12903023.html) <br/><br/> 	
 - IOC Q3 results FY25 date and time: PSU Indian Oil's quarterly earnings schedule out [news](https://www.etnownews.com/markets/ioc-q3-results-fy25-date-and-time-psu-indian-oils-quarterly-earnings-schedule-out-details-article-116883157) <br/><br/> 	
 
