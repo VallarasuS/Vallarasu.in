@@ -3,6 +3,20 @@ layout: page
 title: Finance News Today
 ---
 
+### 6-JAN-2025
+
+- Kevan Parekh assumes office as CFO of Apple [news](https://m.economictimes.com/news/international/business/kevan-parekh-assumes-office-as-cfo-of-apple/articleshow/116949200.cms) <br/><br/> 	
+- Iran ranks 2nd in Intl. IQ TEST 2024 [news](https://www.tehrantimes.com/news/508313/Iran-ranks-2nd-in-Intl-IQ-TEST-2024) <br/><br/> 	
+- India poised to lead emerging markets in 2025   [news](https://www.moneycontrol.com/news/business/earnings/goldman-sachs-india-poised-to-lead-emerging-markets-in-2025-12903801.html) <br/><br/> 	
+- Global Power City Index: Dubai Ranks First In Middle East, Eighth Globally [news](https://www.ndtv.com/world-news/global-power-city-index-dubai-ranks-first-in-middle-east-eighth-globally-7406957) <br/><br/> 	
+- ‘I am rich and I have no idea what to do’: Vinay Hiremath after selling startup for $975 million [news](https://www.moneycontrol.com/news/trends/i-am-rich-and-i-have-no-idea-what-to-do-with-my-life-vinay-hiremath-after-selling-startup-for-975-million-12903620.html) <br/><br/> 	
+- Standard Glass Lining Technology IPO opens tomorrow [news](https://www.livemint.com/market/ipo/standard-glass-lining-technology-ipo-opens-on-monday-gmp-review-other-details-among-10-key-things-to-know-11735988671955.html) <br/><br/> 	
+- Capital Infra Trust sets price band at Rs 99-100 per unit; IPO to open next week [news](https://www.zeebiz.com/markets/ipo/news-capital-infra-trust-sets-price-band-at-rs-99-100-per-unit-ipo-to-open-next-week-337103) <br/><br/> 	
+- Shakti Pumps, Roto: Charts hint up to 20% gain for compressors & pumps stks [news](https://www.business-standard.com/markets/news/shakti-pumps-roto-charts-hint-up-to-20-gain-for-compressors-pumps-stks-124123000303_1.html) <br/><br/> 	
+- The rise and fall of Dunzo’s Kabeer Biswas [news](https://www.financialexpress.com/business/industry-the-rise-and-fall-of-dunzos-kabeer-biswas-3706888/) <br/><br/> 	
+- Crypto Price Today: Bitcoin breaks above $97,000; XRP, Cardano surge by up to 11% [news](https://m.economictimes.com/markets/cryptocurrency/crypto-news/crypto-price-today-bitcoin-breaks-above-97000-xrp-cardano-surge-by-up-to-11/articleshow/116909527.cms) <br/><br/> 	
+
+
 ### 5-JAN-2025
 
 - Indian CEO earning ₹48 crore per day is world’s highest-paid employee. [news](https://www.hindustantimes.com/trending/this-indian-ceo-earning-rs-48-crore-per-day-is-world-s-highest-paid-employee-it-s-not-sundar-pichai-or-satya-nadella-101735970291924.html) <br/><br/> 	
@@ -12,7 +26,6 @@ title: Finance News Today
 - IPPB Recruitment 2024-25: Apply Online For 68 Manager Posts at ippbonline.com [news](https://www.jagranjosh.com/articles/ippb-manager-recruitment-2024-25-notification-for-68-posts-pdf-eligibility-salary-apply-online-link-1735482016-1) <br/><br/> 	
 - Print ads are the new fad [news](https://www.mid-day.com/sunday-mid-day/article/print-ads-are-the-new-fad-23458811) <br/><br/> 	
 - UK Pound to PKR latest rate today [news](https://www.samaa.tv/2087326731-uk-pound-to-pkr-latest-rate-today-04-january-2025) <br/><br/> 	
-- Upcoming IPOs: 7 new public issues, 6 listings scheduled for next week [news](https://www.livemint.com/market/ipo/upcoming-ipos-7-new-public-issues-5-listings-scheduled-for-next-week-check-full-list-11736048664408.html) <br/><br/> 	
 - Overhead wire snag causes disruption to Konkan rly service [news](https://timesofindia.indiatimes.com/city/goa/overhead-wire-snag-causes-disruption-to-konkan-rly-service/articleshow/116950035.cms) <br/><br/> 	
 - IDFC First Bank announces business updates for Q3 [news](https://www.businesstoday.in/markets/company-stock/story/idfc-first-bank-announces-business-updates-for-q3-check-details-459492-2025-01-03) <br/><br/> 	
 - CoinDCX’s crypto withdrawal vacillation confuses customers over the exchange’s KYC policy [news](https://www.thehindu.com/sci-tech/technology/coindcxs-crypto-withdrawal-vacillation-confuses-customers-over-the-exchanges-kyc-policy/article69056985.ece) <br/><br/> 	
@@ -24,12 +37,9 @@ title: Finance News Today
 - Credit card lounge access: Rules changed for these two credit cards from January 1, 2025 [news](https://m.economictimes.com/wealth/spend/credit-card-lounge-access-rules-changed-for-these-two-credit-cards-from-january-1-2025/articleshow/116887539.cms) <br/><br/> 	
 - Sell Bajaj Housing shares, says Kotak; here are target prices for Bajaj Finance and Bajaj Finserv [news](https://www.businesstoday.in/markets/company-stock/story/sell-bajaj-housing-shares-says-kotak-here-are-target-prices-for-bajaj-finance-and-bajaj-finserv-459448-2025-01-03) <br/><br/> 	
 - Dyson Purifier Hot+Cool Gen1 Review: An idealistic and versatile device to have in places like Delhi [news](https://www.thehindu.com/sci-tech/technology/gadgets/dyson-purifier-hotcool-gen1-review-an-idealistic-and-versatile-device-to-have-in-places-like-delhi/article69056799.ece) <br/><br/> 	
-- LiveScore Group turnover up 38% on UK gains as losses shrink further [news](https://www.egr.global/intel/news/livescore-group-turnover-up-38-on-uk-gains-as-losses-shrink-further/) <br/><br/> 	
 - IDFC First Bank announces business updates for Q3, check details [news](https://www.businesstoday.in/markets/company-stock/story/idfc-first-bank-announces-business-updates-for-q3-check-details-459492-2025-01-03) <br/><br/> 	
 - What do the State of Forest Report 2023 findings mean? [news](https://www.thehindu.com/sci-tech/energy-and-environment/what-do-the-state-of-forest-report-2023-findings-mean-explained/article69045865.ece) <br/><br/> 	
 - Hindustan Unilever in talks to buy skincare brand Minimalist for Rs 3,000 crore [news](https://www.business-standard.com/companies/news/hindustan-unilever-in-talks-to-buy-skincare-brand-minimalist-for-rs-3k-cr-125010300966_1.html) <br/><br/> 	
-- REC stock price 1.01 per cent as Sensex [news](https://m.economictimes.com/markets/stocks/stock-watch/rec-stock-price-1-01-per-cent-as-sensex/articleshow/116902701.cms) <br/><br/> 	
-- Leo Dryfruits and Spices SME IPO attracts over 169 times bids on Day 3, shares to debut next week [news](https://www.moneycontrol.com/news/business/ipo/leo-dryfruits-and-spices-sme-ipo-attracts-over-169-times-bids-on-day-3-shares-to-debut-next-week-12903023.html) <br/><br/> 	
 - IOC Q3 results FY25 date and time: PSU Indian Oil's quarterly earnings schedule out [news](https://www.etnownews.com/markets/ioc-q3-results-fy25-date-and-time-psu-indian-oils-quarterly-earnings-schedule-out-details-article-116883157) <br/><br/> 	
 
 ### 3-JAN-2025
@@ -40,11 +50,9 @@ title: Finance News Today
 - News New year brings new signals of a Renfe-MSC Spanish rail freight JV [news](https://theloadstar.com/new-year-brings-new-signals-of-a-renfe-msc-spanish-rail-freight-jv/) <br/><br/> 	
 - Tether’s market cap sheds $1.4b as MiCA activates [news](https://crypto.news/tethers-market-cap-sheds-1-4b-as-mica-activates/) <br/><br/> 	
 - At Maruti Suzuki, small cars are back in the driver’s seat [news](https://www.livemint.com/market/mark-to-market/maruti-suzuki-share-price-small-car-sales-suvs-premium-cars-rural-demand-automakers-auto-sector-price-hikes-11735809132657.html) <br/><br/> 	
-- RITES shares rally 4% on Rs 70 cr order win, collaboration with IRFC [news](https://m.economictimes.com/markets/stocks/news/rites-shares-rally-4-on-rs-70-cr-order-win-collaboration-with-irfc/articleshow/116904932.cms) <br/><br/> 	
 - Kosmos Energy stock soars on Greater Tortue Ahmeyim gas production [news](https://in.investing.com/news/stock-market-news/kosmos-energy-stock-soars-on-greater-tortue-ahmeyim-gas-production-93CH-4595492) <br/><br/> 	
 - Rekha Jhunjhunwala-backed Multibagger Company Secures Order Worth Rs 145 Crore from Chennai Petroleum Corporation Limited [news](https://www.dsij.in/dsijarticledetail/rekha-jhunjhunwala-backed-multibagger-company-secures-order-worth-rs-145-crore-from-chennai-petroleum-corporation-limited-id001-45418) <br/><br/> 	
 - Sarovar Hotels to launch new property in Kathmandu, Nepal [news](https://finance.yahoo.com/news/sarovar-hotels-launch-property-kathmandu-155538928.html) <br/><br/> 	
-- Petronet LNG share price tumbles 8.5%; why are the PSU's stocks falling? [news](https://www.business-standard.com/markets/news/petronet-lng-share-price-tumbles-7-why-are-the-psu-s-stocks-falling-125010200263_1.html) <br/><br/> 	
 
 ### 2-JAN-2025
 
@@ -53,7 +61,6 @@ title: Finance News Today
 - Vodafone Idea likely to sound war bugle with 5G march [news](https://m.economictimes.com/industry/telecom/telecom-news/vodafone-idea-likely-to-sound-war-bugle-with-5g-march/articleshow/116863195.cms) <br/><br/> 	
 - Nishant Pitti, Co-promoter of Easy Trip Planners, resigns as CEO with immediate effect [news](https://www.cnbctv18.com/market/nishant-pitti-easy-trip-planners-ease-my-trip-ceo-resigns-stake-sale-block-deal-share-price-reaction-19532728.htm) <br/><br/> 	
 - Auto stocks rev up as December sales surge drives Nifty Auto to a 6-month high [news](https://www.moneycontrol.com/news/business/markets/auto-stocks-rev-up-as-december-sales-surge-drives-nifty-auto-to-a-6-month-high-12902019.html) <br/><br/> 	
-- Here is what triggered gains of up to 9% in shares of Bajaj Finance and Bajaj Finserv [news](https://www.cnbctv18.com/market/bajaj-finance-bajaj-finserv-share-price-top-nifty-50-gainers-target-citi-positive-aum-nim-q3-returns-19533355.htm) <br/><br/> 	
 - Bank Holidays in India 2025: A complete month-wise list of holidays across India [news](https://indianexpress.com/article/when-is/bank-holidays-in-india-2025-a-complete-month-wise-list-of-holidays-9755797/) <br/><br/> 	
 - ITC Hotels share listing price can go up to Rs 300 after demerger. What brokerages say [news](https://m.economictimes.com/markets/stocks/news/itc-hotels-share-listing-price-can-go-up-to-rs-300-after-demerger-what-brokerages-say/articleshow/116874217.cms) <br/><br/> 	
 - BSE, NSE Holidays 2025: Is Stock Market Open On 1st January? [news](https://www.news18.com/business/markets/stock-market-holidays-2025-jan-1-nse-bse-new-year-9174112.html) <br/><br/> 	
