@@ -5,6 +5,7 @@ title: Finance News Today
 
 ### 7-JAN-2025
 
+- India's HMPV count reaches 7, latest cases reported in Tamil Nadu [news] (https://economictimes.indiatimes.com/news/india/indias-hmpv-count-reaches-7-latest-cases-reported-in-tamil-nadu/articleshow/117006987.cms)  <br/><br/> 	
 - Infosys defers annual hikes to the fourth quarter [news](https://www.moneycontrol.com/technology/infosys-defers-annual-hikes-to-the-fourth-quarter-article-12903806.html) <br/><br/> 	
 - IIM Sirmaur drops CAT cut-off 2024 for general, EWS, SC categories; MBA selection process [news](https://news.careers360.com/iim-sirmaur-cat-cut-off-2024-drops-for-general-ews-sc-categories-mba-selection-process) <br/><br/> 	
 - Elon Musk and Mars: Future aliens will make fun of us if... [news](https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-future-aliens-will-make-fun-of-us-if-/articleshow/116924643.cms) <br/><br/> 	
