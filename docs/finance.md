@@ -5,7 +5,10 @@ title: Finance News Today
 
 ### 7-JAN-2025
 
-- Real money is with Gujjus...let that sink in : Zerodha CEO [news](https://timesofindia.indiatimes.com/business/india-business/real-money-is-with-gujjus-let-that-sink-in-zerodha-ceo-nithin-kamath-makes-interesting-observations-in-social-media-post/articleshow/117016653.cms)
+- Real money is with Gujjus...let that sink in : Zerodha CEO [news](https://timesofindia.indiatimes.com/business/india-business/real-money-is-with-gujjus-let-that-sink-in-zerodha-ceo-nithin-kamath-makes-interesting-observations-in-social-media-post/articleshow/117016653.cms)   <br/><br/> 	
+
+![Chart](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/money.png)
+
 - India's HMPV count reaches 7, latest cases reported in Tamil Nadu [news](https://economictimes.indiatimes.com/news/india/indias-hmpv-count-reaches-7-latest-cases-reported-in-tamil-nadu/articleshow/117006987.cms)  <br/><br/> 	
 - Infosys defers annual hikes to the fourth quarter [news](https://www.moneycontrol.com/technology/infosys-defers-annual-hikes-to-the-fourth-quarter-article-12903806.html) <br/><br/> 	
 - IIM Sirmaur drops CAT cut-off 2024 for general, EWS, SC categories; MBA selection process [news](https://news.careers360.com/iim-sirmaur-cat-cut-off-2024-drops-for-general-ews-sc-categories-mba-selection-process) <br/><br/> 	
