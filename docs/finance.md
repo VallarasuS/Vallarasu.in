@@ -3,6 +3,24 @@ layout: page
 title: Finance News Today
 ---
 
+### 7-JAN-2025
+
+- Infosys defers annual hikes to the fourth quarter [news](https://www.moneycontrol.com/technology/infosys-defers-annual-hikes-to-the-fourth-quarter-article-12903806.html) <br/><br/> 	
+- IIM Sirmaur drops CAT cut-off 2024 for general, EWS, SC categories; MBA selection process [news](https://news.careers360.com/iim-sirmaur-cat-cut-off-2024-drops-for-general-ews-sc-categories-mba-selection-process) <br/><br/> 	
+- Elon Musk and Mars: Future aliens will make fun of us if... [news](https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-future-aliens-will-make-fun-of-us-if-/articleshow/116924643.cms) <br/><br/> 	
+- Table Space founder Amit Banerji passes away at 44 [news](https://www.moneycontrol.com/news/business/startup/table-space-founder-amit-banerji-passes-away-at-44-12904339.html) <br/><br/> 	
+- Thyrocare Technologies investors are up 12% in the past week [news](https://simplywall.st/stocks/in/healthcare/nse-thyrocare/thyrocare-technologies-shares/news/thyrocare-technologies-nsethyrocare-investors-are-up-12-in-t) <br/><br/> 	
+- SBI SCO Recruitment 2025: Apply for 150 Trade Finance Officer posts at sbi.co.in [news](https://www.hindustantimes.com/education/employment-news/sbi-sco-recruitment-2025-apply-for-150-trade-finance-officer-posts-at-sbi-co-in-direct-link-here-101735964025634.html) <br/><br/> 	
+- What to know about CES 2025 [news](https://www.usatoday.com/story/tech/2025/01/06/ces-2025-las-vegas/77484940007/) <br/><br/> 	
+- 'Thinking Bitcoin': Michael Saylor Speaks as BTC Maintains $98,000 Price [news](https://in.investing.com/news/cryptocurrency-news/thinking-bitcoin-michael-saylor-speaks-as-btc-maintains-98000-price-4597381) <br/><br/> 	
+- Services sector activity at 4-month high [news](https://timesofindia.indiatimes.com/business/india-business/survey-services-sector-activity-at-4-month-high/articleshow/117005211.cms) <br/><br/> 	
+- Japan's Nikkei slips more than 1% on 1st trading day of 2025 after year-end rally [news](https://m.economictimes.com/markets/stocks/news/japans-nikkei-slips-more-than-1-on-1st-trading-day-of-2025-after-year-end-rally/articleshow/116989176.cms) <br/><br/> 	
+- Trump aides ready ‘universal’ tariff plans — with one key change [news](https://www.washingtonpost.com/business/2025/01/06/trump-tariff-economy-trade/) <br/><br/> 	
+- Tech leads stocks higher as Nvidia surges to record high [news](https://finance.yahoo.com/news/live/stock-market-today-tech-leads-stocks-higher-as-nvidia-surges-to-record-high-175727614.html) <br/><br/> 	
+- FPI selloff, HMPV scare drag markets to worst fall in three months [news](https://www.business-standard.com/markets/stock-market-news/fpi-selloff-hmpv-scare-drag-markets-to-worst-fall-in-three-months-125010601042_1.html) <br/><br/> 	
+- Aegis Logistics soars 14% in weak market on heavy volume [news](https://www.business-standard.com/markets/news/buzzing-stock-aegis-logistics-soars-14-in-weak-market-on-heavy-volume-125010600507_1.html) <br/><br/> 	
+
+
 ### 6-JAN-2025
 
 - Kevan Parekh assumes office as CFO of Apple [news](https://m.economictimes.com/news/international/business/kevan-parekh-assumes-office-as-cfo-of-apple/articleshow/116949200.cms) <br/><br/> 	
