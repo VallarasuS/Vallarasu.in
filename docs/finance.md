@@ -3,6 +3,22 @@ layout: page
 title: Finance News Today
 ---
 
+### 8-JAN-2025
+
+- Tata Group ends old tradition, now not to work on Ratan Tata 'model', Noel Tata makes new roadmap, Tata not t [news](https://www.india.com/business/tata-group-ends-old-tradition-now-not-to-work-on-ratan-tata-model-noel-tata-makes-new-roadmap-tata-not-to-provide-cross-default-clauses-to-lenders-7519174/) <br/><br/> 	
+- Good news for taxpayers: ITR forms updated to allow 87A tax rebate claims, but there's a catch [news](https://m.economictimes.com/wealth/tax/good-news-for-taxpayers-itr-forms-to-allow-87a-tax-rebate-claims-have-now-been-updated-however-there-is-a-catch/articleshow/117008292.cms) <br/><br/> 	
+- One MobiKwik Clarifies Typo In Q2 Business Update [news](https://www.ndtvprofit.com/markets/one-mobikwik-clarifies-typo-in-q2-business-update) <br/><br/> 	
+- Meet The ‘Enron Egg,’ An At-Home Nuclear Reactor That’s Totally Fake [news](https://www.forbes.com/sites/lesliekatz/2025/01/07/meet-the-enron-egg-an-at-home-nuclear-reactor-thats-totally-fake/) <br/><br/> 	
+- NVIDIA Puts Grace Blackwell on Every Desk and at Every AI Developer’s Fingertips [news](https://nvidianews.nvidia.com/news/nvidia-puts-grace-blackwell-on-every-desk-and-at-every-ai-developers-fingertips) <br/><br/> 	
+- Never-seen-before video of aurora by NASA astronaut impresses most, but some claim it’s ‘intensely fake’ [news](https://www.hindustantimes.com/trending/neverseenbefore-video-of-aurora-by-nasa-astronaut-impresses-most-but-some-claim-it-s-intensely-fake-101736298550605.html) <br/><br/> 	
+- Asian stocks gain, dollar pares losses after slump [news](https://www.moneycontrol.com/news/business/markets/asian-stocks-gain-dollar-pares-losses-after-slump-12904616.html) <br/><br/> 	
+- US markets sell-off amidst bond market rout, inflation concerns; Nasdaq dips 400 points [news](https://www.cnbctv18.com/market/us-markets-sell-off-amidst-bond-market-rout-inflation-concerns-nasdaq-dips-400-points-19536231.htm) <br/><br/> 	
+- Bitcoin drops below $97,000 as Treasury yields pressure risk assets [news](https://www.cnbc.com/2025/01/07/crypto-market-today.html) <br/><br/> 	
+- Who is Hussain Sajwani? Dubai billionaire behind Trump's $20 billion US data center plan [news](https://timesofindia.indiatimes.com/world/us/who-is-hussain-sajwani-dubai-billionaire-behind-trumps-20-billion-us-data-center-plan/articleshow/117027946.cms) <br/><br/> 	
+- Neil Armstrong’s Moon Artifact Donated To Frontiers Of Flight Museum [news](https://www.localprofile.com/arts-culture/neil-armstrongs-moon-artifact-donated-to-frontiers-of-flight-museum-10043015) <br/><br/> 	
+- GDP slowed down this year. Will next year be better? [news](https://indianexpress.com/article/opinion/editorials/gdp-slowed-down-this-year-will-next-year-be-better-9765869/) <br/><br/> 	
+- Asia stocks: China pressured by US blacklist, Japan dips on yen warning [news](https://in.investing.com/news/stock-market-news/asia-stocks-china-pressured-by-us-blacklist-japan-dips-on-yen-warning-4602657) <br/><br/> 	
+
 ### 7-JAN-2025
 
 - Real money is with Gujjus...let that sink in : Zerodha CEO [news](https://timesofindia.indiatimes.com/business/india-business/real-money-is-with-gujjus-let-that-sink-in-zerodha-ceo-nithin-kamath-makes-interesting-observations-in-social-media-post/articleshow/117016653.cms)   <br/><br/> 	
@@ -10,6 +26,7 @@ title: Finance News Today
 ![Chart](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/money.png)
 
 - India's HMPV count reaches 7, latest cases reported in Tamil Nadu [news](https://economictimes.indiatimes.com/news/india/indias-hmpv-count-reaches-7-latest-cases-reported-in-tamil-nadu/articleshow/117006987.cms)  <br/><br/> 	
+- FPI selloff, HMPV scare drag markets to worst fall in three months [news](https://www.business-standard.com/markets/stock-market-news/fpi-selloff-hmpv-scare-drag-markets-to-worst-fall-in-three-months-125010601042_1.html) <br/><br/> 	
 - Infosys defers annual hikes to the fourth quarter [news](https://www.moneycontrol.com/technology/infosys-defers-annual-hikes-to-the-fourth-quarter-article-12903806.html) <br/><br/> 	
 - IIM Sirmaur drops CAT cut-off 2024 for general, EWS, SC categories; MBA selection process [news](https://news.careers360.com/iim-sirmaur-cat-cut-off-2024-drops-for-general-ews-sc-categories-mba-selection-process) <br/><br/> 	
 - Elon Musk and Mars: Future aliens will make fun of us if... [news](https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-future-aliens-will-make-fun-of-us-if-/articleshow/116924643.cms) <br/><br/> 	
@@ -20,9 +37,6 @@ title: Finance News Today
 - 'Thinking Bitcoin': Michael Saylor Speaks as BTC Maintains $98,000 Price [news](https://in.investing.com/news/cryptocurrency-news/thinking-bitcoin-michael-saylor-speaks-as-btc-maintains-98000-price-4597381) <br/><br/> 	
 - Services sector activity at 4-month high [news](https://timesofindia.indiatimes.com/business/india-business/survey-services-sector-activity-at-4-month-high/articleshow/117005211.cms) <br/><br/> 	
 - Japan's Nikkei slips more than 1% on 1st trading day of 2025 after year-end rally [news](https://m.economictimes.com/markets/stocks/news/japans-nikkei-slips-more-than-1-on-1st-trading-day-of-2025-after-year-end-rally/articleshow/116989176.cms) <br/><br/> 	
-- Trump aides ready ‘universal’ tariff plans — with one key change [news](https://www.washingtonpost.com/business/2025/01/06/trump-tariff-economy-trade/) <br/><br/> 	
-- Tech leads stocks higher as Nvidia surges to record high [news](https://finance.yahoo.com/news/live/stock-market-today-tech-leads-stocks-higher-as-nvidia-surges-to-record-high-175727614.html) <br/><br/> 	
-- FPI selloff, HMPV scare drag markets to worst fall in three months [news](https://www.business-standard.com/markets/stock-market-news/fpi-selloff-hmpv-scare-drag-markets-to-worst-fall-in-three-months-125010601042_1.html) <br/><br/> 	
 - Aegis Logistics soars 14% in weak market on heavy volume [news](https://www.business-standard.com/markets/news/buzzing-stock-aegis-logistics-soars-14-in-weak-market-on-heavy-volume-125010600507_1.html) <br/><br/> 	
 
 
