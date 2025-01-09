@@ -3,13 +3,27 @@ layout: page
 title: Finance News Today
 ---
 
+### 9-JAN-2025
+
+- SEBI ‘warning’ letter on social media to Ola CEO Bhavish Aggarwal [news](https://timesofindia.indiatimes.com/technology/tech-news/sebi-warning-letter-on-social-media-to-ola-ceo-bhavish-aggarwal-you-have-failed-to-/articleshow/117040668.cms) <br/><br/> 
+- Accenture CEO Julie Sweet asks new hires what they’ve learned in the last 6 months [news](https://fortune.com/europe/2025/01/08/accenture-ceo-julie-sweet-new-hires-what-theyve-learned-last-6-months/) <br/><br/> 	
+- Karnataka High Court strikes down Green Energy Open Access Rules, 2022 [news](https://www.barandbench.com/news/karnataka-high-court-strikes-down-green-energy-open-access-rules-2022) <br/><br/> 	
+- IT giant TCS to report Q3 earnings today [news](https://www.cnbctv18.com/market/earnings/tcs-q3-results-live-updates-tata-consultancy-services-q3-fy25-revenue-earning-profit-loss-dividend-liveblog-19537058.htm) <br/><br/> 	
+- Lupin gets clearance from USFDA for its Pithampur manufacturing facility [news](https://www.business-standard.com/industry/news/lupin-gets-clearance-from-usfda-for-its-pithampur-manufacturing-facility-125010801070_1.html) <br/><br/> 	
+- Paras Defence shares soar 10%, hit upper circuit on receiving license to manufacture MK-46 and MK-48 machine guns | Stock Market News [news](https://www.livemint.com/market/stock-market-news/paras-defence-shares-soar-10-hit-upper-circuit-on-receiving-license-under-the-arms-act-1959-11736223350065.html) <br/><br/> 	
+- Microfinance players buck subdued market [news](https://www.moneycontrol.com/news/business/markets/spandana-sphoorty-stock-skyrockets-15-amid-heavy-volumes-12905456.html) <br/><br/> 	
+- Manappuram Finance shares jump 6% after RBI lifts curbs on arm Asirvad Micro Finance [news](https://www.moneycontrol.com/news/business/markets/jefferies-hikes-manappuram-finance-target-price-after-rbi-lifts-curbs-on-arm-asirvad-12906232.html) <br/><br/> 	
+- Borosil Renewables hits 5% upper circuit on latest Atmanirbhar Bharat push; here is everything you need to know [news](https://upstox.com/news/market-news/stocks/borosil-renewables-announces-50-capacity-expansion-in-solar-glass-check-key-details-and-stock-performance/article-139584/) <br/><br/> 	
+- Coal India MT Recruitment 2025, Short Notice Out [news](https://www.careerpower.in/blog/coal-india-recruitment-2025) <br/><br/> 	
+- Quantum Stocks Drop as Nvidia CEO Sees Use Years Away [news](https://finance.yahoo.com/news/quantum-computing-stocks-drop-nvidia-005300972.html) <br/><br/> 	
+- Gold Rate Falls In India: Check 22 Carat Price In Your City On January 08 [news](https://www.news18.com/business/savings-and-investments/gold-rate-today-mumbai-24-carat-10-gram-22k-47-9181489.html) <br/><br/> 	
+
 ### 8-JAN-2025
 
 - GDP slowed down this year. Will next year be better? [news](https://indianexpress.com/article/opinion/editorials/gdp-slowed-down-this-year-will-next-year-be-better-9765869/) <br/><br/> 	
 - Tata Group ends old tradition, now not to work on Ratan Tata 'model', Noel Tata makes new roadmap [news](https://www.india.com/business/tata-group-ends-old-tradition-now-not-to-work-on-ratan-tata-model-noel-tata-makes-new-roadmap-tata-not-to-provide-cross-default-clauses-to-lenders-7519174/) <br/><br/> 	
 - Good news for taxpayers: ITR forms updated to allow 87A tax rebate claims [news](https://m.economictimes.com/wealth/tax/good-news-for-taxpayers-itr-forms-to-allow-87a-tax-rebate-claims-have-now-been-updated-however-there-is-a-catch/articleshow/117008292.cms) <br/><br/> 	
 - One MobiKwik Clarifies Typo In Q2 [news](https://www.ndtvprofit.com/markets/one-mobikwik-clarifies-typo-in-q2-business-update) <br/><br/> 	
-- Meet The ‘Enron Egg’ An At-Home Nuclear Reactor [news](https://www.forbes.com/sites/lesliekatz/2025/01/07/meet-the-enron-egg-an-at-home-nuclear-reactor-thats-totally-fake/) <br/><br/> 	
 - NVIDIA Puts Grace Blackwell on Every Desk and at Every AI Developer’s Fingertips [news](https://nvidianews.nvidia.com/news/nvidia-puts-grace-blackwell-on-every-desk-and-at-every-ai-developers-fingertips) <br/><br/> 	
 - Never-seen-before video of aurora by NASA astronaut impresses most [news](https://www.hindustantimes.com/trending/neverseenbefore-video-of-aurora-by-nasa-astronaut-impresses-most-but-some-claim-it-s-intensely-fake-101736298550605.html) <br/><br/> 	
 - Asian stocks gain, dollar pares losses after slump [news](https://www.moneycontrol.com/news/business/markets/asian-stocks-gain-dollar-pares-losses-after-slump-12904616.html) <br/><br/> 	
@@ -21,24 +35,15 @@ title: Finance News Today
 
 ### 7-JAN-2025
 
-- Real money is with Gujjus...let that sink in : Zerodha CEO [news](https://timesofindia.indiatimes.com/business/india-business/real-money-is-with-gujjus-let-that-sink-in-zerodha-ceo-nithin-kamath-makes-interesting-observations-in-social-media-post/articleshow/117016653.cms)   <br/><br/> 	
-
-![Chart](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/money.png)
-
-- India's HMPV count reaches 7, latest cases reported in Tamil Nadu [news](https://economictimes.indiatimes.com/news/india/indias-hmpv-count-reaches-7-latest-cases-reported-in-tamil-nadu/articleshow/117006987.cms)  <br/><br/> 	
 - FPI selloff, HMPV scare drag markets to worst fall in three months [news](https://www.business-standard.com/markets/stock-market-news/fpi-selloff-hmpv-scare-drag-markets-to-worst-fall-in-three-months-125010601042_1.html) <br/><br/> 	
 - Infosys defers annual hikes to the fourth quarter [news](https://www.moneycontrol.com/technology/infosys-defers-annual-hikes-to-the-fourth-quarter-article-12903806.html) <br/><br/> 	
 - IIM Sirmaur drops CAT cut-off 2024 for general, EWS, SC categories; MBA selection process [news](https://news.careers360.com/iim-sirmaur-cat-cut-off-2024-drops-for-general-ews-sc-categories-mba-selection-process) <br/><br/> 	
 - Elon Musk and Mars: Future aliens will make fun of us if... [news](https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-future-aliens-will-make-fun-of-us-if-/articleshow/116924643.cms) <br/><br/> 	
-- Table Space founder Amit Banerji passes away at 44 [news](https://www.moneycontrol.com/news/business/startup/table-space-founder-amit-banerji-passes-away-at-44-12904339.html) <br/><br/> 	
 - Thyrocare Technologies investors are up 12% in the past week [news](https://simplywall.st/stocks/in/healthcare/nse-thyrocare/thyrocare-technologies-shares/news/thyrocare-technologies-nsethyrocare-investors-are-up-12-in-t) <br/><br/> 	
 - SBI SCO Recruitment 2025: Apply for 150 Trade Finance Officer posts at sbi.co.in [news](https://www.hindustantimes.com/education/employment-news/sbi-sco-recruitment-2025-apply-for-150-trade-finance-officer-posts-at-sbi-co-in-direct-link-here-101735964025634.html) <br/><br/> 	
 - What to know about CES 2025 [news](https://www.usatoday.com/story/tech/2025/01/06/ces-2025-las-vegas/77484940007/) <br/><br/> 	
 - 'Thinking Bitcoin': Michael Saylor Speaks as BTC Maintains $98,000 Price [news](https://in.investing.com/news/cryptocurrency-news/thinking-bitcoin-michael-saylor-speaks-as-btc-maintains-98000-price-4597381) <br/><br/> 	
 - Services sector activity at 4-month high [news](https://timesofindia.indiatimes.com/business/india-business/survey-services-sector-activity-at-4-month-high/articleshow/117005211.cms) <br/><br/> 	
-- Japan's Nikkei slips more than 1% on 1st trading day of 2025 after year-end rally [news](https://m.economictimes.com/markets/stocks/news/japans-nikkei-slips-more-than-1-on-1st-trading-day-of-2025-after-year-end-rally/articleshow/116989176.cms) <br/><br/> 	
-- Aegis Logistics soars 14% in weak market on heavy volume [news](https://www.business-standard.com/markets/news/buzzing-stock-aegis-logistics-soars-14-in-weak-market-on-heavy-volume-125010600507_1.html) <br/><br/> 	
-
 
 ### 6-JAN-2025
 
@@ -49,10 +54,8 @@ title: Finance News Today
 - ‘I am rich and I have no idea what to do’: Vinay Hiremath after selling startup for $975 million [news](https://www.moneycontrol.com/news/trends/i-am-rich-and-i-have-no-idea-what-to-do-with-my-life-vinay-hiremath-after-selling-startup-for-975-million-12903620.html) <br/><br/> 	
 - Standard Glass Lining Technology IPO opens tomorrow [news](https://www.livemint.com/market/ipo/standard-glass-lining-technology-ipo-opens-on-monday-gmp-review-other-details-among-10-key-things-to-know-11735988671955.html) <br/><br/> 	
 - Capital Infra Trust sets price band at Rs 99-100 per unit; IPO to open next week [news](https://www.zeebiz.com/markets/ipo/news-capital-infra-trust-sets-price-band-at-rs-99-100-per-unit-ipo-to-open-next-week-337103) <br/><br/> 	
-- Shakti Pumps, Roto: Charts hint up to 20% gain for compressors & pumps stks [news](https://www.business-standard.com/markets/news/shakti-pumps-roto-charts-hint-up-to-20-gain-for-compressors-pumps-stks-124123000303_1.html) <br/><br/> 	
 - The rise and fall of Dunzo’s Kabeer Biswas [news](https://www.financialexpress.com/business/industry-the-rise-and-fall-of-dunzos-kabeer-biswas-3706888/) <br/><br/> 	
 - Crypto Price Today: Bitcoin breaks above $97,000; XRP, Cardano surge by up to 11% [news](https://m.economictimes.com/markets/cryptocurrency/crypto-news/crypto-price-today-bitcoin-breaks-above-97000-xrp-cardano-surge-by-up-to-11/articleshow/116909527.cms) <br/><br/> 	
-
 
 ### 5-JAN-2025
 
@@ -62,10 +65,6 @@ title: Finance News Today
 - SBI Opens Applications For 150 Specialist Cadre Officer Posts, Deadline January 23 [news](https://www.ndtv.com/education/sbi-sco-recruitment-2025-state-bank-of-india-opens-applications-for-150-specialist-cadre-officer-posts-deadline-january-23-7398651) <br/><br/> 	
 - IPPB Recruitment 2024-25: Apply Online For 68 Manager Posts at ippbonline.com [news](https://www.jagranjosh.com/articles/ippb-manager-recruitment-2024-25-notification-for-68-posts-pdf-eligibility-salary-apply-online-link-1735482016-1) <br/><br/> 	
 - Print ads are the new fad [news](https://www.mid-day.com/sunday-mid-day/article/print-ads-are-the-new-fad-23458811) <br/><br/> 	
-- UK Pound to PKR latest rate today [news](https://www.samaa.tv/2087326731-uk-pound-to-pkr-latest-rate-today-04-january-2025) <br/><br/> 	
-- Overhead wire snag causes disruption to Konkan rly service [news](https://timesofindia.indiatimes.com/city/goa/overhead-wire-snag-causes-disruption-to-konkan-rly-service/articleshow/116950035.cms) <br/><br/> 	
-- IDFC First Bank announces business updates for Q3 [news](https://www.businesstoday.in/markets/company-stock/story/idfc-first-bank-announces-business-updates-for-q3-check-details-459492-2025-01-03) <br/><br/> 	
-- CoinDCX’s crypto withdrawal vacillation confuses customers over the exchange’s KYC policy [news](https://www.thehindu.com/sci-tech/technology/coindcxs-crypto-withdrawal-vacillation-confuses-customers-over-the-exchanges-kyc-policy/article69056985.ece) <br/><br/> 	
 
 ### 4-JAN-2025
 
@@ -73,18 +72,14 @@ title: Finance News Today
 - Shapoorji Pallonji Group wins ₹1,085 crore order from DRDO [news](https://www.cnbctv18.com/market/afcons-infra-share-price-1085-crore-order-win-from-drdo-shapoorji-pallonji-group-outlook-ipo-19534017.htm) <br/><br/> 	
 - Credit card lounge access: Rules changed for these two credit cards from January 1, 2025 [news](https://m.economictimes.com/wealth/spend/credit-card-lounge-access-rules-changed-for-these-two-credit-cards-from-january-1-2025/articleshow/116887539.cms) <br/><br/> 	
 - Sell Bajaj Housing shares, says Kotak; here are target prices for Bajaj Finance and Bajaj Finserv [news](https://www.businesstoday.in/markets/company-stock/story/sell-bajaj-housing-shares-says-kotak-here-are-target-prices-for-bajaj-finance-and-bajaj-finserv-459448-2025-01-03) <br/><br/> 	
-- Dyson Purifier Hot+Cool Gen1 Review: An idealistic and versatile device to have in places like Delhi [news](https://www.thehindu.com/sci-tech/technology/gadgets/dyson-purifier-hotcool-gen1-review-an-idealistic-and-versatile-device-to-have-in-places-like-delhi/article69056799.ece) <br/><br/> 	
-- IDFC First Bank announces business updates for Q3, check details [news](https://www.businesstoday.in/markets/company-stock/story/idfc-first-bank-announces-business-updates-for-q3-check-details-459492-2025-01-03) <br/><br/> 	
 - What do the State of Forest Report 2023 findings mean? [news](https://www.thehindu.com/sci-tech/energy-and-environment/what-do-the-state-of-forest-report-2023-findings-mean-explained/article69045865.ece) <br/><br/> 	
 - Hindustan Unilever in talks to buy skincare brand Minimalist for Rs 3,000 crore [news](https://www.business-standard.com/companies/news/hindustan-unilever-in-talks-to-buy-skincare-brand-minimalist-for-rs-3k-cr-125010300966_1.html) <br/><br/> 	
-- IOC Q3 results FY25 date and time: PSU Indian Oil's quarterly earnings schedule out [news](https://www.etnownews.com/markets/ioc-q3-results-fy25-date-and-time-psu-indian-oils-quarterly-earnings-schedule-out-details-article-116883157) <br/><br/> 	
 
 ### 3-JAN-2025
 
 - CMD, IREDA Vision for 2025: Market Innovations, Retail Renewable Push and Global Expansion [news](https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2089202) <br/><br/> 	
 - Noida Airport signs 30-year fuel station deal with Indian Oil [news](https://energy.economictimes.indiatimes.com/news/oil-and-gas/noida-airport-signs-30-year-fuel-station-deal-with-indian-oil/116879890) <br/><br/> 	
 - Leading auto companies Tata Motors, M&M to get incentives worth Rs 246 crore under PLI scheme [news](https://www.moneycontrol.com/news/business/companies/leading-auto-companies-tata-motors-m-m-to-get-incentives-worth-rs-246-crore-under-pli-scheme-12902127.html) <br/><br/> 	
-- News New year brings new signals of a Renfe-MSC Spanish rail freight JV [news](https://theloadstar.com/new-year-brings-new-signals-of-a-renfe-msc-spanish-rail-freight-jv/) <br/><br/> 	
 - Tether’s market cap sheds $1.4b as MiCA activates [news](https://crypto.news/tethers-market-cap-sheds-1-4b-as-mica-activates/) <br/><br/> 	
 - At Maruti Suzuki, small cars are back in the driver’s seat [news](https://www.livemint.com/market/mark-to-market/maruti-suzuki-share-price-small-car-sales-suvs-premium-cars-rural-demand-automakers-auto-sector-price-hikes-11735809132657.html) <br/><br/> 	
 - Kosmos Energy stock soars on Greater Tortue Ahmeyim gas production [news](https://in.investing.com/news/stock-market-news/kosmos-energy-stock-soars-on-greater-tortue-ahmeyim-gas-production-93CH-4595492) <br/><br/> 	
@@ -94,11 +89,9 @@ title: Finance News Today
 ### 2-JAN-2025
 
 - End of an era: Dunzo co-founder Kabeer Biswas to quit [news](https://www.moneycontrol.com/news/business/startup/end-of-an-era-dunzo-co-founder-kabeer-biswas-to-quit-12902324.html) <br/><br/> 	
-- Zerodha CEO Nikhil Kamath reveals he looks for business advice from 16-year-olds, says old men in power ar [news](https://m.economictimes.com/magazines/panache/zerodha-ceo-nikhil-kamath-reveals-he-looks-for-business-advice-from-16-year-olds-says-old-men-in-power-are-out-of-touch/articleshow/116850002.cms) <br/><br/> 	
 - Vodafone Idea likely to sound war bugle with 5G march [news](https://m.economictimes.com/industry/telecom/telecom-news/vodafone-idea-likely-to-sound-war-bugle-with-5g-march/articleshow/116863195.cms) <br/><br/> 	
 - Nishant Pitti, Co-promoter of Easy Trip Planners, resigns as CEO with immediate effect [news](https://www.cnbctv18.com/market/nishant-pitti-easy-trip-planners-ease-my-trip-ceo-resigns-stake-sale-block-deal-share-price-reaction-19532728.htm) <br/><br/> 	
 - Auto stocks rev up as December sales surge drives Nifty Auto to a 6-month high [news](https://www.moneycontrol.com/news/business/markets/auto-stocks-rev-up-as-december-sales-surge-drives-nifty-auto-to-a-6-month-high-12902019.html) <br/><br/> 	
-- Bank Holidays in India 2025: A complete month-wise list of holidays across India [news](https://indianexpress.com/article/when-is/bank-holidays-in-india-2025-a-complete-month-wise-list-of-holidays-9755797/) <br/><br/> 	
-- ITC Hotels share listing price can go up to Rs 300 after demerger. What brokerages say [news](https://m.economictimes.com/markets/stocks/news/itc-hotels-share-listing-price-can-go-up-to-rs-300-after-demerger-what-brokerages-say/articleshow/116874217.cms) <br/><br/> 	
 - BSE, NSE Holidays 2025: Is Stock Market Open On 1st January? [news](https://www.news18.com/business/markets/stock-market-holidays-2025-jan-1-nse-bse-new-year-9174112.html) <br/><br/> 	
+- Bank Holidays in India 2025: A complete month-wise list of holidays across India [news](https://indianexpress.com/article/when-is/bank-holidays-in-india-2025-a-complete-month-wise-list-of-holidays-9755797/) <br/><br/> 	
 - Maharashtra’s Biggest Industrial Land Parcel Just Sold For Pittance To Reliance Industries [news](https://www.ndtvprofit.com/business/reliance-navi-mumbai-iia-stake-land-deal) <br/><br/> 	
