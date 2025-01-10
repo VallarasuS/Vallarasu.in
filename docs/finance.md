@@ -3,6 +3,22 @@ layout: page
 title: Finance News Today
 ---
 
+### 10-JAN-2025
+
+- Rs 55,000 crore Vande Bharat Sleeper Trains project is back on track but minus a toilet [news](https://m.economictimes.com/industry/transportation/railways/rs-55000-crore-vande-bharat-sleeper-trains-project-is-back-on-track-but-minus-a-toilet/articleshow/117082702.cms) <br/><br/> 	
+- GST return filing deadline may be extended by CBIC as GSTN reports portal is experiencing technical diffic [news](https://m.economictimes.com/wealth/tax/gst-return-filing-deadline-may-be-extended-by-cbic-as-gstn-reports-portal-is-experiencing-technical-difficulties/articleshow/117107747.cms) <br/><br/> 	
+- IRCTC shares at Rs 900? Buy stock, says Macquarie [news](https://www.businesstoday.in/markets/stocks/story/irctc-shares-at-rs-900-buy-stock-says-macquarie-460244-2025-01-10) <br/><br/> 	
+- Wipro Share Price Today Up 3% [news](https://www.equitymaster.com/indian-share-markets/Wipro-Gains-3-BSE-IT-Index-Up-22/4370/?utm_source=indian-share-markets&utm_medium=website&utm_campaign=content&utm_content=article) <br/><br/> 	
+- Stocks to Watch on January 10: TCS, IREDA, Adani Wilmar, Phoenix Mills and more [news](https://www.cnbctv18.com/photos/market/stocks/stocks-to-watch-on-january-10-tcs-ireda-adani-wilmar-phoenix-mills-and-more-19537626.htm) <br/><br/> 	
+- L&T share price down 4% this week; is it time to buy the stock, or should you wait for further correction? [news](https://www.livemint.com/market/stock-market-news/lt-share-price-down-4-this-week-is-it-time-to-buy-the-stock-or-should-you-wait-for-further-correction-11736409459597.html) <br/><br/> 	
+- Tata Technologies shares rally over 3% on signing deal with Telechips to make software-defined vehicles [news](https://m.economictimes.com/markets/stocks/news/tata-technologies-shares-rally-over-3-on-signing-deal-with-telechips-to-make-software-defined-vehicles/articleshow/117049166.cms) <br/><br/> 	
+- Buy Kalyan Jewellers, target price Rs 875: Motilal Oswal Financial Services [news](https://m.economictimes.com/markets/stocks/recos/buy-kalyan-jewellers-target-price-rs-875-motilal-oswal-financial-services/articleshow/117041490.cms) <br/><br/> 	
+- SRF issues clarification on US refrigerant gas price hike [news](https://www.cnbctv18.com/market/stocks/srf-share-price-issues-clarification-on-us-refrigerant-gas-price-hike-19537644.htm) <br/><br/> 	
+- Shriram Finance share price dips 6% as stock trades ex-date for 1:5 stock split [news](https://www.livemint.com/market/stock-market-news/shriram-finance-share-price-dips-6-as-stock-trades-ex-date-for-1-5-stock-split-11736488122438.html) <br/><br/> 	
+- Adani Wilmar's OFS for 20% stake opens January 10, floor price Rs 275 per share [news](https://www.moneycontrol.com/news/business/markets/adani-wilmar-s-ofs-for-20-stake-opens-january-10-floor-price-rs-275-per-share-12906663.html) <br/><br/> 	
+- TCS share price soars over 6% on robust Q3 results, $10.2 billion order book and dividend announcement [news](https://upstox.com/news/market-news/stocks/tcs-share-price-soars-over-4-on-robust-q3-results-10-2-billion-order-book-and-dividend-announcement/article-139803/) <br/><br/> 	
+- Tata Elxsi Q3 Results 2025 on 10 Jan, 2025: profit falls by 3.6% YOY, profit at ₹199.01 crore and revenue at ₹939.17 crore | Company Business News [news](https://www.livemint.com/companies/company-results/tata-elxsi-q3-results-2025-on-10-jan-2025-profit-falls-by-3-6-yoy-profit-at-199-01-crore-and-revenue-at-939-17-crore-11736488766881.html) <br/><br/> 	
+
 ### 9-JAN-2025
 
 - SEBI ‘warning’ letter on social media to Ola CEO Bhavish Aggarwal [news](https://timesofindia.indiatimes.com/technology/tech-news/sebi-warning-letter-on-social-media-to-ola-ceo-bhavish-aggarwal-you-have-failed-to-/articleshow/117040668.cms) <br/><br/> 
