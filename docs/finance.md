@@ -3,6 +3,19 @@ layout: page
 title: Finance News Today
 ---
 
+### 15-JAN-2025
+
+- Dunzo services go down as co-founder Kabeer Biswas joins Flipkart [news](https://timesofindia.indiatimes.com/technology/tech-news/dunzo-services-go-down-as-co-founder-kabeer-biswas-joins-flipkart-website-now-reads-this-error-message/articleshow/117233539.cms) <br/><br/> 	
+- Airbnb in 2025: Growth Potential vs. Risks [news](https://www.fool.com/investing/2025/01/14/airbnb-in-2025-growth-potential-vs-risks/) <br/><br/> 	
+- PSU Bank Stake Sale: Government approves ₹10,000 crore QIP plan for five lenders — Exclusive [news](https://www.cnbctv18.com/market/psu-bank-stake-sale-qip-ofs-10000-crore-iob-uco-punjab-sind-central-bank-bom-share-price-19539806.htm) <br/><br/> 	
+- BP warns of fourth-quarter profit hit, postpones capital markets day [news](https://www.reuters.com/business/energy/bp-says-drop-refining-margins-dent-q4-profit-2025-01-14/) <br/><br/> 	
+- U.S. stock futures are little changed as investors brace for key consumer inflation report: Live updates [news](https://www.cnbc.com/2025/01/14/stock-market-today-live-updates.html) <br/><br/> 	
+- NASA's Sunita Williams and Butch Wilmore issue ‘heartbreaking’ plea from ISS after being left stranded [news](https://www.hindustantimes.com/world-news/us-news/nasas-sunita-williams-and-butch-wilmore-issue-heartbreaking-plea-from-iss-after-being-left-stranded-101736514982532.html) <br/><br/> 	
+- HCLTech's Q3 revenue rises 2.6% sequentially to $3.53 bn, bolstered by Americas [news](https://www.livemint.com/companies/news/hcltech-beats-tcs-with-stronger-growth-from-the-americas-11736778686498.html) <br/><br/> 	
+- Adani Green Energy shares in news today, here's why [news](https://www.businesstoday.in/markets/company-stock/story/adani-green-energy-shares-in-news-today-heres-why-460761-2025-01-15) <br/><br/> 	
+- IRFC shares in focus after emerging as the lowest bidder to finance Rs 3,167 crore for a Jharkhand mine [news](https://m.economictimes.com/markets/stocks/news/irfc-shares-in-focus-after-emerging-as-the-lowest-bidder-to-finance-rs-3167-crore-for-a-jharkhand-mine/articleshow/117251925.cms) <br/><br/> 	
+- Olectra Greentech Stock Rises 5.52% on January 14, 2025, After Four-Day Decline [news](https://www.marketsmojo.com/news/stocks-in-action/olectra-greentech-stock-rises-5-52-on-january-14-2025-after-four-day-decline-328746) <br/><br/> 	
+
 ### 10-JAN-2025
 
 - Rs 55,000 crore Vande Bharat Sleeper Trains project is back on track but minus a toilet [news](https://m.economictimes.com/industry/transportation/railways/rs-55000-crore-vande-bharat-sleeper-trains-project-is-back-on-track-but-minus-a-toilet/articleshow/117082702.cms) <br/><br/> 	
