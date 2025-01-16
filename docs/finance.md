@@ -3,6 +3,21 @@ layout: page
 title: Finance News Today
 ---
 
+### 16-JAN-2025
+
+- Orange and Vodacom Form Joint Venture to Expand Network Coverage in Rural DRC [news](https://telecomtalk.info/orange-vodacom-form-joint-venture-network-drc/987949/) <br/><br/> 	
+- Qualcomm (QCOM) Rises Higher Than Market: Key Facts [news](https://finance.yahoo.com/news/qualcomm-qcom-rises-higher-market-224520002.html) <br/><br/> 	
+- Tokyo governor wants to start study abroad grant system, including monthly activity allowance [news](https://japantoday.com/category/national/tokyo-governor-wants-to-start-study-abroad-grant-system-includes-monthly-activity-allowance) <br/><br/> 	
+- Charlie Munger Said His Family Only Owns 3 Stocks – 'Damn Right' They're Rich Because Diversification Is For 'Know-Nothing Investors' [news](https://www.benzinga.com/news/25/01/42976301/charlie-munger-said-his-family-only-owns-3-stocks-damn-right-theyre-rich-because-diversification-is-for-know-nothing-investors) <br/><br/> 	
+- Elon Musk: Tesla would have gone bankrupt if I had not ... [news](https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-tesla-would-have-gone-bankrupt-if-i-had-not-/articleshow/117267690.cms) <br/><br/> 	
+- US-Based Short Seller Hindenburg Research, Which Targeted Adani Group, To Be Disbanded [news](https://www.ndtv.com/world-news/us-based-short-seller-hindenburg-research-which-targeted-adani-group-to-be-disbanded-7484076) <br/><br/> 	
+- Oil rises on US crude draw, Russia sanctions [news](https://www.cnbc.com/2025/01/15/oil-little-changed-as-falling-us-stockpiles-outweigh-soft-demand-outlook.html) <br/><br/> 	
+- US stocks slips as focus shifts to earnings, consumer inflation data [news](https://m.economictimes.com/markets/stocks/news/us-stocks-open-higher-after-softer-than-expected-producer-price-data/articleshow/117241303.cms) <br/><br/> 	
+- Wall Street has best CPI day since at least 2023 [news](https://www.moneycontrol.com/news/world/wall-street-has-best-cpi-day-since-at-least-2023-12911800.html) <br/><br/> 	
+- SpaceX launches 2 private lunar landers to the moon (video, photos) [news](https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-2-private-lunar-landers-to-the-moon-photos) <br/><br/> 	
+- USDD 2.0 Set to Launch: 20% APY 'Fully Subsidized' by the Tron DAO [news](https://news.bitcoin.com/usdd-2-0-set-to-launch-20-apy-fully-subsidized-by-the-tron-dao/) <br/><br/> 	
+- HCL serves up a heady cocktail, but valuation leaves no room for error [news](https://www.livemint.com/market/mark-to-market/hcltech-share-price-hcl-technologies-it-services-tcs-infosys-hcl-q3-results-total-contract-value-ebit-margin-11736841301395.html) <br/><br/> 	
+
 ### 15-JAN-2025
 
 - Dunzo services go down as co-founder Kabeer Biswas joins Flipkart [news](https://timesofindia.indiatimes.com/technology/tech-news/dunzo-services-go-down-as-co-founder-kabeer-biswas-joins-flipkart-website-now-reads-this-error-message/articleshow/117233539.cms) <br/><br/> 	
