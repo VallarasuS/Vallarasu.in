@@ -3,6 +3,19 @@ layout: page
 title: Finance News Today
 ---
 
+### 18-JAN-2025
+
+- Mark Zuckerberg warns - Be prepared for an intense year [news](https://m.economictimes.com/news/international/us/tumultuous-2025-for-meta-mark-zuckerberg-warns-staff-in-an-internal-memo-be-prepared-for-an-intense-year/articleshow/117336876.cms) <br/><br/> 	
+- Infosys makes BIG announcement: we expect 6-8% increments in salary [news](https://www.dnaindia.com/business/report-narayana-murthy-infosys-makes-big-announcement-employees-to-receive-salary-hike-of-3127632) <br/><br/> 	
+- EPFO simplifies account transfer rules, employees can also correct personal details using Aadhaar number [news](https://www.thehindu.com/news/national/epfo-simplifies-account-transfer-rules-employees-can-also-correct-personal-details-using-aadhaar-number/article69113054.ece) <br/><br/> 	
+- Solana surges 12% on launch of Trump-themed meme coin, ether falls [news](https://www.cnbc.com/2025/01/18/crypto-market-today.html) <br/><br/> 	
+- How the Sun played a role in SpaDex success [news](https://indianexpress.com/article/explained/explained-sci-tech/space-weather-isro-maiden-satellite-docking-9784110/) <br/><br/> 	
+- TReDs 2.0: Govt. looks at second window for MSME bill discounting, up to ₹10 lakh of transaction may be allowed [news](https://www.livemint.com/news/india/treds-2-0-govt-looks-at-second-window-for-msme-bill-discounting-up-to-rs-10-lakh-worth-of-transaction-may-be-allowed-11737027331866.html) <br/><br/> 	
+- Narayana Murthy, family lost Rs 1,850 crore within minutes amid Infosys selloff [news](https://www.businesstoday.in/markets/stocks/story/narayana-murthy-family-lost-rs-1850-crore-within-minutes-amid-infosys-selloff-461133-2025-01-17) <br/><br/> 	
+- Kotak, RBL feel pain of microfinance defaults [news](https://timesofindia.indiatimes.com/business/india-business/kotak-rbl-feel-pain-of-microfinance-defaults/articleshow/117364810.cms) <br/><br/> 	
+- Jio Coin launched? User claims Mukesh Ambani's new cryptocurrency is live and 'you can accumulate coins on [news](https://m.economictimes.com/news/new-updates/jiocoin-launched-user-claims-mukesh-ambanis-new-cryptocurrency-is-live-and-you-can-accumulate-coins-on-polygon/articleshow/117350156.cms) <br/><br/> 	
+- Bank Holiday Today: Are Banks Open or Closed on Saturday, January 18? Find Out [news](https://zeenews.india.com/personal-finance/bank-holiday-today-are-banks-open-or-closed-on-saturday-january-18-find-out-2845361.html) <br/><br/> 	
+- $TRUMP meme coin rakes in billions ahead of Donald Trump’s inauguration, spikes over 300% within hours after launch [news](https://www.livemint.com/market/stock-market-news/trump-meme-coin-skyrockets-300-on-debut-in-under-three-hours-ahead-of-donald-trumps-inauguration-11737213620863.html) <br/><br/> 	
 
 ### 17-JAN-2025
 
