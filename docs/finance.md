@@ -3,6 +3,28 @@ layout: page
 title: Finance News Today
 ---
 
+### 20-JAN-2025
+
+- Jefferies cuts price target on two Adani Group stocks by up to 35% [news](https://www.cnbctv18.com/market/adani-group-stocks-green-energy-ports-enterprises-share-price-target-cut-by-jefferies-estimates-19542878.htm) <br/><br/> 	
+- Netweb Technologies Q3 profit rises 16% to Rs 30.3 crore [news](https://www.moneycontrol.com/news/business/earnings/netweb-technologies-q3-profit-rises-16-to-rs-30-3-crore-12913842.html) <br/><br/> 	
+- Zomato shares plunge over 7% on PAT fall, food business slowdown [news](https://m.economictimes.com/markets/stocks/news/zomato-shares-plunge-over-7-on-pat-fall-food-business-slowdown/articleshow/117396919.cms) <br/><br/> 	
+- Dixon Tech Q3 net profit skyrockets 124% to Rs 217 crore, revenue surges 117% to Rs 10,454 crore [news](https://www.moneycontrol.com/news/business/earnings/dixon-technologies-q3-net-profit-skyrockets-123-to-rs-216-crore-revenue-surges-117-to-rs-10-454-crore-12914929.html) <br/><br/> 	
+- This smallcap defense stock has zoomed 60% in 1 month; nears record high [news](https://www.business-standard.com/markets/news/this-smallcap-defense-stock-has-zoomed-60-in-1-month-nears-record-high-125012000434_1.html) <br/><br/> 	
+- Bitcoin Whales On The Rise As Market Sees Price Boom – What It Means [news](https://www.tradingview.com/news/newsbtc:98246a8e6094b:0-bitcoin-whales-on-the-rise-as-market-sees-price-boom-what-it-means/) <br/><br/> 	
+- IMF retains India's FY25 growth forecast at 6.5% [news](https://timesofindia.indiatimes.com/business/international-business/imf-retains-indias-fy25-growth-forecast-at-6-5/articleshow/117344447.cms) <br/><br/> 	
+- Paytm Q3 results: Net loss narrows to Rs 208 crore, revenue declines 36% [news](https://www.moneycontrol.com/news/business/earnings/paytm-q3-results-net-loss-narrows-to-rs-208-crore-12914485.html) <br/><br/> 	
+- Section 40A(2)(b): Domestic Transfer Pricing in GST Era [news](https://www.caclubindia.com/articles/section-40a-2b-domestic-transfer-pricing-in-gst-era-52980.asp) <br/><br/> 	
+- Denta Water IPO: 10 key points to consider before ₹220.5 crore offer opening [news](https://upstox.com/news/market-news/ipo/denta-water-ipo-10-key-points-to-consider-before-220-5-crore-offer-opening/article-141252/) <br/><br/> 	
+- Indian Overseas Bank shares surge 6% after lender's Q3 net profit jumps 21% [news](https://www.moneycontrol.com/news/business/earnings/indian-overseas-bank-shares-surge-6-after-lender-s-q3-net-profit-jumps-21-12914619.html) <br/><br/> 	
+- CapitalNumbers Infotech IPO Day 1: Check subscription status, GMP and other details [news](https://www.livemint.com/market/ipo/capitalnumbers-infotech-ipo-day-1-check-subscription-status-gmp-and-other-details-11737359429192.html) <br/><br/> 	
+- NCLT orders liquidation of Go First Airways [news](https://m.economictimes.com/industry/transportation/airlines-/-aviation/nclt-orders-liquidation-of-go-first-airways/articleshow/117387536.cms) <br/><br/> 	
+- BLS International Services Ltd leads losers in 'A' group [news](https://www.business-standard.com/markets/capital-market-news/bls-international-services-ltd-leads-losers-in-a-group-125012000774_1.html) <br/><br/> 	
+- Sterling Wilson Consolidated December 2024 Net Sales at Rs 1,837.20 crore, up 215.19% Y-o-Y [news](https://www.moneycontrol.com/news/business/earnings/sterling-wilson-consolidated-december-2024-net-sales-at-rs-1-837-20-crore-up-215-19-y-o-y-12913054.html) <br/><br/> 	
+- Swan Defence shares re-list on stock exchanges, up 5% after listing [news](https://m.economictimes.com/markets/stocks/news/swan-defence-shares-re-list-on-stock-exchanges-up-5-after-listing/articleshow/117388734.cms) <br/><br/> 	
+- Bharat Dynamics shares extend rally to third day, jumps 5% to hit one-month high [news](https://www.moneycontrol.com/news/business/markets/bharat-dynamics-shares-extend-rally-to-third-day-jumps-5-to-hit-one-month-high-12914767.html) <br/><br/> 	
+- ICICI Securities upgrades HDFC Life Insurance to Buy, target price Rs 700 [news](https://m.economictimes.com/markets/stocks/recos/icici-securities-upgraded-hdfc-life-insurance-to-buy-target-price-rs-700nbsp/articleshow/117320326.cms) <br/><br/> 	
+- Q3 numbers modest; RIL, IT Inc make presence felt [news](https://m.economictimes.com/markets/stocks/earnings/q3-numbers-modest-ril-it-inc-make-presence-felt/articleshow/117382090.cms) <br/><br/> 	
+
 ### 18-JAN-2025
 
 - Mark Zuckerberg warns - Be prepared for an intense year [news](https://m.economictimes.com/news/international/us/tumultuous-2025-for-meta-mark-zuckerberg-warns-staff-in-an-internal-memo-be-prepared-for-an-intense-year/articleshow/117336876.cms) <br/><br/> 	
