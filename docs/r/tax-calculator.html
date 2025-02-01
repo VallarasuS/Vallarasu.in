@@ -149,6 +149,7 @@
         }
 
         function calculate() {
+
             const salary = document.getElementById("salary-input").value;
 
             if (isNaN(salary)) {
@@ -157,6 +158,10 @@
             else {
                 document.getElementById("salary-input").setAttribute("class", "bg-white");
             }
+
+            ["t1","t2","t3","t4", "t5", "t6", "t7", "t8", "o1", "o2", "o3", "o4", "o5", "o6", "o7"].forEach(
+                id => document.getElementById(id).innerHTML = "---"
+            )
 
             newSlab(salary);
             oldSlab(salary);
