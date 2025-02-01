@@ -118,7 +118,9 @@
                 gross = gross - slab
             }
 
-            document.getElementById("t8").innerHTML = tax;
+            const cess = (tax * 4) / 100;
+            document.getElementById("t9").innerHTML = cess ;
+            document.getElementById("t8").innerHTML = tax + cess;
 
             return tax;
         }
@@ -159,9 +161,11 @@
                 gross = gross - slab
             }
 
-            document.getElementById("o7").innerHTML = tax;
+            const cess = (tax * 4) / 100;
+            document.getElementById("o8").innerHTML = cess ;
+            document.getElementById("o7").innerHTML = tax + cess;
 
-            return tax;
+            return tax + cess;
         }
 
         function calculate() {
@@ -175,7 +179,7 @@
                 document.getElementById("salary-input").setAttribute("class", "bg-white");
             }
 
-            ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "o1", "o2", "o3", "o4", "o5", "o6", "o7", "tax1"].forEach(
+            ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "o1", "o2", "o3", "o4", "o5", "o6", "o7", "o8", "tax1"].forEach(
                 id => document.getElementById(id).innerHTML = "---"
             )
 
@@ -205,7 +209,7 @@
         <h2>Income Tax Calculator 2025</h2>
 
         <div class="margin1rem">
-            <span> Taxable Income </span>
+            <span> Net Taxable Income </span>
             <input id="salary-input">
             <input type="button" value="calculate" onclick="calculate()">
         </div>
@@ -256,6 +260,11 @@
                 <hr style="width: 100%;" />
 
                 <div class="margin flex-row between">
+                    <span>H & E Cess 4% </span>
+                    <span id="t9">---</span>
+                </div>
+
+                <div class="margin flex-row between">
                     <span>Net Tax</span>
                     <span id="t8">---</span>
                 </div>
@@ -301,6 +310,11 @@
                 <hr style="width: 100%;" />
 
                 <div class="margin flex-row between">
+                    <span>H & E Cess 4% </span>
+                    <span id="o8">---</span>
+                </div>
+
+                <div class="margin flex-row between">
                     <span>Net Tax</span>
                     <span id="o7">---</span>
                 </div>
@@ -314,7 +328,7 @@
         <hr style="width: 100%;" />
 
         <div class="margin flex-row between">
-            <span>Total Benefit</span>
+            <span>Total Benefits</span>
             <span id="tax1">---</span>
         </div>
 
