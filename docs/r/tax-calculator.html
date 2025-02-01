@@ -119,6 +119,8 @@
             }
 
             document.getElementById("t8").innerHTML = tax;
+
+            return tax;
         }
 
         function oldSlab(salary) {
@@ -158,6 +160,8 @@
             }
 
             document.getElementById("o7").innerHTML = tax;
+
+            return tax;
         }
 
         function calculate() {
@@ -171,12 +175,14 @@
                 document.getElementById("salary-input").setAttribute("class", "bg-white");
             }
 
-            ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "o1", "o2", "o3", "o4", "o5", "o6", "o7"].forEach(
+            ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "o1", "o2", "o3", "o4", "o5", "o6", "o7", "tax1"].forEach(
                 id => document.getElementById(id).innerHTML = "---"
             )
 
-            newSlab(salary);
-            oldSlab(salary);
+            const ntax = newSlab(salary);
+            const otax = oldSlab(salary);
+
+            document.getElementById("tax1").innerHTML = (otax - ntax)
         }
     </script>
 
@@ -197,6 +203,8 @@
             <div class="flex-column" style="width: 40%;">
 
                 <h3 class="margin"> New Tax Slab 2025 </h3>
+
+                <hr style="width: 100%;" />
 
                 <div class="margin flex-row between">
                     <span>Rs 0-4 lakh - Nil</span>
@@ -243,7 +251,10 @@
             </div>
 
             <div class="flex-column" style="width: 40%;">
+                
                 <h3 class="margin"> Old Tax Slab 2024 </h3>
+
+                <hr style="width: 100%;" />
 
                 <div class="margin flex-row between">
                     <span>Rs 0-3 lakh - Nil</span>
@@ -285,6 +296,17 @@
             </div>
 
         </div>
+
+        <br>
+
+        <hr style="width: 100%;" />
+
+        <div class="margin flex-row between">
+            <span>Total Benefit</span>
+            <span id="tax1">---</span>
+        </div>
+
+        <hr style="width: 100%;" />
 
     </section>
 
