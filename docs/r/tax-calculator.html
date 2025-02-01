@@ -171,20 +171,31 @@
         function calculate() {
 
             const salary = document.getElementById("salary-input").value;
+            const sd = document.getElementById("standard-deduction").value;
+            
 
             if (isNaN(salary)) {
                 document.getElementById("salary-input").setAttribute("class", "bg-red");
+                return;
             }
             else {
                 document.getElementById("salary-input").setAttribute("class", "bg-white");
+            }
+
+            if (isNaN(sd)) {
+                document.getElementById("standard-deduction").setAttribute("class", "bg-red");
+                return;
+            }
+            else {
+                document.getElementById("standard-deduction").setAttribute("class", "bg-white");
             }
 
             ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "o1", "o2", "o3", "o4", "o5", "o6", "o7", "o8", "tax1"].forEach(
                 id => document.getElementById(id).innerHTML = "---"
             )
 
-            const ntax = newSlab(salary);
-            const otax = oldSlab(salary);
+            const ntax = newSlab(salary - sd);
+            const otax = oldSlab(salary - sd);
 
             document.getElementById("tax1").innerHTML = (otax - ntax)
         }
@@ -209,8 +220,10 @@
         <h2>Income Tax Calculator 2025</h2>
 
         <div class="margin1rem">
-            <span> Net Taxable Income </span>
+            <span> Gross Income </span>
             <input id="salary-input">
+            <span> - SD </span>
+            <input id="standard-deduction" value="75000">
             <input type="button" value="calculate" onclick="calculate()">
         </div>
 
