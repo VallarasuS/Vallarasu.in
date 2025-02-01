@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>New Tax Calculart 2025 - Vallarasu</title>
+    <style>
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .between {
+            justify-content: space-between;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
+        }
+
+        .margin {
+            margin: 0.4rem 0;
+        }
+
+        .margin1rem {
+            margin: 1rem 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        .bg-white {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+
+        function applytax(g, percentage, element) {
+            tax = ((g * percentage) / 100)
+            element.innerText = tax.toString();
+            return tax;
+        }
+
+        function newSlab(salary) {
+
+            let gross = Number(salary);
+            let tax = 0;
+            let slab = 0;
+
+            if (gross > 2400000) {
+                slab = (gross - 2400000)
+                tax += applytax(slab, 30, document.getElementById("t7"))
+                gross = gross - slab
+            }
+
+            if (gross > 2000000) {
+                slab = (gross - 2000000)
+                tax += applytax(gross, 25, document.getElementById("t6"))
+                gross = gross - slab
+            }
+
+            if (gross > 1600000) {
+                slab = (gross - 2000000)
+                tax += applytax(gross, 20, document.getElementById("t5"))
+                gross = gross - slab
+            }
+
+            if (gross > 1200000) {
+                slab = (gross - 1200000)
+                tax += applytax(gross, 15, document.getElementById("t4"))
+                gross = gross - slab
+            }
+
+            if (gross > 800000) {
+                slab = (gross - 800000)
+                tax += applytax(gross, 10, document.getElementById("t3"))
+                gross = gross - slab
+            }
+
+            if (gross > 400000) {
+                slab = (gross - 400000)
+                tax += applytax(gross, 5, document.getElementById("t2"))
+                gross = gross - slab
+            }
+
+            document.getElementById("t8").innerHTML = tax;
+        }
+
+        function oldSlab(salary) {
+
+            let gross = Number(salary);
+            let tax = 0;
+            let slab = 0;
+
+            if (gross > 1500000) {
+                slab = (gross - 1500000)
+                tax += applytax(slab, 30, document.getElementById("o6"))
+                gross = gross - slab
+            }
+
+            if (gross > 1200000) {
+                slab = (gross - 1200000)
+                tax += applytax(gross, 20, document.getElementById("o5"))
+                gross = gross - slab
+            }
+
+            if (gross > 1000000) {
+                slab = (gross - 1000000)
+                tax += applytax(gross, 15, document.getElementById("o4"))
+                gross = gross - slab
+            }
+
+            if (gross > 700000) {
+                slab = (gross - 700000)
+                tax += applytax(gross, 10, document.getElementById("o3"))
+                gross = gross - slab
+            }
+
+            if (gross > 300000) {
+                slab = (gross - 300000)
+                tax += applytax(gross, 5, document.getElementById("o2"))
+                gross = gross - slab
+            }
+
+            document.getElementById("o7").innerHTML = tax;
+        }
+
+        function calculate() {
+            const salary = document.getElementById("salary-input").value;
+
+            if (isNaN(salary)) {
+                document.getElementById("salary-input").setAttribute("class", "bg-red");
+            }
+            else {
+                document.getElementById("salary-input").setAttribute("class", "bg-white");
+            }
+
+            newSlab(salary);
+            oldSlab(salary);
+        }
+    </script>
+
+    <section class="container">
+
+        <h1>Income Tax Calculator 2025</h1>
+
+        <div class="margin1rem">
+            <span> Taxable Income </span>
+            <input id="salary-input">
+            <input type="button" value="calculate" onclick="calculate()">
+        </div>
+
+        <div class="flex-row margin between">
+
+            <div class="flex-column" style="width: 40%;">
+
+                <h3 class="margin"> New Tax Slab 2025 </h3>
+
+                <div class="margin flex-row between">
+                    <span>Rs 0-4 lakh - Nil</span>
+                    <span id="t1">---</span>
+                </div>
+
+                <div class="margin flex-row between">
+                    <span>Rs 4-8 lakh - 5%</span>
+                    <span id="t2">---</span>
+                </div>
+
+                <div class="margin flex-row between">
+                    <span>Rs 8-12 - 10%</span>
+                    <span id="t3">---</span>
+                </div>
+
+                <div class="margin flex-row between">
+                    <span>Rs 12-16 - 15%</span>
+                    <span id="t4">---</span>
+                </div>
+
+                <div class="margin flex-row between">
+                    <span>Rs 16-20 - 20%</span>
+                    <span id="t5">---</span>
+                </div>
+
+                <div class="margin flex-row between">
+                    <span>Rs 20-24 - 25%</span>
+                    <span id="t6">---</span>
+                </div>
+
+                <div class="margin flex-row between">
+                    <span>Above Rs 24 - 30%</span>
+                    <span id="t7">---</span>
+                </div>
+
+                <hr style="width: 100%;" />
+
+                <div class="margin flex-row between">
+                    <span>Net Tax</span>
+                    <span id="t8">---</span>
+                </div>
+
+            </div>
+
+            <div class="flex-column" style="width: 40%;">
+                <h3 class="margin"> Old Tax Slab 2024 </h3>
+
+                <div class="margin flex-row between">
+                    <span>Rs 0-3 lakh - Nil</span>
+                    <span id="o1">---</span>
+                </div>
+
+                <div class="margin flex-row between">
+                    <span>Rs 3-7 lakh - 5%</span>
+                    <span id="o2">---</span>
+                </div>
+
+                <div class="margin flex-row between">
+                    <span>Rs 7-10 - 10%</span>
+                    <span id="o3">---</span>
+                </div>
+
+                <div class="margin flex-row between">
+                    <span>Rs 10-12 - 15%</span>
+                    <span id="o4">---</span>
+                </div>
+
+                <div class="margin flex-row between">
+                    <span>Rs 12-15 - 20%</span>
+                    <span id="o5">---</span>
+                </div>
+
+                <div class="margin flex-row between">
+                    <span>Above Rs 15 - 30%</span>
+                    <span id="o6">---</span>
+                </div>
+
+                <hr style="width: 100%;" />
+
+                <div class="margin flex-row between">
+                    <span>Net Tax</span>
+                    <span id="o7">---</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
