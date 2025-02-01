@@ -194,8 +194,14 @@
                 id => document.getElementById(id).innerHTML = "---"
             )
 
-            const ntax = newSlab(salary - sd);
-            const otax = oldSlab(salary - sd);
+            const afterSd = salary - sd;
+
+            if(afterSd <= 1200000) {
+                return;
+            }
+
+            const ntax = newSlab(afterSd);
+            const otax = oldSlab(afterSd);
 
             document.getElementById("tax1").innerHTML = (otax - ntax)
         }
