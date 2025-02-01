@@ -3,7 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>New Tax Calculart 2025 - Vallarasu</title>
+    <title>New Tax Calculator 2025 - Vallarasu</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-K8YR7VFP9F');
+    </script>
+
+
     <style>
         .flex-row {
             display: flex;
@@ -159,7 +171,7 @@
                 document.getElementById("salary-input").setAttribute("class", "bg-white");
             }
 
-            ["t1","t2","t3","t4", "t5", "t6", "t7", "t8", "o1", "o2", "o3", "o4", "o5", "o6", "o7"].forEach(
+            ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "o1", "o2", "o3", "o4", "o5", "o6", "o7"].forEach(
                 id => document.getElementById(id).innerHTML = "---"
             )
 
