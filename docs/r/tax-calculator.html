@@ -90,31 +90,31 @@
 
             if (gross > 2000000) {
                 slab = (gross - 2000000)
-                tax += applytax(gross, 25, document.getElementById("t6"))
+                tax += applytax(slab, 25, document.getElementById("t6"))
                 gross = gross - slab
             }
 
             if (gross > 1600000) {
-                slab = (gross - 2000000)
-                tax += applytax(gross, 20, document.getElementById("t5"))
+                slab = (gross - 1600000)
+                tax += applytax(slab, 20, document.getElementById("t5"))
                 gross = gross - slab
             }
 
             if (gross > 1200000) {
                 slab = (gross - 1200000)
-                tax += applytax(gross, 15, document.getElementById("t4"))
+                tax += applytax(slab, 15, document.getElementById("t4"))
                 gross = gross - slab
             }
 
             if (gross > 800000) {
                 slab = (gross - 800000)
-                tax += applytax(gross, 10, document.getElementById("t3"))
+                tax += applytax(slab, 10, document.getElementById("t3"))
                 gross = gross - slab
             }
 
             if (gross > 400000) {
                 slab = (gross - 400000)
-                tax += applytax(gross, 5, document.getElementById("t2"))
+                tax += applytax(slab, 5, document.getElementById("t2"))
                 gross = gross - slab
             }
 
@@ -135,25 +135,25 @@
 
             if (gross > 1200000) {
                 slab = (gross - 1200000)
-                tax += applytax(gross, 20, document.getElementById("o5"))
+                tax += applytax(slab, 20, document.getElementById("o5"))
                 gross = gross - slab
             }
 
             if (gross > 1000000) {
                 slab = (gross - 1000000)
-                tax += applytax(gross, 15, document.getElementById("o4"))
+                tax += applytax(slab, 15, document.getElementById("o4"))
                 gross = gross - slab
             }
 
             if (gross > 700000) {
                 slab = (gross - 700000)
-                tax += applytax(gross, 10, document.getElementById("o3"))
+                tax += applytax(slab, 10, document.getElementById("o3"))
                 gross = gross - slab
             }
 
             if (gross > 300000) {
                 slab = (gross - 300000)
-                tax += applytax(gross, 5, document.getElementById("o2"))
+                tax += applytax(slab, 5, document.getElementById("o2"))
                 gross = gross - slab
             }
 
