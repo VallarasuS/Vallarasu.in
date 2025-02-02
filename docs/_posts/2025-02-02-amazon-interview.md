@@ -3,9 +3,7 @@ layout: post
 category: Interview
 ---
 
-### Amazon Interview Guide: SDE
-
-### Key Aspects of an Amazon Interview:
+### Amazon SDE Interview Guide - Key Aspects of an Amazon Interview:
 Preparation: The more preparation you do, the better your chances of success in the interview process.
     
 ### Evaluation Areas:
@@ -13,7 +11,6 @@ Preparation: The more preparation you do, the better your chances of success in 
 - Amazon Leadership Principles
 
 1. Technical Competencies:
-
 
 - Coding, Data Structures, and Algorithms:
             Coding: Focus on code structure, modularity, maintainability, extensibility, testability, handling edge cases, time complexity, and memory complexity.
