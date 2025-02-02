@@ -10,7 +10,7 @@ Preparation: The more preparation you do, the better your chances of success in 
 - Technical Competencies
 - Amazon Leadership Principles
 
-1. Technical Competencies:
+### Technical Competencies:
 
 - Coding, Data Structures, and Algorithms:
             Coding: Focus on code structure, modularity, maintainability, extensibility, testability, handling edge cases, time complexity, and memory complexity.
@@ -29,8 +29,7 @@ Preparation: The more preparation you do, the better your chances of success in 
             Focus on coupling, extendibility, and system maintainability.
 			Code Reviews / Design Reviews:
 
-
-2. Leadership / Behavioral Aspects:
+### Leadership / Behavioral Aspects:
 
 - Project Discussion: Be ready to talk about projects you were passionate about. Have at least two detailed examples prepared. Interviewers will probe to see your actual involvement in the project.
 - Technical Competencies & Leadership Questions: Each interviewer will assess both your technical skills and leadership qualities through specific questions.
