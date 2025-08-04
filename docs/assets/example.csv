@@ -1,0 +1,5 @@
+date,customerId,store,Partner,status,price,quantity
+31-Mar-25,8407,Store 1,Name 1,Delivered,210,1
+31-Mar-25,8059,Store 2,Name 2,Delivered,330,1
+31-Mar-25,8483,Store 3,Name 3,Delivered,85,1
+31-Mar-25,14121,Store 4,Name 4,Delivered,130,1

@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RFM Analysis - Vallarasu</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-K8YR7VFP9F');
+    </script>
+
+
+    <style>
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .between {
+            justify-content: space-between;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
+        }
+
+        .margin {
+            margin: 0.4rem 0;
+        }
+
+        .margin1rem {
+            margin: 1rem 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        .bg-white {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+
+        function cmp() {
+            const el = document.getElementById("csv-file");
+
+            if(el.files.length <= 0) {
+                document.getElementById("csv-file").setAttribute("class", "margin1rem bg-red");
+                return;
+            }
+            else {
+                document.getElementById("csv-file").setAttribute("class", "margin1rem");
+            }
+
+            const fl = el.files && el.files.length && el.files[0];
+            var reader = new FileReader();
+            reader.addEventListener('load', function (e) {
+                const res = e.target.result;
+                const csv = res.split(/\r\n|\n/);
+                console.log(csv);   
+            });
+            
+            reader.readAsBinaryString(fl);
+        }
+
+        const segmentLabels = ["Champions", "Loyal Customers", "Potential Loyalist", "New Customers", "Promising", "Need Attention", "About to Sleep", "Cant Lose Them", "At Risk", "Hibernating"]; function ccvm(e, r = {}) { const { currentDate: t = new Date, period: o = "month", previousPeriods: s = 1 } = r, a = (e, r = 0) => { const t = new Date(e); switch (o) { case "day": return new Date(t.setDate(t.getDate() - r)).setHours(0, 0, 0, 0); case "week": return new Date(t.setDate(t.getDate() - (t.getDay() + 7 * r))).setHours(0, 0, 0, 0); case "month": return new Date(t.setMonth(t.getMonth() - r, 1)).setHours(0, 0, 0, 0); case "year": return new Date(t.setFullYear(t.getFullYear() - r, 0, 1)).setHours(0, 0, 0, 0); default: return e } }, n = a(t), u = a(t, s), l = a(t, s - 1), d = {}, c = {}, i = { orders: [], stats: { value: 0, customers: new Set, vendors: new Set } }, m = { orders: [], stats: { value: 0, customers: new Set, vendors: new Set } }; let v = 0; e.forEach((e => { const r = new Date(e.date), o = e.customerId, s = e.store, a = e.price * e.quantity, y = "Cancelled" === e.status; y && v++, r >= n && r < t && !y ? (i.orders.push(e), i.stats.value += a, i.stats.customers.add(o), i.stats.vendors.add(s)) : r >= u && r < l && !y && (m.orders.push(e), m.stats.value += a, m.stats.customers.add(o), m.stats.vendors.add(s)), d[o] || (d[o] = { customerId: o, orders: [], firstOrderDate: r, lastOrderDate: r, totalValue: 0, totalQuantity: 0, vendors: new Set, cancelledOrders: 0 }); const h = d[o]; h.orders.push({ ...e, date: r, value: a }), h.firstOrderDate = new Date(Math.min(h.firstOrderDate, r)), h.lastOrderDate = new Date(Math.max(h.lastOrderDate, r)), y ? h.cancelledOrders++ : (h.totalValue += a, h.totalQuantity += e.quantity, h.vendors.add(s)), c[s] || (c[s] = { vendorId: s, orders: [], firstOrderDate: r, lastOrderDate: r, totalValue: 0, totalQuantity: 0, customers: new Set, cancelledOrders: 0, currentPeriod: { value: 0, quantity: 0 }, previousPeriod: { value: 0, quantity: 0 } }); const g = c[s]; g.orders.push({ ...e, date: r, value: a }), g.firstOrderDate = new Date(Math.min(g.firstOrderDate, r)), g.lastOrderDate = new Date(Math.max(g.lastOrderDate, r)), y ? g.cancelledOrders++ : (g.totalValue += a, g.totalQuantity += e.quantity, g.customers.add(o), r >= n && r < t ? (g.currentPeriod.value += a, g.currentPeriod.quantity += e.quantity) : r >= u && r < l && (g.previousPeriod.value += a, g.previousPeriod.quantity += e.quantity)) })); const y = Object.values(d); y.forEach((e => { const r = Math.floor((t - e.lastOrderDate) / 864e5), o = e.orders.filter((e => "Cancelled" !== e.status)).length; e.rfm = { recency: r, frequency: o, monetary: e.totalValue, vendorDiversity: e.vendors.size }, e.cancellationRate = e.orders.length ? e.cancelledOrders / e.orders.length * 100 : 0 })); const h = (e, r, t) => { if (!e.length) return () => 1; const o = [...e].map((e => r(e))).sort(((e, r) => t ? r - e : e - r)), s = Array.from(new Set(o)), a = Array.from({ length: 5 }, ((e, r) => s[Math.floor(s.length * r / 5)])); return e => { for (let r = 1; r < a.length; r++)if (!t && e <= a[r] || t && e >= a[r]) return 5 - (r - 1); return 1 } }, g = { recency: h(y, (e => e.rfm.recency), !1), frequency: h(y, (e => e.rfm.frequency), !0), monetary: h(y, (e => e.rfm.monetary), !0), diversity: h(y, (e => e.rfm.vendorDiversity), !1) }, f = {}; y.forEach((e => { const r = e.rfm; r.recencyScore = g.recency(r.recency), r.frequencyScore = g.frequency(r.frequency), r.monetaryScore = g.monetary(r.monetary), r.vendorDiversityScore = g.diversity(r.vendorDiversity), r.score = `${r.recencyScore} ${r.frequencyScore} ${r.monetaryScore}`, r.segment = (e => { const [t, o, s] = [r.recencyScore, r.frequencyScore, r.monetaryScore]; return t > 4 && o >= 4 ? "Champions" : t >= 3 && o >= 4 ? "Loyal Customers" : t > 3 && o >= 2 ? "Potential Loyalist" : t > 4 && o < 2 ? "New Customers" : t > 3 && o < 2 ? "Promising" : t > 2 && o <= 2 ? "Need Attention" : t > 2 && o > 2 ? "About to Sleep" : t < 2 && o > 4 ? "Cant Lose Them" : t < 3 && o > 2 ? "At Risk" : "Hibernating" })(), e.vendors = Array.from(e.vendors); const o = e.rfm.frequency, s = f[r.segment] || (f[r.segment] = { customers: 0, orderVolume: 0, orderValue: 0, clvSum: 0, segment: r.segment }); s.customers++, s.orderVolume += o, s.orderValue += e.totalValue; const a = (t - e.firstOrderDate) / 864e5 || 365; e.clv = (e.totalValue / o || 0) * (o / (a / 30)) * (a / 30), s.clvSum += e.clv || 0 })); const D = e => (Math.round(100 * e) / 100).toFixed(2); segmentLabels.forEach((e => { let r = f[e]; null == r && (f[e] = r = { customers: 0, orderVolume: 0, orderValue: 0, clvSum: 0, segment: e }), r.avgClv = r.clvSum / r.customers || 0, delete r.clvSum, r.avgFrequency = r.customers ? D(r.orderVolume / r.customers) : 0, r.avgMonetary = r.customers ? D(r.orderValue / r.customers) : 0, r.cpc = r.customers ? D(r.customers / y.length * 100) : 0 })); const w = Object.values(c), S = {}; return w.forEach((e => { const r = e.orders.filter((e => "Cancelled" !== e.status)).length; e.avgOrderValue = r ? e.totalValue / r : 0, e.cancellationRate = e.orders.length ? e.cancelledOrders / e.orders.length * 100 : 0, e.orderGrowth = e.previousPeriod.value ? (e.currentPeriod.value - e.previousPeriod.value) / e.previousPeriod.value * 100 : 0; const t = e.orderGrowth > 20 && e.currentPeriod.quantity > 10 ? "High Growth" : e.orderGrowth > 10 && e.currentPeriod.quantity > 5 ? "Growth" : e.orderGrowth < -10 ? "Declining" : 0 === e.currentPeriod.quantity ? "Inactive" : e.currentPeriod.value > w.reduce(((e, r) => e + r.currentPeriod.value), 0) / w.length * 2 ? "High Value" : "Stable", o = S[t] || (S[t] = { vendors: 0, orderVolume: 0, orderValue: 0, growthSum: 0 }); o.vendors++, o.orderVolume += e.currentPeriod.quantity, o.orderValue += e.currentPeriod.value, o.growthSum += e.orderGrowth })), Object.keys(S).forEach((e => { S[e].avgGrowth = S[e].growthSum / S[e].vendors || 0, delete S[e].growthSum })), { customers: d, vendors: c, customerSegments: f, vendorSegments: S, currentPeriod: { orderVolume: i.orders.length, orderValue: i.stats.value, uniqueCustomers: i.stats.customers.size, uniqueVendors: i.stats.vendors.size, startDate: n, endDate: t }, previousPeriod: { orderVolume: m.orders.length, orderValue: m.stats.value, uniqueCustomers: m.stats.customers.size, uniqueVendors: m.stats.vendors.size, startDate: u, endDate: l }, cancellationRate: e.length ? v / e.length * 100 : 0, periodComparison: { orderVolumeChange: i.orders.length - m.orders.length, orderValueChange: i.stats.value - m.stats.value } } }
+
+    </script>
+
+    <section class="container">
+
+        <a href="/" style="color: #a9e573;">back</a>
+
+        <h1>RFM Analysis</h1>
+
+        <p>
+            A tool to find insights into customer behavior using order data to grow your business. Early version handle with care.
+        </p>
+
+        <hr style="width: 100%;" />
+
+        <h2>Import order data</h2>
+
+        <div class="margin1rem">
+            <span> Everything happens with-in your browser, nothing leaves your computer. </span>
+            <div class="flex-column">
+                <label for="avatar">Choose order data for analysis: <a style="font-size: 14px;
+                font-weight: bold;
+                color: #a9e573;
+                letter-spacing: 1px;
+                text-decoration: underline;"
+                        href="https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/assets/example.csv"
+                        download="sample.csv">Download sample file</a></label>
+                <input class="margin1rem" type="file" id="csv-file" name="avatar" accept=".csv" />
+            </div>
+
+            <input class="margin" type="button" value="Analyse" onclick="cmp()">
+
+        </div>
+
+        <hr style="width: 100%;" />
+
+        <div class="flex-row margin between">
+
+            <span> Add Results here </span>
+
+        </div>
+
+        <hr style="width: 100%;" />
+
+    </section>
+
+</body>
+
+</html>
