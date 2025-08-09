@@ -1,5 +1,11 @@
-date,customerId,store,Partner,status,price,quantity
-31-Mar-25,8407,Store 1,Name 1,Delivered,210,1
-31-Mar-25,8059,Store 2,Name 2,Delivered,330,1
-31-Mar-25,8483,Store 3,Name 3,Delivered,85,1
-31-Mar-25,14121,Store 4,Name 4,Delivered,130,1
+date,customerId,product,partner,status,price,quantity
+2024-03-15,John Doe,Laptop,PartnerA,Shipped,799.99,1
+2024-07-22,Jane Smith,Headphones,PartnerB,Delivered,59.99,2
+2025-01-10,Michael Chen,T-shirt,PartnerC,Pending,19.99,3
+2024-11-05,Emily Davis,Smartphone,PartnerA,Cancelled,499.99,1
+2024-09-30,Robert Brown,Desk Chair,PartnerD,Delivered,149.99,1
+2024-07-15,John Smith,Smartphone,TechTrend,Shipped,299.45,2
+2024-03-22,Emma Johnson,Laptop,FashionHub,Delivered,489.12,1
+2025-01-10,Michael Brown,Headphones,GadgetZone,Pending,89.99,3
+2024-11-05,Sarah Davis,T-Shirt,StyleCo,Cancelled,24.50,5
+2024-09-18,David Wilson,Smartwatch,ElectroMart,Shipped,199.75,1
