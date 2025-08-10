@@ -88,16 +88,35 @@
         </tr>
     </template>
 
+    <template id="customer-row">
+        <tr>
+            <td scope="col"></td>
+            <td scope="col"></td>
+            <td scope="col"></td>
+            <td scope="col"></td>
+            <td scope="col"></td>
+        </tr>
+    </template>
+
     <script>
 
         const segmentLabels = ["Champions", "Loyal Customers", "Potential Loyalist", "New Customers", "Promising", "Need Attention", "About to Sleep", "Cant Lose Them", "At Risk", "Hibernating"];
-        function ccvm(e,t={}){const{currentDate:r=new Date,period:o="month",previousPeriods:a=1}=t,n={},s={};e.forEach((e=>{const t=new Date(e.date),r=e.customerId,o=e.product,a=e.price*e.quantity,c="Cancelled"===e.status;n[r]||(n[r]={customerId:r,orders:[],firstOrderDate:t,lastOrderDate:t,totalValue:0,totalQuantity:0,products:new Set});const u=n[r];u.orders.push({...e,date:t,value:a}),u.firstOrderDate=new Date(Math.min(u.firstOrderDate,t)),u.lastOrderDate=new Date(Math.max(u.lastOrderDate,t)),c||(u.totalValue+=a,u.totalQuantity+=e.quantity,u.products.add(o)),s[o]||(s[o]={productId:o,orders:[],firstOrderDate:t,lastOrderDate:t,totalValue:0,totalQuantity:0,customers:new Set});const l=s[o];l.orders.push({...e,date:t,value:a}),c||(l.totalValue+=a,l.totalQuantity+=e.quantity,l.customers.add(r))}));const c=Object.values(n);c.forEach((e=>{const t=Math.floor((r-e.lastOrderDate)/864e5),o=e.orders.filter((e=>"Cancelled"!==e.status)).length;e.rfm={recency:t,frequency:o,monetary:e.totalValue}}));const u=(e,t,r)=>{if(!e.length)return()=>1;const o=[...e].map((e=>t(e))).sort(((e,t)=>r?t-e:e-t)),a=Array.from(new Set(o)),n=Array.from({length:5},((e,t)=>a[Math.floor(a.length*t/5)]));return e=>{for(let t=1;t<n.length;t++)if(!r&&e<=n[t]||r&&e>=n[t])return 5-(t-1);return 1}},l={recency:u(c,(e=>e.rfm.recency),!1),frequency:u(c,(e=>e.rfm.frequency),!0),monetary:u(c,(e=>e.rfm.monetary),!0),diversity:u(c,(e=>e.rfm.vendorDiversity),!1)},m={};c.forEach((e=>{const t=e.rfm;t.recencyScore=l.recency(t.recency),t.frequencyScore=l.frequency(t.frequency),t.monetaryScore=l.monetary(t.monetary),t.vendorDiversityScore=l.diversity(t.vendorDiversity),t.score=`${t.recencyScore} ${t.frequencyScore} ${t.monetaryScore}`,t.segment=(e=>{const[r,o,a]=[t.recencyScore,t.frequencyScore,t.monetaryScore];return r>4&&o>=4?"Champions":r>=3&&o>=4?"Loyal Customers":r>3&&o>=2?"Potential Loyalist":r>4&&o<2?"New Customers":r>3&&o<2?"Promising":r>2&&o<=2?"Need Attention":r>2&&o>2?"About to Sleep":r<2&&o>4?"Cant Lose Them":r<3&&o>2?"At Risk":"Hibernating"})(),e.products=Array.from(e.products);const o=e.rfm.frequency,a=m[t.segment]||(m[t.segment]={customers:0,orderVolume:0,orderValue:0,clvSum:0,segment:t.segment});a.customers++,a.orderVolume+=o,a.orderValue+=e.totalValue;const n=(r-e.firstOrderDate)/864e5||365;e.clv=(e.totalValue/o||0)*(o/(n/30))*(n/30),a.clvSum+=e.clv||0}));const d=e=>(Math.round(100*e)/100).toFixed(2);return segmentLabels.forEach((e=>{let t=m[e];null==t&&(m[e]=t={customers:0,orderVolume:0,orderValue:0,clvSum:0,segment:e}),t.avgClv=t.clvSum/t.customers||0,delete t.clvSum,t.avgFrequency=t.customers?d(t.orderVolume/t.customers):0,t.avgMonetary=t.customers?d(t.orderValue/t.customers):0,t.cpc=t.customers?d(t.customers/c.length*100):0})),{products:s,customerSegments:m}}
+        function ccvm(e, t = {}) { const { currentDate: r = new Date, period: o = "month", previousPeriods: a = 1 } = t, n = {}, s = {}; e.forEach((e => { const t = new Date(e.date), r = e.customer, o = e.product, a = e.price * e.quantity, c = "Cancelled" === e.status; n[r] || (n[r] = { customerId: r, orders: [], firstOrderDate: t, lastOrderDate: t, totalValue: 0, totalQuantity: 0, products: new Set }); const u = n[r]; u.orders.push({ ...e, date: t, value: a }), u.firstOrderDate = new Date(Math.min(u.firstOrderDate, t)), u.lastOrderDate = new Date(Math.max(u.lastOrderDate, t)), c || (u.totalValue += a, u.totalQuantity += e.quantity, u.products.add(o)), s[o] || (s[o] = { productId: o, orders: [], firstOrderDate: t, lastOrderDate: t, totalValue: 0, totalQuantity: 0, customers: new Set }); const l = s[o]; l.orders.push({ ...e, date: t, value: a }), c || (l.totalValue += a, l.totalQuantity += e.quantity, l.customers.add(r)) })); const c = Object.values(n); c.forEach((e => { const t = Math.floor((r - e.lastOrderDate) / 864e5), o = e.orders.filter((e => "Cancelled" !== e.status)).length; e.rfm = { recency: t, frequency: o, monetary: e.totalValue } })); const u = (e, t, r) => { if (!e.length) return () => 1; const o = [...e].map((e => t(e))).sort(((e, t) => r ? t - e : e - t)), a = Array.from(new Set(o)), n = Array.from({ length: 5 }, ((e, t) => a[Math.floor(a.length * t / 5)])); return e => { for (let t = 1; t < n.length; t++)if (!r && e <= n[t] || r && e >= n[t]) return 5 - (t - 1); return 1 } }, l = { recency: u(c, (e => e.rfm.recency), !1), frequency: u(c, (e => e.rfm.frequency), !0), monetary: u(c, (e => e.rfm.monetary), !0), diversity: u(c, (e => e.rfm.vendorDiversity), !1) }, m = {}; c.forEach((e => { const t = e.rfm; t.recencyScore = l.recency(t.recency), t.frequencyScore = l.frequency(t.frequency), t.monetaryScore = l.monetary(t.monetary), t.vendorDiversityScore = l.diversity(t.vendorDiversity), t.score = `${t.recencyScore} ${t.frequencyScore} ${t.monetaryScore}`, t.segment = (e => { const [r, o, a] = [t.recencyScore, t.frequencyScore, t.monetaryScore]; return r > 4 && o >= 4 ? "Champions" : r >= 3 && o >= 4 ? "Loyal Customers" : r > 3 && o >= 2 ? "Potential Loyalist" : r > 4 && o < 2 ? "New Customers" : r > 3 && o < 2 ? "Promising" : r > 2 && o <= 2 ? "Need Attention" : r > 2 && o > 2 ? "About to Sleep" : r < 2 && o > 4 ? "Cant Lose Them" : r < 3 && o > 2 ? "At Risk" : "Hibernating" })(), e.products = Array.from(e.products); const o = e.rfm.frequency, a = m[t.segment] || (m[t.segment] = { customers: 0, orderVolume: 0, orderValue: 0, clvSum: 0, segment: t.segment }); a.customers++, a.orderVolume += o, a.orderValue += e.totalValue; const n = (r - e.firstOrderDate) / 864e5 || 365; e.clv = (e.totalValue / o || 0) * (o / (n / 30)) * (n / 30), a.clvSum += e.clv || 0 })); const d = e => (Math.round(100 * e) / 100).toFixed(2); return segmentLabels.forEach((e => { let t = m[e]; null == t && (m[e] = t = { customers: 0, orderVolume: 0, orderValue: 0, clvSum: 0, segment: e }), t.avgClv = t.clvSum / t.customers || 0, delete t.clvSum, t.avgFrequency = t.customers ? d(t.orderVolume / t.customers) : 0, t.avgMonetary = t.customers ? d(t.orderValue / t.customers) : 0, t.cpc = t.customers ? d(t.customers / c.length * 100) : 0 })), { products: s, customerSegments: m, customers: n } }
 
-        let date, customerId, product, partner, status, price, quantity;
+        let date, customer, product, partner, status, price, quantity;
         let inputRaw = [];
         let inputData = [];
 
-        function cmp(){const t=document.getElementById("csv-file");if(t.files.length<=0)return void document.getElementById("csv-file").setAttribute("class","margin1rem bg-red");document.getElementById("csv-file").setAttribute("class","margin1rem");const e=t.files&&t.files.length&&t.files[0];var n=new FileReader;n.addEventListener("load",(function(t){const e=t.target.result.split(/\r\n|\n/);inputRaw=e.filter((t=>t.length)).map((t=>t.split(","))),date=inputRaw.length&&inputRaw[0]?.indexOf("date"),customerId=inputRaw.length&&inputRaw[0]?.indexOf("customerId"),product=inputRaw.length&&inputRaw[0]?.indexOf("product"),partner=inputRaw.length&&inputRaw[0]?.indexOf("partner"),status=inputRaw.length&&inputRaw[0]?.indexOf("status"),price=inputRaw.length&&inputRaw[0]?.indexOf("price"),quantity=inputRaw.length&&inputRaw[0]?.indexOf("quantity");for(let t=1;t<inputRaw.length;t++){const e=inputRaw[t],n={date:e[date]&&new Date(e[date])||new Date,customerId:e[customerId]||"",product:e[product]||"",partner:e[partner]||"default",status:e[status]||"Delivered",price:e[price]||0,quantity:Number(e[quantity]||1)};inputData.push(n)}const n=ccvm(inputData);console.log(n);const a=n.customerSegments,r=document.getElementById("segment-body");r.replaceChildren(),Object.values(a).forEach((t=>{const e=document.querySelector("#segment-row").content.cloneNode(!0),n=e.querySelectorAll("td");n[0].textContent=t.segment,n[1].textContent=t.orderValue,n[2].textContent=t.orderVolume,r.appendChild(e)}));const u=n.products,o=document.getElementById("product-body");o.replaceChildren(),Object.values(u).forEach((t=>{const e=document.querySelector("#segment-row").content.cloneNode(!0),n=e.querySelectorAll("td");n[0].textContent=t.productId,n[1].textContent=t.totalQuantity,n[2].textContent=t.totalValue,o.appendChild(e)}))})),n.readAsBinaryString(e)}
+        function cmp() {
+            const t = document.getElementById("csv-file"); if (t.files.length <= 0) return void document.getElementById("csv-file").setAttribute("class", "margin1rem bg-red"); document.getElementById("csv-file").setAttribute("class", "margin1rem"); const e = t.files && t.files.length && t.files[0]; var n = new FileReader;
+            n.addEventListener("load", (function (t) {
+                const e = t.target.result.split(/\r\n|\n/); inputRaw = e.filter((t => t.length)).map((t => t.split(","))), date = inputRaw.length && inputRaw[0]?.indexOf("date"), customer = inputRaw.length && inputRaw[0]?.indexOf("customer"), product = inputRaw.length && inputRaw[0]?.indexOf("product"), partner = inputRaw.length && inputRaw[0]?.indexOf("partner"), status = inputRaw.length && inputRaw[0]?.indexOf("status"), price = inputRaw.length && inputRaw[0]?.indexOf("price"), quantity = inputRaw.length && inputRaw[0]?.indexOf("quantity"); for (let t = 1; t < inputRaw.length; t++) { const e = inputRaw[t], n = { date: e[date] && new Date(e[date]) || new Date, customer: e[customer] || "", product: e[product] || "", partner: e[partner] || "default", status: e[status] || "Delivered", price: e[price] || 0, quantity: Number(e[quantity] || 1) }; inputData.push(n) } const n = ccvm(inputData); console.log(n); const a = n.customerSegments,
+                    r = document.getElementById("segment-body"); r.replaceChildren(),
+                        Object.values(a).forEach((t => { const e = document.querySelector("#segment-row").content.cloneNode(!0), n = e.querySelectorAll("td"); n[0].textContent = t.segment, n[1].textContent = t.orderVolume, n[2].textContent = Number.parseFloat(t.orderValue).toFixed(2), r.appendChild(e) })); const u = n.products, cs = n.customers, o = document.getElementById("product-body"), cb = document.getElementById("customer-body"); o.replaceChildren(), cb.replaceChildren(),
+                            Object.values(u).filter((_, i) => i < 10).forEach((t => { const e = document.querySelector("#segment-row").content.cloneNode(!0), n = e.querySelectorAll("td"); n[0].textContent = t.productId, n[1].textContent = t.totalQuantity, n[2].textContent = Number.parseFloat(t.totalValue).toFixed(2), o.appendChild(e) })),
+                            Object.values(cs).filter((_, i) => i < 10).forEach((t => { const e = document.querySelector("#customer-row").content.cloneNode(!0), n = e.querySelectorAll("td"); n[0].textContent = t.customerId, n[1].textContent = t.totalQuantity, n[2].textContent = Number.parseFloat(t.totalValue).toFixed(2), n[4].textContent = t.lastOrderDate.toDateString(), n[3].textContent = Object.values(t.products).reduce((acc,c) => c + ", " + acc, ""), cb.appendChild(e) }))
+            })), n.readAsBinaryString(e)
+        }
 
     </script>
 
@@ -112,7 +131,7 @@
 
             A tool that helps you answer questions like the following.
 
-            <ul>
+        <ul>
             <li>Who spends the most?</li>
             <li>Who buys frequently?</li>
             <li>Who are new?</li>
@@ -122,12 +141,12 @@
             <li>Customer Order cancellation rate?</li>
             <li>Which products sells the most?</li>
             <li>How many different products a customer buys?</li>
-            </ul>
+        </ul>
 
-            and many more insights to re-target, up-sell and re-activate customers to boost sales.
-            <br>
-            <br>
-            See for yourself with sample data and If this is something of interest to you, please join the wait-list below.
+        and many more insights to re-target, up-sell and re-activate customers to boost sales.
+        <br>
+        <br>
+        Try an example for yourself with sample data and If this is something of interest to you, please join the wait-list below.
 
         </p>
 
@@ -201,7 +220,28 @@
 
         </div>
 
-        <hr style="width: 100%;" class="margin" />
+        <div>
+            <table id="customer-table">
+                <caption style="margin: 1rem;">
+                    Customer Analysis
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Customer</th>
+                        <th scope="col">Volume</th>
+                        <th scope="col">Value</th>
+                        <th scope="col">Products</th>
+                        <th scope="col">Last Order</th>
+                    </tr>
+                </thead>
+
+                <tbody id="customer-body">
+
+                </tbody>
+
+            </table>
+        </div>
 
     </section>
 
