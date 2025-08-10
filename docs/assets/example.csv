@@ -1,4 +1,4 @@
-date,customerId,product,partner,status,price,quantity
+date,customer,product,partner,status,price,quantity
 12-03-2024,Shara,Candle-Making Kit,Shannahan,Delivered,7.99,62
 4/18/2025,Artair,Smartphone,Fishbourn,Delivered,14.99,39
 8/31/2024,Mathilda,Candle-Making Kit,Feldharker,Delivered,5.49,68
