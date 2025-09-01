@@ -2,16 +2,16 @@ entries:
 
   - title: pages
     entries:
-      - title: Tax Calculator 2025
-        url: /r/tax-calculator
+      - title: Open Journal
+        url: open-journal
       - title: RFM Analysis
         url: /r/rfm-analysis
-      - title: Join IT Jobs WhatsApp Channel
+      - title: Get job notifications on WhatsApp
         url: https://www.whatsapp.com/channel/0029VaFReapFnSzFj4txau0d
 
   - title: posts
     post_list:
-      limit: 10
+      limit: 20
       show_more: true
       show_more_text: See archive...
       show_more_url: archive
