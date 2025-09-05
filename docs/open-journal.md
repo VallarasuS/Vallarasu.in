@@ -6,6 +6,9 @@ title: Journal
 04-09-2025
 Construction of a commercial space for rent at native begins today. on a personal loan ;)
 
+03-09-2025
+Lunch was delayed by few hours, took a toll on body. Signs of aging shows :)
+
 02-09-2025
 Diet - Gained some weight, cutting down calories & starting intermittent fasting.
 
