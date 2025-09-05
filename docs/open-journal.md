@@ -19,7 +19,7 @@ Joy Of Missing Out - Chose to drop out of a paid event. You dont have to be ever
 Quit My IT Job - It's official, No concrete plans. But for now, done with it!
 
 01-09-2025<br>
-Cold Pitch - Pitched RFM Analysis to a twitter user! first of it's kind :crossed_fingers:
+Cold Pitch - Pitched RFM Analysis to a twitter user! first of it's kind. [RFM Analysis](https://vallarasu.in/r/rfm-analysis)
 
 01-09-2025<br>
-CS101 Landing Page Live - Coaching CS for Non-CS students to get into IT.
+CS101 Landing Page Live - Coaching CS for Non-CS students to get into IT. [CS101](https://cs101.in/)
