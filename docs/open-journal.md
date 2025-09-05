@@ -3,6 +3,9 @@ layout: page
 title: Journal
 ---
 
+04-09-2025
+Construction of a commercial space for rent at native begins today. on a personal loan ;)
+
 02-09-2025
 Diet - Gained some weight, cutting down calories & starting intermittent fasting.
 
