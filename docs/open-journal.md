@@ -3,6 +3,13 @@ layout: page
 title: Journal
 ---
 
+07-09-2025<br>
+- Learned the kid has interest in playing real games with kids older than him.
+- Spoke to Jebakumar over phone, time to bring like minded people together.
+
+06-09-2025<br>
+Got a chance to meet [RK](/author-radhakrishnan) in person - A worthy conversation.
+
 04-09-2025<br>
 Construction of a commercial space for rent at native begins today. on a personal loan ;)
 
