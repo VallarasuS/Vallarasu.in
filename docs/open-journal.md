@@ -5,7 +5,7 @@ title: Journal
 
 09-09-2025<br>
 - A lot of support is coming in, thankfull to all the well wishers
-- Video editor a student working part-time came back, that word animations are new to him.
+- Video editor a student working part-time came back, that he cant help with animations.
 - Experienced people reached out, this could help experienced people as well.
 
 08-09-2025<br>
