@@ -3,6 +3,14 @@ layout: page
 title: Journal
 ---
 
+09-09-2025<br>
+- A lot of support is coming in, thankfull to all the well wishers
+- Video editor a student working part-time came back, that word animations are new to him.
+- Experienced people reached out, this could help experienced people as well.
+
+08-09-2025<br>
+- Announced career change to all my friends and network on [linkedin](https://www.linkedin.com/posts/vallarasus_career-update-after-15-years-in-software-activity-7370681613648769024-9J6Y)
+
 07-09-2025<br>
 - Learned the kid has interest in playing real games with kids older than him.
 - Spoke to Jebakumar over phone, time to bring like minded people together.
