@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
+![Vallarasu Profile Picture](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/dp-vallarasu.png)
+
 Hello! ✋ This is Vallarasu Sambathkumar from Bangalore, India.
 
 I have a decade of experince in building applications for the web, desktop and mobile.
