@@ -3,6 +3,10 @@ layout: page
 title: Journal
 ---
 
+10-09-2025<br>
+- Vertigo took a toll, feeling better with 'Epley Manuever' and medication.
+- Agreed to a speaking engagement at SAEC on 'Reverse Engineeing - Understanding how systems work'.
+
 09-09-2025<br>
 - A lot of support is coming in, thankfull to all the well wishers
 - Video editor a student working part-time came back, that he cant help with animations.
