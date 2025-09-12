@@ -3,6 +3,10 @@ layout: page
 title: Journal
 ---
 
+12-09-2025<br>
+- Finalized deck and feedback forms for tomorrow's talk titled 'Reverse Engineering'.
+- Task list for [CS101](https://cs101.in/) is getting long. Should I make it public?.
+
 10-09-2025<br>
 - Vertigo took a toll, feeling better with 'Epley Manuever' and medication.
 - Agreed to a speaking engagement at SAEC on 'Reverse Engineeing - Understanding how systems work'.
