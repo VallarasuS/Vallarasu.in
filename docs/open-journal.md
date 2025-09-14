@@ -4,6 +4,22 @@ title: Journal
 ---
 
 12-09-2025<br>
+Cousin is here, on the look out for job, second person under my wings. <br>
+Closed feedback form, and added simple link to cs101. 2 sign-ups already. <br>
+Lession today - always ask what's next? <br>
+Been posting daily on LinkedIn, time to take it seriously.
+
+12-09-2025<br>
+Technical Convention at SAEC today, choose to attend all sessions. Few prevalent themes that reoccur.
+- Stay informed
+- Network, Peers, Leverage
+- Patience and Persistence
+- Master fundamentals, and become an export in one domain.
+
+Feebacks arrived in mail via form, couple of them were interesting, one said I could do better. <br>
+Made it intentionally anonymous, otherwise could have asked for specifics.
+
+12-09-2025<br>
 - Finalized deck and feedback forms for tomorrow's talk titled 'Reverse Engineering'.
 - Task list for [CS101](https://cs101.in/) is getting long. Should I make it public?.
 
@@ -17,7 +33,7 @@ title: Journal
 - Experienced people reached out, this could help experienced people as well.
 
 08-09-2025<br>
-- Announced career change to all my friends and network on [linkedin](https://www.linkedin.com/posts/vallarasus_career-update-after-15-years-in-software-activity-7370681613648769024-9J6Y)
+Announced career change to all my friends and network on [linkedin](https://www.linkedin.com/posts/vallarasus_career-update-after-15-years-in-software-activity-7370681613648769024-9J6Y)
 
 07-09-2025<br>
 - Learned the kid has interest in playing real games with kids older than him.
