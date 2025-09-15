@@ -3,6 +3,13 @@ layout: page
 title: Journal
 ---
 
+15-09-2025<br>
+Sat with cousin today to setup social profiles and resume.
+Got the intro video reviewed by people I trust.
+
+14-09-2025<br>
+Sent acknowledgement to signups.
+
 12-09-2025<br>
 Cousin is here, on the look out for job, second person under my wings. <br>
 Closed feedback form, and added simple link to cs101. 2 sign-ups already. <br>
