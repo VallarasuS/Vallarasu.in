@@ -4,8 +4,9 @@ title: Journal
 ---
 
 15-09-2025<br>
-Sat with cousin today to setup social profiles and resume.
-Got the intro video reviewed by people I trust.
+Sat with cousin today to setup social profiles and resume.<br>
+Got the intro video reviewed by people I trust. <br>
+Spent little time with kids in the eve on the ground.
 
 14-09-2025<br>
 Sent acknowledgement to signups.
