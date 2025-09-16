@@ -2,14 +2,16 @@ entries:
 
   - title: pages
     entries:
+      - title: Review My Resume
+        url: r/resume
+      - title: CS101 Coaching
+        url: https://cs101.in/
       - title: Reverse Engineering Feedback
         url: r/feedback
       - title: Open Journal
         url: open-journal
       - title: RFM Analysis
         url: /r/rfm-analysis
-      - title: CS101 Coaching
-        url: https://cs101.in/
       - title: Get job notifications on WhatsApp
         url: https://www.whatsapp.com/channel/0029VaFReapFnSzFj4txau0d
 
