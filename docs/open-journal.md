@@ -3,6 +3,11 @@ layout: page
 title: Journal
 ---
 
+16-09-2025<br>
+Wrote a review for RK's book 'Silent Nods, Lost Dollars'<br>
+TamizhVendan reach-out for role change! Meeting him was one of the drivers towards the change. <br>
+Saw a turtle cross the road today - a rare event.
+
 15-09-2025<br>
 Sat with cousin today to setup social profiles and resume.<br>
 Got the intro video reviewed by people I trust. <br>
