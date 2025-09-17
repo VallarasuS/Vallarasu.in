@@ -28,7 +28,7 @@ Technical Convention at SAEC today, choose to attend all sessions. Few prevalent
 - Stay informed
 - Network, Peers, Leverage
 - Patience and Persistence
-- Master fundamentals, and become an export in one domain.
+- Master fundamentals, and become an expert in one domain.
 
 Feebacks arrived in mail via form, couple of them were interesting, one said I could do better. <br>
 Made it intentionally anonymous, otherwise could have asked for specifics.
