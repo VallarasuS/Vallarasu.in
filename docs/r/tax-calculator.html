@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>New Tax Calculator 2025 - Vallarasu</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
@@ -119,7 +120,7 @@
             }
 
             const cess = (tax * 4) / 100;
-            document.getElementById("t9").innerHTML = cess ;
+            document.getElementById("t9").innerHTML = cess;
             document.getElementById("t8").innerHTML = tax + cess;
 
             return tax;
@@ -162,7 +163,7 @@
             }
 
             const cess = (tax * 4) / 100;
-            document.getElementById("o8").innerHTML = cess ;
+            document.getElementById("o8").innerHTML = cess;
             document.getElementById("o7").innerHTML = tax + cess;
 
             return tax + cess;
@@ -172,7 +173,7 @@
 
             const salary = document.getElementById("salary-input").value;
             const sd = document.getElementById("standard-deduction").value;
-            
+
 
             if (isNaN(salary)) {
                 document.getElementById("salary-input").setAttribute("class", "bg-red");
@@ -196,7 +197,7 @@
 
             const afterSd = salary - sd;
 
-            if(afterSd <= 1200000) {
+            if (afterSd <= 1200000) {
                 return;
             }
 
