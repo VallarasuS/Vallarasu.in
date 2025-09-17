@@ -6,6 +6,7 @@ title: Journal
 17-09-2025<br>
 Any task or Ask, Always think of ETA, Positive & Negative Outcomes, and What's Next Reward or Follow-up? <br>
 Not just skills, Communication is an essential skill for employment.
+Reviewed and responded to few resume submissions.
 
 16-09-2025<br>
 Wrote a review for RK's book 'Silent Nods, Lost Dollars'<br>
