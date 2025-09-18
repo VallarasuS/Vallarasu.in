@@ -4,6 +4,11 @@ title: Journal
 ---
 
 17-09-2025<br>
+Another set of resume reviews sent out today. <br>
+Chose to write an intro with AI for some that stood out. <br>
+Few convertions on CS101in
+
+17-09-2025<br>
 Any task or Ask, Always think of ETA, Positive & Negative Outcomes, and What's Next Reward or Follow-up? <br>
 Not just skills, Communication is an essential skill for employment.
 Reviewed and responded to few resume submissions.
