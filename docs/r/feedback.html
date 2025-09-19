@@ -24,36 +24,47 @@
             overflow: hidden;
         }
 
-        iframe {
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            border: 0;
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
         }
     </style>
 
 </head>
 
-<body
-    style="height: 100%; width: 100%; display: grid; flex-direction: column; text-align: center; justify-content: center;">
-    <div
-        style="display: flex; flex-direction: column; text-align: center; justify-content: center; align-items: center;">
-        <span style="margin: 20px 20px; font-size: x-large;">Thank you! this form is now closed.</span>
+<body style="height: 100%; width: 100%;">
 
-        <a href="https://cs101.in/">
-            <img style="width: 150px;"
-                src="https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/cs101.png">
-        </a>
+    <div class="container">
 
-        <div style="margin: 10px 10px;">
-            <span style="margin: 20px 20px; font-size: large;">Preparing for a job? Check out <a
-                    href="https://cs101.in/" target="_blank">CS101.in</a></span>
+        <a href="/" style="color: #a9e573;">back</a>
+
+        <div
+            style="display: flex; flex-direction: column; text-align: center; justify-content: center; align-items: center;">
+            <span style="margin: 20px 20px; font-size: x-large;">Thank you! this form is now closed.</span>
+
+            <a href="https://cs101.in/">
+                <img style="width: 150px;"
+                    src="https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/cs101.png">
+            </a>
+
+            <div style="margin: 10px 10px;">
+                <span style="margin: 20px 20px; font-size: large;">Preparing for a job? Check out <a
+                        href="https://cs101.in/" style="color: #a9e573;" target="_blank">CS101.in</a></span>
+            </div>
+
         </div>
 
     </div>
-
 </body>
 
 </html>
