@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>30 Days 30 Videos Challenge</title>
+    <link rel="icon" type="image/x-icon" href="https://vallarasu.in/logo.png">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-K8YR7VFP9F');
+    </script>
+
+    <style type="text/css">
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .grayscale {
+            filter: grayscale();
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <template id="tracker-hearts">
+        <div
+            style="
+            margin: 20px 0px; 
+            border: 1px solid whitesmoke; 
+            border-radius: 5px; 
+            padding: 20px 20px; 
+            width: auto;
+            border-style: dashed;">
+
+            <div>
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+            </div>
+
+            <div>
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+            </div>
+
+            <div>
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+                <img class="grayscale" src="../assets/images/heart.png" style="height: 20px;">
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <span id="user-name" style="font-size: larger; color: #f9595f;"> Vallarasu </span>
+                <span id="user-days" style="font-size: larger; color: #f9595f;"> Vallarasu </span>
+            </div>
+
+        </div>
+    </template>
+
+    <div class="container">
+
+        <a href="/" style="color: #a9e573;">back</a>
+
+        <div>
+
+            <h4> 30 Days of talking to camera challenge </h4>
+            <span> Simple Rule: 30 Days & 30 Videos, Press record and publish! </span>
+
+            <div id="tracker-container"></div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        let users = [
+            { todo: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], name: "Sivakami" },
+            { todo: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], name: "Ram" },
+            { todo: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], name: "Harish" },
+            { todo: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], name: "Vallarasu" }
+        ]
+
+        const container = document.querySelector("#tracker-container")
+
+        users.forEach(u => {
+
+            const trackerTemplate = document.querySelector("#tracker-hearts");
+            const instance = trackerTemplate.content.cloneNode(true);
+            const name = instance.querySelector("#user-name");
+            name.textContent = u.name;
+
+            instance.querySelectorAll("img").forEach((ig, i) => {
+                if (u.todo[i] === 1) {
+                    ig.classList.remove("grayscale");
+                }
+            });
+
+            const days = instance.querySelector("#user-days");
+            days.textContent = `${u.todo.reduce((acc, i) => acc + i, 0)} days`;
+
+            container.appendChild(instance);
+        });
+    </script>
+
+</body>
+
+</html>

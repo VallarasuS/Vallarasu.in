@@ -3,6 +3,9 @@ layout: page
 title: Journal
 ---
 
+19-09-2025<br>
+30 Days of talking to camera, 30 days & 30 videos! Press record and publish.
+
 17-09-2025<br>
 Another set of resume reviews sent out today. <br>
 Chose to write an intro with AI for some that stood out. <br>
