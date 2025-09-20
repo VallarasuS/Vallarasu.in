@@ -4,12 +4,8 @@ entries:
     entries:
       - title: 30 Days 30 Videos
         url: r/30-days 
-      - title: Review My Resume
-        url: r/resume
       - title: CS101 Coaching
         url: https://cs101.in/
-      - title: Reverse Engineering Feedback
-        url: r/feedback
       - title: Open Journal
         url: open-journal
       - title: RFM Analysis
