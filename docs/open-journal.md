@@ -3,6 +3,10 @@ layout: page
 title: Journal
 ---
 
+22-09-2025<br>
+- Little overwhelming to do multiple things at once.<br>
+- Really happy to see progress from friends on 30 days video challenge.<br>
+
 19-09-2025<br>
 [30 Days of talking to camera](https://vallarasu.in/r/30-days), 30 days & 30 videos! Press record and publish.
 
