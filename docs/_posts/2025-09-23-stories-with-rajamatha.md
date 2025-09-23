@@ -4,8 +4,8 @@ category: 30Days
 author: sivakami
 ---
 
-{% assign days = site.data.videos[post.author].days %}
-{% assign entries = site.data.videos[post.author].posts %}
+{% assign days = site.data.videos[post.author].days | default: 0 %}
+{% assign entries = site.data.videos[post.author].posts | default: [] %}
 
 <div> 
 
