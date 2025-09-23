@@ -4,6 +4,8 @@ category: 30Days
 author: sivakami
 ---
 
+{% assign author = site.data.videos[post.author] %}
+
 <div> 
 
     <style type="text/css">
@@ -89,8 +91,6 @@ author: sivakami
             border-style: solid;">
 
         <div style="display: flex; flex-direction: column;">
-
-            {% assign author = site.data.30days[post.author] %}
 
             <img style="width: 150px; border-radius: 75px;" src="../assets/images/rajamatha.png">
 
