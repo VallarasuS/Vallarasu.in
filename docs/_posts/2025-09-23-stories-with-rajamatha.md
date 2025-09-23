@@ -7,21 +7,6 @@ author: Sivakami
 <div> 
 
     <style type="text/css">
-        body {
-            background-color: #1b1b1b;
-            color: white;
-            font-family: monospace;
-            font-size: 16px;
-            line-height: 1.4;
-            overflow-wrap: break-word;
-        }
-
-        .container {
-            max-width: 700px;
-            margin: 0 auto;
-            padding: 4rem 2rem;
-            background-color: #101010;
-        }
 
         .grayscale {
             filter: grayscale();
