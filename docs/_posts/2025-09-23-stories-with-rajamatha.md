@@ -1,7 +1,7 @@
 ---
 layout: post
 category: 30Days
-author: Sivakami
+author: sivakami
 ---
 
 <div> 
@@ -114,7 +114,7 @@ author: Sivakami
             <ul>
             {% for entry in site data.30days[post.author].posts %}
                 <li>
-                <a target="_blank" href="{{ entry.url }}"> {{ entry.title }} </a>
+                    <a target="_blank" href="{{ entry.url }}"> {{ entry.title }} </a>
                 </li>
             {% endfor %}
             </ul>
