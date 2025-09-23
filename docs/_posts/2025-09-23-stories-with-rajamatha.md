@@ -126,7 +126,7 @@ author: sivakami
     <script>
 
         let users = [
-            { todo: {{ days }}, name: {{ page.author }} },
+            { todo: {{ days }}, name: "{{ page.author }}" },
         ]
 
         const container = document.querySelector("#tracker-container")
