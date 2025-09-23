@@ -116,6 +116,7 @@ author: Sivakami
                 <li>
                 <a target="_blank" href="{{ entry.url }}"> {{ entry.title }} </a>
                 </li>
+            {% endfor %}
             </ul>
 
         </div>
