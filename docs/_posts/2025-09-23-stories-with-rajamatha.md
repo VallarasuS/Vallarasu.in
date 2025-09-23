@@ -4,7 +4,8 @@ category: 30Days
 author: sivakami
 ---
 
-{% assign author = site.data.videos[post.author] %}
+{% assign days = site.data.videos[post.author].days %}
+{% assign entries = site.data.videos[post.author].posts %}
 
 <div> 
 
@@ -111,7 +112,7 @@ author: sivakami
             <div id="tracker-container"></div>
 
             <ul>
-            {% for entry in author.posts %}
+            {% for entry in entries %}
                 <li>
                     <a target="_blank" href="{{ entry.url }}"> {{ entry.title }} </a>
                 </li>
@@ -125,7 +126,7 @@ author: sivakami
     <script>
 
         let users = [
-            { todo: {{ author.days }}, name: {{ page.author }} },
+            { todo: {{ days }}, name: {{ page.author }} },
         ]
 
         const container = document.querySelector("#tracker-container")
