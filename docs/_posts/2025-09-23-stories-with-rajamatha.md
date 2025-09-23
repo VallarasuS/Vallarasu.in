@@ -90,19 +90,18 @@ author: sivakami
 
         <div style="display: flex; flex-direction: column;">
 
+            {% assign author = site.data.30days[post.author] %}
+
             <img style="width: 150px; border-radius: 75px;" src="../assets/images/rajamatha.png">
 
-            <span style="font-size: larger; margin-top: 10px;">Stories with Rajamatha</span>
+            <span style="font-size: larger; margin-top: 10px;"> {{ author.name }} </span>
 
-            <span style="font-size: smaller; margin: 10px 0px;">
-                Personal Branding Strategist and Storyteller. Done-for-You Personal Brand for Founders 👉 Storytelling,
-                Authority & Results in 12 Weeks
-            </span>
+            <span style="font-size: smaller; margin: 10px 0px;"> {{ author.description }} </span>
 
             <div style="display: flex; flex-direction: row; gap: 10px; font-size: smaller;">
-                <a target="_blank" href="https://www.linkedin.com/in/sivakami-muthukumar/">LinkedIn</a>
-                <a target="_blank" href="https://www.instagram.com/stories.with.rajamatha/">Instagram</a>
-                <a target="_blank" href="https://x.com/heyitsRajamatha">X</a>
+                <a target="_blank" href="{{ author.li }}">LinkedIn</a>
+                <a target="_blank" href="{{ author.insta }}">Instagram</a>
+                <a target="_blank" href="{{ author.x }}">X</a>
             </div>
 
             <hr style="width: 100%; margin: 20px 0px; border-style: dashed;">
@@ -112,7 +111,7 @@ author: sivakami
             <div id="tracker-container"></div>
 
             <ul>
-            {% for entry in site data.30days[post.author].posts %}
+            {% for entry in author.posts %}
                 <li>
                     <a target="_blank" href="{{ entry.url }}"> {{ entry.title }} </a>
                 </li>
@@ -126,7 +125,7 @@ author: sivakami
     <script>
 
         let users = [
-            { todo: 3, name: "Sivakami" },
+            { todo: {{ author.days }}, name: {{ page.author }} },
         ]
 
         const container = document.querySelector("#tracker-container")
