@@ -16,10 +16,6 @@ author: Sivakami
             height: 15px !important;
         }
 
-        a {
-            color: #a9e573;
-        }
-
         ul {
             list-style: none;
         }
@@ -38,7 +34,7 @@ author: Sivakami
             width: auto;
             border-style: dashed;">
 
-            <div>
+            <div style="display: flex; flex-direction: row">
                 <img class="heart grayscale" src="../assets/images/heart.png">
                 <img class="heart grayscale" src="../assets/images/heart.png">
                 <img class="heart grayscale" src="../assets/images/heart.png">
@@ -51,7 +47,7 @@ author: Sivakami
                 <img class="heart grayscale" src="../assets/images/heart.png">
             </div>
 
-            <div>
+            <div style="display: flex; flex-direction: row">
                 <img class="heart grayscale" src="../assets/images/heart.png">
                 <img class="heart grayscale" src="../assets/images/heart.png">
                 <img class="heart grayscale" src="../assets/images/heart.png">
@@ -64,7 +60,7 @@ author: Sivakami
                 <img class="heart grayscale" src="../assets/images/heart.png">
             </div>
 
-            <div>
+            <div style="display: flex; flex-direction: row">
                 <img class="heart grayscale" src="../assets/images/heart.png">
                 <img class="heart grayscale" src="../assets/images/heart.png">
                 <img class="heart grayscale" src="../assets/images/heart.png">
@@ -116,9 +112,10 @@ author: Sivakami
             <div id="tracker-container"></div>
 
             <ul>
-                <li><a target="_blank" href="https://www.instagram.com/p/DO3dJOzESl0/">Day 3 - Inner critic</a></li>
-                <li><a target="_blank" href="https://www.instagram.com/p/DO3dJOzESl0/">Day 2 - Breaking Habits</a></li>
-                <li><a target="_blank" href="https://www.instagram.com/p/DO0u70AkQID/">Day 1 - Begin Again</a></li>
+            {% for entry in site data.30days[post.author].posts %}
+                <li>
+                <a target="_blank" href="{{ entry.url }}"> {{ entry.title }} </a>
+                </li>
             </ul>
 
         </div>
