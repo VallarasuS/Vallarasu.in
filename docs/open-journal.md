@@ -3,6 +3,13 @@ layout: page
 title: Journal
 ---
 
+24-09-2025<br>
+Day 6 of challenge, learned it is not about you but about them. <br>
+Make everything about the audience.
+
+23-09-2025<br>
+Spent a lot of time figuring out lading data for jekyll builds. No luck!
+
 22-09-2025<br>
 - Little overwhelming to do multiple things at once.<br>
 - Really happy to see progress from friends on 30 days video challenge.<br>
