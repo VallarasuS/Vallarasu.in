@@ -7,7 +7,7 @@ When I give students few playing cards and ask them to sort, they do it instantl
 But when I ask them to code it, they fail to do so.
 
 Do you know why? 
-Because they start thinking in a programming language alien to them.
+Because they start thinking in a programming language alien to them. And the language constraints your thoughts.
 
 Solving a problem and coding it are two different things.
 When you are given a problem, break it down and solve it on a paper step by step, coding comes afterwards.
