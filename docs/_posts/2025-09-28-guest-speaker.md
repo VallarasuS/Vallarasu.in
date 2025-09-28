@@ -1,6 +1,6 @@
 ---
 layout: post
-category: life
+category: events
 ---
 
 Invited as a guest speaker?
