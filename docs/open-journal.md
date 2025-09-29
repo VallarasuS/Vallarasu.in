@@ -3,6 +3,14 @@ layout: page
 title: Journal
 ---
 
+28-09-2025<br>
+Didn't post video for [30 Days of talking to camera](https://vallarasu.in/r/30-days), scheduled it for morning. Will know if time matters.
+
+27-09-2025<br>
+Was at build2learn, two hours felt too short to build anything, good enough to an idea a shape. <br>
+Students seems to like it, may be the network, or the interactions, or the environment <br>
+We planned to gamify the event itself - good idea can apply to any event
+
 24-09-2025<br>
 Day 6 of challenge, learned it is not about you but about them. <br>
 Make everything about the audience.
