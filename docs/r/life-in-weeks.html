@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Life in Weeks</title>
+    <link rel="icon" type="image/x-icon" href="https://vallarasu.in/logo.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Life in Weeks">
+    <meta property="og:url" content="https://vallarasu.in/">
+    <meta property="og:description"
+        content="We live as if there is plenty of time, what if time is limited and track progress?">
+    <meta property="og:image" content="https://vallarasu.in/assets/images/vallarasu.png">
+
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-K8YR7VFP9F');
+    </script> -->
+
+    <style type="text/css">
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .grayscale {
+            filter: grayscale();
+        }
+
+        .heart {
+            height: 12px !important;
+        }
+
+        .btn-group button {
+            border-radius: 0px;
+            border: 1px solid grey;
+            padding: 10px 10px;
+        }
+
+        .btn-group button:first-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: 1px solid grey;
+        }
+
+        .btn-group button:last-child {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border: 1px solid grey;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <template id="tracker-hearts"><img class="heart grayscale" src="../assets/images/heart.png"></template>
+
+    <div class="container">
+
+        <a href="/" style="color: #a9e573;">back</a>
+
+        <div>
+
+            <h4> Life in Weeks </h4>
+
+            <span style="font-size: smaller;">
+                We live as if there is plenty of time, <br>
+                What if your time on earth is limited. <br>
+                <br>
+                - Would you still put off work for later? <br>
+                - Would you still lead same life? <br>
+            </span>
+
+            <div style="margin: 20px 0px;">
+                <span style="font-size: smaller;">
+                    Choose your date of birth below, and get your life calendar.
+                </span>
+            </div>
+
+            <hr>
+
+            <div style="margin: 20px 0px; text-align: center;">
+                <label for="birthday">Chose your date of birth:</label>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+
+            <hr>
+
+            <div class="btn-group" style="display: flex; justify-content: center; margin: 20px 0px;">
+                <button>Weeks</button>
+                <button>Months</button>
+                <button>Years</button>
+            </div>
+
+            <div id="tracker-container" style="
+            margin: 20px 0px; 
+            border: 1px solid #8c8c8cc4; 
+            border-radius: 5px; 
+            padding: 20px 20px; 
+            width: auto;
+            align-items: center;
+            border-style: dashed;">
+
+            </div>
+
+        </div>
+
+        <div style="text-align: center;">
+            <span style="font-size: smaller;">Inspired by <a
+                    href="https://waitbutwhy.com/2014/05/life-weeks.html">life-in-weeks</a> </span>
+        </div>
+
+    </div>
+
+    <script>
+
+        const append = (total, rows, active) => {
+
+            console.log(total, rows, active);
+
+            const container = document.querySelector("#tracker-container");
+            const trackerTemplate = document.querySelector("#tracker-hearts");
+
+            for (let i = 0; i < total; i++) {
+
+                const instance = trackerTemplate.content.cloneNode(true);
+
+                if (i % rows == 0) {
+                    container.appendChild(document.createElement("br"));
+                }
+
+                if (i < active) {
+                    instance.querySelector("img").classList.remove("grayscale");
+                }
+
+                container.appendChild(instance);
+            }
+        }
+
+        const weeks = (d) => {
+            append(90 * 52, 52, 38 * 52);
+        };
+
+        const months = () => {
+            console.log("weeks");
+        };
+
+        const year = () => {
+            console.log("weeks");
+        };
+
+        const cal = document.getElementById("birthday");
+        cal.addEventListener("change", e => {
+            weeks(e.target.value);
+        });
+
+    </script>
+
+</body>
+
+</html>
