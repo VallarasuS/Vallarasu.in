@@ -15,14 +15,14 @@
     <meta property="og:image" content="https://vallarasu.in/assets/images/vallarasu.png">
 
     <!-- Google tag (gtag.js) -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-K8YR7VFP9F');
-    </script> -->
+    </script>
 
     <style type="text/css">
         body {
@@ -52,6 +52,14 @@
             border-radius: 0px;
             border: 1px solid grey;
             padding: 10px 10px;
+            background-color: transparent;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn-group button:hover {
+            background-color: rgb(255, 255, 57);
+            color: black;
         }
 
         .btn-group button:first-child {
@@ -105,9 +113,9 @@
             <hr>
 
             <div class="btn-group" style="display: flex; justify-content: center; margin: 20px 0px;">
-                <button>Weeks</button>
-                <button>Months</button>
-                <button>Years</button>
+                <button onclick="onWeekClicked()">Weeks</button>
+                <button onclick="onMonthClicked()">Months</button>
+                <button onclick="onYearClicked()">Years</button>
             </div>
 
             <div id="tracker-container" style="
@@ -116,7 +124,7 @@
             border-radius: 5px; 
             padding: 20px 20px; 
             width: auto;
-            align-items: center;
+            text-align: center;
             border-style: dashed;">
 
             </div>
@@ -134,9 +142,8 @@
 
         const append = (total, rows, active) => {
 
-            console.log(total, rows, active);
-
             const container = document.querySelector("#tracker-container");
+            container.replaceChildren();
             const trackerTemplate = document.querySelector("#tracker-hearts");
 
             for (let i = 0; i < total; i++) {
@@ -155,23 +162,45 @@
             }
         }
 
+        const diff = (first, second) => {
+            return Math.round((second - first) / (1000 * 60 * 60 * 24));
+        }
+
         const weeks = (d) => {
-            append(90 * 52, 52, 38 * 52);
+            const start = new Date(d);
+            const today = new Date();
+            const days = diff(start, today);
+            append(90 * 52, 52, Math.round(days / 7));
         };
 
-        const months = () => {
-            console.log("weeks");
+        const months = (d) => {
+            const start = new Date(d);
+            const today = new Date();
+            const days = diff(start, today);
+            append(90 * 12, 36, Math.round(days / 30));
         };
 
-        const year = () => {
-            console.log("weeks");
+        const year = (d) => {
+            const start = new Date(d);
+            const today = new Date();
+            const days = diff(start, today);
+            append(90, 10, Math.round(days / 365));
         };
 
-        const cal = document.getElementById("birthday");
-        cal.addEventListener("change", e => {
-            weeks(e.target.value);
-        });
+        const onWeekClicked = () => {
+            const cal = document.getElementById("birthday");
+            if (cal.value != null) weeks(cal.value);
+        }
 
+        const onMonthClicked = () => {
+            const cal = document.getElementById("birthday");
+            if (cal.value != null) months(cal.value);
+        }
+
+        const onYearClicked = () => {
+            const cal = document.getElementById("birthday");
+            if (cal.value != null) year(cal.value);
+        }
     </script>
 
 </body>
