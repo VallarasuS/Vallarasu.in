@@ -45,7 +45,7 @@
         }
 
         .heart {
-            height: 8px !important;
+            height: 12px !important;
         }
 
         .btn-group button {
@@ -133,7 +133,7 @@
 
         <div style="text-align: center;">
             <span style="font-size: smaller;">Inspired by <a
-                    href="https://waitbutwhy.com/2014/05/life-weeks.html">life-in-weeks</a> </span>
+                    href="https://waitbutwhy.com/2014/05/life-weeks.html" target="_blank">life-in-weeks</a> </span>
         </div>
 
     </div>
@@ -174,7 +174,7 @@
             const start = new Date(d);
             const today = new Date();
             const days = diff(start, today);
-            append(90 * 52, 52, Math.round(days / 7));
+            append(90 * 52, 26, Math.round(days / 7));
         };
 
         const months = (d) => {
