@@ -146,20 +146,24 @@
             container.replaceChildren();
             const trackerTemplate = document.querySelector("#tracker-hearts");
 
+            const trackerFragment = new DocumentFragment();
+
             for (let i = 0; i < total; i++) {
 
                 const instance = trackerTemplate.content.cloneNode(true);
 
                 if (i % rows == 0) {
-                    container.appendChild(document.createElement("br"));
+                    trackerFragment.appendChild(document.createElement("br"));
                 }
 
                 if (i < active) {
                     instance.querySelector("img").classList.remove("grayscale");
                 }
 
-                container.appendChild(instance);
+                trackerFragment.appendChild(instance);
             }
+
+            container.appendChild(trackerFragment);
         }
 
         const diff = (first, second) => {
