@@ -131,10 +131,6 @@
 
         </div>
 
-        <div class="btn-group" style="display: flex; justify-content: center;">
-            <button onclick="downloadNodeAsImage()">download</button>
-        </div>
-
         <div style="text-align: center;">
             <span style="font-size: smaller;">Inspired by <a href="https://waitbutwhy.com/2014/05/life-weeks.html"
                     target="_blank">life-in-weeks</a> </span>
@@ -208,107 +204,6 @@
         const onYearClicked = () => {
             const cal = document.getElementById("birthday");
             if (cal.value != null) year(cal.value);
-        }
-
-        function downloadNodeAsImage(filename = 'life-in-weeks.png') {
-
-            const node = document.getElementById("tracker-container");
-
-            // Clone the node to avoid modifying the original
-            const clone = node.cloneNode(true);
-
-            // Function to load image as base64
-            function loadImageAsBase64(src) {
-                return new Promise((resolve, reject) => {
-                    if (!src || src.startsWith('data:')) {
-                        resolve(src);
-                        return;
-                    }
-                    const img = new Image();
-                    img.crossOrigin = 'anonymous'; // Handle CORS if possible
-                    img.onload = () => {
-                        const canvas = document.createElement('canvas');
-                        canvas.width = img.naturalWidth;
-                        canvas.height = img.naturalHeight;
-                        const ctx = canvas.getContext('2d');
-                        ctx.drawImage(img, 0, 0);
-                        const dataUrl = canvas.toDataURL('image/png');
-                        resolve(dataUrl);
-                    };
-                    img.onerror = reject;
-                    img.src = src;
-                });
-            }
-
-            // Collect all img elements and their promises
-            const imgElements = clone.querySelectorAll('img');
-            const promises = Array.from(imgElements).map(img =>
-                loadImageAsBase64(img.src).then(dataUrl => {
-                    img.src = dataUrl;
-                })
-            );
-
-            // Wait for all images to load
-            Promise.all(promises).then(() => {
-                // Get element dimensions from original (clone might differ slightly)
-                const rect = node.getBoundingClientRect();
-                const width = Math.round(rect.width);
-                const height = Math.round(rect.height);
-
-                // Create offscreen canvas
-                const canvas = document.createElement('canvas');
-                canvas.width = width;
-                canvas.height = height;
-                const ctx = canvas.getContext('2d');
-
-                // Helper to convert HTML string to XML (escape special chars if needed)
-                function htmlToXml(html) {
-                    const doc = document.implementation.createHTMLDocument('');
-                    doc.documentElement.innerHTML = html;
-                    return new XMLSerializer().serializeToString(doc.documentElement);
-                }
-
-                // Get clone's HTML and convert to XML
-                const html = clone.outerHTML;
-                const xml = htmlToXml(html);
-
-                // Create SVG with foreignObject
-                const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">
-                    <foreignObject width="100%" height="100%">
-                        ${xml}
-                    </foreignObject>
-                </svg>`;
-
-                // Create blob URL for SVG
-                const svgBlob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' });
-                const url = URL.createObjectURL(svgBlob);
-
-                // Load SVG as image and draw to canvas
-                const img = new Image();
-                img.onload = function () {
-                    ctx.drawImage(img, 0, 0);
-                    URL.revokeObjectURL(url);
-
-                    // Convert canvas to blob and download
-                    canvas.toBlob(function (blob) {
-                        const downloadUrl = URL.createObjectURL(blob);
-                        const a = document.createElement('a');
-                        a.download = filename;
-                        a.href = downloadUrl;
-                        document.body.appendChild(a);
-                        a.click();
-                        document.body.removeChild(a);
-                        URL.revokeObjectURL(downloadUrl);
-                    }, 'image/png');
-                };
-                img.onerror = function () {
-                    console.error('Failed to load SVG');
-                    URL.revokeObjectURL(url);
-                };
-                img.src = url;
-            }).catch(error => {
-                console.error('Failed to load images:', error);
-            });
         }
 
     </script>
