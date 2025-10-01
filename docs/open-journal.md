@@ -5,7 +5,9 @@ title: Journal
 
 01-10-2025<br>
 It take a day to produce a minute of animated video content!<br>
-Shorts do better, do a short link to long form video
+Shorts do better, do a short link to long form video. <br>
+We did space theater an audio only program over x-space, it's anniversary and JK is re-tweeting. <br>
+Youtube is gonna find it hard with new wave of viewer who aren't my targets :D
 
 28-09-2025<br>
 Didn't post video for [30 Days of talking to camera](https://vallarasu.in/r/30-days), scheduled it for morning. Will know if time matters.
