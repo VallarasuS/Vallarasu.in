@@ -3,6 +3,9 @@ layout: page
 title: Journal
 ---
 
+02-10-2025<br>
+It's easy to produce what the audience wants, than to find audience to what you want to produce.
+
 01-10-2025<br>
 It take a day to produce a minute of animated video content!<br>
 Shorts do better, do a short link to long form video. <br>
