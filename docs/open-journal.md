@@ -3,6 +3,10 @@ layout: page
 title: Journal
 ---
 
+03-10-2025<br>
+Posting to the other channel in parallel on infotainment, two out of five has traction. <br>
+Easy to give them what they want. <br>
+
 02-10-2025<br>
 It's easy to produce what the audience wants, than to find audience to what you want to produce.
 
