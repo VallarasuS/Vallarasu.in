@@ -3,6 +3,9 @@ layout: page
 title: Journal
 ---
 
+05-10-2025<br>
+Re-thinking the strategy of the new channel like this could be a lead generation tool.
+
 03-10-2025<br>
 Posting to the other channel in parallel on infotainment, two out of five has traction. <br>
 Easy to give them what they want. <br>
