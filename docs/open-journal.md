@@ -3,6 +3,9 @@ layout: page
 title: Journal
 ---
 
+08-10-2025<br>
+New channel is making achievements, views, watch time organic comments.
+
 05-10-2025<br>
 Re-thinking the strategy of the new channel like this could be a lead generation tool.
 
