@@ -3,6 +3,9 @@ layout: page
 title: Journal
 ---
 
+18-11-2025<br>
+Into many things lately and first Python demo class for students happened today. 
+
 08-10-2025<br>
 New channel is making achievements, views, watch time organic comments.
 
