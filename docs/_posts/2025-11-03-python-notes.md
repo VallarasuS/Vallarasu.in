@@ -1,0 +1,36 @@
+---
+layout: post
+category: Python
+---
+
+## Intro
+
+- Created by 'Guido van Rossum' in 1989
+
+![Vallarasu Profile Picture](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/guido_van_Rossum.webp)
+
+- Python's name was inspired by 'Monty Python's Flying Circus'
+
+- Python is an interpreted language. Compiled to a byte-code but still interpreted at execution.
+
+- A compiler transcribe program into a machine code, something closer to the hardware instruction set.
+
+- This machine code is then executed, with-out the need for the source.
+
+- Being closer to the hardware give you time/speed advantage.
+
+- But an interpreter like its literal meaning, translates the program line by line at execution.
+
+- Executed further away from the hardware has it's advantages and dis-advantage.
+
+## Setup
+
+- Download & Install latest version from here [Python Release](https://www.python.org/downloads/windows/)
+
+- Add installation dir to PATH environment variable
+
+- Download & Install VS Code from here [VS Code](https://code.visualstudio.com/download)
+
+- Install Python extension from Marketplace [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+- Open Command Prompt / Terminal and type 'python' to verify installation
