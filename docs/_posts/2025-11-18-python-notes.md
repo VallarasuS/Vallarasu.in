@@ -7,21 +7,21 @@ category: Python
 
 - Created by 'Guido van Rossum' in 1989
 
-![Vallarasu Profile Picture](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/guido_van_Rossum.webp)
+![Guido van Rossum](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/guido_van_Rossum.webp)
 
 - Python's name was inspired by 'Monty Python's Flying Circus'
 
 - Python is an interpreted language. Compiled to a byte-code but still interpreted at execution.
 
-- A compiler transcribe program into a machine code, something closer to the hardware instruction set.
+- A compiler translates program from one language into another, (byte-code in java).
 
 - This machine code is then executed, with-out the need for the source.
 
-- Being closer to the hardware give you time/speed advantage.
+- Byte-code being native to the hardware it runs gives it time/speed advantage.
 
 - But an interpreter like its literal meaning, translates the program line by line at execution.
 
-- Executed further away from the hardware has it's advantages and dis-advantage.
+- Interpreted at executed at run time has it's advantages and dis-advantage.
 
 ## Setup
 
