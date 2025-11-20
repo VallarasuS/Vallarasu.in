@@ -74,3 +74,11 @@ category: Python
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 - [Book - How to Think Like a Computer Scientist](https://www.openbookproject.net/thinkcs/python/english3e/)
 - [First-Time Git Setup](https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup)
+
+## Git
+
+- git clone 'urlhttps://github.com/VallarasuS/Vallarasu.in.git'
+- git pull
+- git add *
+- git commit -m "Notes(Python): Day 001 - Data types & Variable"
+- git push origin main
