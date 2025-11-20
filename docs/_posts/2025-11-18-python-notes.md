@@ -6,13 +6,14 @@ category: Python
 #### Contents
 
 1. [Interpreter](#interpreter)
-2. [Compiler](#compiler)
-3. [Setup](#setup)
-4. [Introduction to Python](#introduction-to-python)
-5. [Operators](#operators)
-6. [Conditional Statements](#conditional-statements)
-7. [References](#references)
-8. [Git](#git)
+1. [Compiler](#compiler)
+1. [Setup](#setup)
+1. [Variables and Data Types](#variables-and-data-types)
+1. [Naming Convention](#naming-convention)
+1. [Operators](#operators)
+1. [Conditional Statements](#conditional-statements)
+1. [References](#references)
+1. [Git](#git)
 
 
 
@@ -53,16 +54,22 @@ category: Python
 - Install Python extension from Marketplace [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - Open Command Prompt / Terminal and type 'python' to verify installation.
 
-## Introduction to Python
+## Variables and Data Types
 
 - Python Syntax
 - Variables
 - Data types
-    - Numbers
-    - Text
-    - Boolean 
-    - None
+    - Numbers: int, float
+    - Text: str
+    - Boolean: bool
+    - None: NoneType
 - IO Operations
+
+## Naming Convention
+- Can contain letters and digits
+- Have to begin with a letter or underscore
+- Use lower case
+- Avoid using keywords
 
 ## Operators
 - +, -, *, /, %, //, **
