@@ -77,8 +77,8 @@ category: Python
 
 ## Git
 
-- git clone 'urlhttps://github.com/VallarasuS/Vallarasu.in.git'
+- git clone 'https://github.com/VallarasuS/Vallarasu.in.git' // URL
 - git pull
 - git add *
-- git commit -m "Notes(Python): Day 001 - Data types & Variable"
-- git push origin main
+- git commit -m "Notes(Python): Day 001 - Data types & Variable" // Your Message
+- git push origin main // Branch Name
