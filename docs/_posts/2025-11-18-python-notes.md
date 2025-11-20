@@ -18,19 +18,21 @@ category: Python
 - Interpreted at executed at run time has it's advantages and dis-advantage.
 
 ### Interpreter
-
-Imagine reding a book written in french without knowing it. 
-You choose someone who knows french to read and translate (interpret) in english for you.
-Every time you read this book, the interpreter helps you translate it for you.
-One down side is this interpreter may not match your reading speed as you do on your own.
+<p style="margin-left: 10px">
+    Imagine reding a book written in french without knowing it. 
+    You choose someone who knows french to read and translate (interpret) in english for you.
+    Every time you read this book, the interpreter helps you translate it for you.
+    One down side is this interpreter may not match your reading speed as you do on your own.
+</p>
 
 ### Compiler
-
-Now imagine reading it with a compiler. 
-Compiler reads and translates whole book. 
-Writes an english version of the book for you.
-Now the upside of this method is, interpreter don't follow you everywhere. 
-And you can read the book as fast as you can.
+<p style="margin-left: 10px">
+    Now imagine reading it with a compiler. 
+    Compiler reads and translates whole book. 
+    Writes an english version of the book for you.
+    Now the upside of this method is, interpreter don't follow you everywhere. 
+    And you can read the book as fast as you can.
+</p>
 
 ## Setup
 
