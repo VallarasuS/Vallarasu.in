@@ -102,3 +102,5 @@ category: Python
 - git add *
 - git commit -m "Notes(Python): Day 001 - Data types & Variable"
 - git push origin main
+
+![Git Mental Model](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/git-mental-model.webp)
