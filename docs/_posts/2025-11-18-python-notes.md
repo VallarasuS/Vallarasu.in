@@ -64,6 +64,10 @@ category: Python
     - Boolean: bool
     - None: NoneType
 - IO Operations
+    - input
+    - print
+- Type Conversion
+    - int, float, str
 
 ## Naming Convention
 - Can contain letters and digits
