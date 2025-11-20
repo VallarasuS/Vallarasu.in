@@ -6,13 +6,13 @@ category: Python
 #### Contents
 
 - [Interpreter](#interpreter)
-- [Interpreter](#compiler)
-- [Interpreter](#setup)
-- [Interpreter](#introduction-to-python)
-- [Interpreter](#operators)
-- [Interpreter](#conditional-statements)
-- [Interpreter](#references)
-- [Interpreter](#git)
+- [Compiler](#compiler)
+- [Setup](#setup)
+- [Introduction to Python](#introduction-to-python)
+- [Operators](#operators)
+- [Conditional Statements](#conditional-statements)
+- [References](#references)
+- [Git](#git)
 
 - Created by 'Guido van Rossum' in december of 1989 over christmas holiday.
 
