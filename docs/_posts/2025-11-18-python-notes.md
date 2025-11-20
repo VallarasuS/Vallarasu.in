@@ -17,6 +17,21 @@ category: Python
 - But an interpreter like its literal meaning, translates the program line by line at execution.
 - Interpreted at executed at run time has it's advantages and dis-advantage.
 
+### Interpreter
+
+Imagine reding a book written in french without knowing it. 
+You choose someone who knows french to read and translate (interpret) in english for you.
+Every time you read this book, the interpreter helps you translate it for you.
+One down side is this interpreter may not match your reading speed as you do on your own.
+
+### Compiler
+
+Now imagine reading it with a compiler. 
+Compiler reads and translates whole book. 
+Writes an english version of the book for you.
+Now the upside of this method is, interpreter don't follow you everywhere. 
+And you can read the book as fast as you can.
+
 ## Setup
 
 - Download & Install latest version from here [Python Release](https://www.python.org/downloads/windows/)
@@ -37,6 +52,14 @@ category: Python
 - IO Operations
 
 ## Operators
+- +, -, *, /, %, //, **
+- PEMDAS 
+    - Parenthesis, 
+    - Exponent, 
+    - Multiplication, 
+    - Division, 
+    - Addition, 
+    - Subtraction
 
 ## Conditional Statements
 
