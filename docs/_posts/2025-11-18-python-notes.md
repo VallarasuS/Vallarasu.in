@@ -18,7 +18,7 @@ category: Python
 - Interpreted at executed at run time has it's advantages and dis-advantage.
 
 ### Interpreter
-<p style="margin-left: 10px">
+<p style="margin-left: 10px; font-style: italic">
     Imagine reding a book written in french without knowing it. 
     You choose someone who knows french to read and translate (interpret) in english for you.
     Every time you read this book, the interpreter helps you translate it for you.
@@ -26,7 +26,7 @@ category: Python
 </p>
 
 ### Compiler
-<p style="margin-left: 10px">
+<p style="margin-left: 10px; font-style: italic">
     Now imagine reading it with a compiler. 
     Compiler reads and translates whole book. 
     Writes an english version of the book for you.
