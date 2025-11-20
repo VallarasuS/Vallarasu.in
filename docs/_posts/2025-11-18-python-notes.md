@@ -3,8 +3,6 @@ layout: post
 category: Python
 ---
 
-## Intro
-
 - Created by 'Guido van Rossum' in december of 1989 over christmas holiday.
 
 ![Guido van Rossum](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/guido_van_Rossum.webp)
@@ -70,3 +68,9 @@ category: Python
 - while
 - range
 - match case
+
+## References
+
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [Book - How to Think Like a Computer Scientist](https://www.openbookproject.net/thinkcs/python/english3e/)
+- [First-Time Git Setup](https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup)
