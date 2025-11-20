@@ -5,14 +5,16 @@ category: Python
 
 #### Contents
 
-- [Interpreter](#interpreter)
-- [Compiler](#compiler)
-- [Setup](#setup)
-- [Introduction to Python](#introduction-to-python)
-- [Operators](#operators)
-- [Conditional Statements](#conditional-statements)
-- [References](#references)
-- [Git](#git)
+1. [Interpreter](#interpreter)
+2. [Compiler](#compiler)
+3. [Setup](#setup)
+4. [Introduction to Python](#introduction-to-python)
+5. [Operators](#operators)
+6. [Conditional Statements](#conditional-statements)
+7. [References](#references)
+8. [Git](#git)
+
+
 
 - Created by 'Guido van Rossum' in december of 1989 over christmas holiday.
 
