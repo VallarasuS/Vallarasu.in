@@ -12,7 +12,7 @@ category: Python
 1. [Naming Convention](#naming-convention)
 1. [Operators](#operators)
 1. [Conditional Statements](#conditional-statements)
-1. [Python Exercises](./2025-11-21-programming-excercises)
+1. [Python Exercises](./programming-excercises)
 1. [References](#references)
 1. [Git](#git)
 
@@ -74,7 +74,7 @@ category: Python
 - starting with _ meant for internal use,
 - use lower case
 - avoid using keywords
-- user upper case for const
+- use upper case for const
 
 ## Operators
 - +, -, *, /, %, //, **
@@ -88,10 +88,9 @@ category: Python
 
 ## Conditional Statements
 
-- if else elseif
-- for
+- if elseif else
+- for in range
 - while
-- range
 - match case
 
 ## References
