@@ -12,9 +12,9 @@ category: Python
 1. [Naming Convention](#naming-convention)
 1. [Operators](#operators)
 1. [Conditional Statements](#conditional-statements)
+1. [Python Exercises](./2025-11-21-programming-excercises)
 1. [References](#references)
 1. [Git](#git)
-
 
 
 - Created by 'Guido van Rossum' in december of 1989 over christmas holiday.
@@ -62,7 +62,6 @@ category: Python
     - Numbers: int, float
     - Text: str
     - Boolean: bool
-    - None: NoneType
 - IO Operations
     - input
     - print
@@ -70,10 +69,12 @@ category: Python
     - int, float, str
 
 ## Naming Convention
-- Can contain letters and digits
-- Have to begin with a letter or underscore
-- Use lower case
-- Avoid using keywords
+- can contain letters and digits,
+- can start with a letter or underscore, 
+- starting with _ meant for internal use,
+- use lower case
+- avoid using keywords
+- user upper case for const
 
 ## Operators
 - +, -, *, /, %, //, **
