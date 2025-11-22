@@ -98,6 +98,7 @@ category: Python
 - [Docs - The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 - [Book - How to Think Like a Computer Scientist](https://www.openbookproject.net/thinkcs/python/english3e/)
 - [Docs - Git Setup](https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup)
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 ## Git
 
