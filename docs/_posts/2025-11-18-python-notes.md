@@ -139,6 +139,6 @@ keyword.kwlist
     - git commit -m "Notes(Python): Day 001 - Data types & Variable" <br>
     - git push origin main <br>
 
-<code>
+</code>
 
 ![Git Mental Model](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/git-mental-model.webp)
