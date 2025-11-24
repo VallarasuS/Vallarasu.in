@@ -94,14 +94,26 @@ keyword.kwlist
 - use upper case for const
 
 ## Operators
-- +, -, *, /, %, //, **
-- PEMDAS 
-    - Parenthesis, 
-    - Exponent, 
-    - Multiplication, 
-    - Division, 
-    - Addition, 
-    - Subtraction
+- Arithmetic Operators
+    - +, -, *, /, %, //, **
+    - PEMDAS 
+        - Parenthesis, 
+        - Exponent, 
+        - Multiplication,
+        - Division, 
+        - Addition, 
+        - Subtraction
+
+- Comparison Operators
+
+    - gt, lt, ge, le, eq, not eq
+
+- Logical Operators
+
+    - and, or
+
+- Membership Operators
+- Identity Operators
 
 ## Conditional Statements
 
