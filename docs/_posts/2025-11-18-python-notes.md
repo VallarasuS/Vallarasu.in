@@ -132,11 +132,11 @@ keyword.kwlist
 ## Git
 
 ```
-    - git clone 'https://github.com/VallarasuS/Vallarasu.in.git' <br>
-    - git pull <br>
-    - git add * <br>
-    - git commit -m "Notes(Python): Day 001 - Data types & Variable" <br>
-    - git push origin main <br>
+    - git clone 'https://github.com/VallarasuS/Vallarasu.in.git'
+    - git pull
+    - git add *
+    - git commit -m "Notes(Python): Day 001 - Data types & Variable"
+    - git push origin main
 
 ```
 
