@@ -30,3 +30,12 @@ category: Python
 1. Find an element
 1. Sum of numbers
 1. Average of numbers
+
+## Comparision
+
+1. Given age return if the person can vote
+
+## Branching
+
+1. Given score compute grade - A, B, C, D
+1. Given age get interest rage - child -> 7, adult -> 8, senior -> 9
