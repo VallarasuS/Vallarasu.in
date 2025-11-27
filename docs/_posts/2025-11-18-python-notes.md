@@ -110,7 +110,7 @@ keyword.kwlist
 
 - Logical Operators
 
-    - and, or
+    - and, or, not
 
 - Membership Operators
 - Identity Operators
