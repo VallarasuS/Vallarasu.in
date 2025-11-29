@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html class="h100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <base href="https://vallarasu.in/r/hokkaido" />
+    <title>Hokkaido Prefecture</title>
+    <link rel="icon" type="image/x-icon" href="./assets/site/favicon.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Hokkaido Prefecture">
+    <meta property="og:url" content="https://vallarasu.in/r/hokkaido">
+    <meta property="og:description" content="Find your place in the world">
+    <meta property="og:image" content="https://vallarasu.in/r/hokkaido/assets/site/banner.png">
+
+    <style>
+        :root {
+            --img-banner-margin: 5px
+        }
+
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .flex-row-between {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .flex-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bn-img {
+            width: 100%;
+            height: calc(100vh - 2 * var(--img-banner-margin));
+            object-fit: cover;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .title-primary {
+            font-size: xx-large;
+        }
+
+        .title-secondary {
+            font-size: medium;
+            font-size: large;
+            font-style: italic;
+        }
+
+        .h100 {
+            height: 100%;
+        }
+
+        @keyframes fade-in-up {
+            0% {
+                transform: translateY(5%);
+                opacity: 0;
+                overflow-y: hidden;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .fade-in-up-anim {
+            animation: 0.8s fade-in-up;
+        }
+
+        .list-img-container {
+            overflow: hidden;
+            width: 272px;
+            height: 143px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .list-home-img {
+            width: 272px;
+            height: 143px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .list-home-img:hover {
+            transform: scale(1.2);
+        }
+
+        .sec-header {
+            opacity: 0.7;
+        }
+
+        .sec-container {
+            margin: 20px;
+            margin-top: 80px;
+        }
+    </style>
+
+</head>
+
+<body class="h100">
+
+    <div class="flex-row-between h100 fade-in-up-anim">
+
+        <div class="flex-center" style="width: 60%;">
+            <div style="text-align: center;">
+                <div class="title-secondary">
+                    Find your place in the world
+                </div>
+                <div class="title-primary">Hokkaido Prefecture</div>
+            </div>
+        </div>
+
+        <div class="flex-center" style="width: 40%; margin: var(--img-banner-margin);">
+            <img class="bn-img zoom-out-anim" src="./assets/images/hokkaido.webp">
+        </div>
+
+    </div>
+
+    <div class="sec-container">
+        <div class="title-primary sec-header">Homes in Chuo-ku, Sapporo</div>
+        <div class="title-secondary sec-header">A home near city center to mountain trails, shrines, and ski
+            areas</div>
+
+        <div class="flex-row-between" style="gap: 10px; margin-top: 30px    ;">
+
+            <div>
+                <div class="list-img-container">
+                    <img class="list-home-img" src="./assets/images/home.jpeg">
+                </div>
+                <div style="font-size: larger;">Sapporo New Sky Mansion</div>
+                <div style="font-size: small; opacity: 0.6; margin-top: 5px;">2DK</div>
+                <div style="font-size: small; opacity: 0.6;  margin-top: 5px;">Chuo-ku, Sapporo</div>
+                <div style="font-size: larger; margin-top: 5px;">$ 12162
+                </div>
+            </div>
+
+            <div>
+                <div class="list-img-container">
+                    <img class="list-home-img" src="./assets/images/home.jpeg">
+                </div>
+                <div style="font-size: larger;">Sapporo New Sky Mansion</div>
+                <div style="font-size: small; opacity: 0.6; margin-top: 5px;">2DK</div>
+                <div style="font-size: small; opacity: 0.6;  margin-top: 5px;">Chuo-ku, Sapporo</div>
+                <div style="font-size: larger; margin-top: 5px;">$ 12162
+                </div>
+            </div>
+
+            <div>
+                <div class="list-img-container">
+                    <img class="list-home-img" src="./assets/images/home.jpeg">
+                </div>
+                <div style="font-size: larger;">Sapporo New Sky Mansion</div>
+                <div style="font-size: small; opacity: 0.6; margin-top: 5px;">2DK</div>
+                <div style="font-size: small; opacity: 0.6;  margin-top: 5px;">Chuo-ku, Sapporo</div>
+                <div style="font-size: larger; margin-top: 5px;">$ 12162
+                </div>
+            </div>
+
+            <div>
+                <div class="list-img-container">
+                    <img class="list-home-img" src="./assets/images/home.jpeg">
+                </div>
+                <div style="font-size: larger;">Sapporo New Sky Mansion</div>
+                <div style="font-size: small; opacity: 0.6; margin-top: 5px;">2DK</div>
+                <div style="font-size: small; opacity: 0.6;  margin-top: 5px;">Chuo-ku, Sapporo</div>
+                <div style="font-size: larger; margin-top: 5px;">$ 12162
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="sec-container">
+        <div class="title-primary sec-header">Homes in Kita-ku, Sapporo</div>
+        <div class="title-secondary sec-header">A home near city center to mountain trails, shrines, and ski
+            areas</div>
+
+        <div class="flex-row-between" style="gap: 10px; margin-top: 30px    ;">
+
+            <div>
+                <div class="list-img-container">
+                    <img class="list-home-img" src="./assets/images/home.jpeg">
+                </div>
+                <div style="font-size: larger;">Sapporo New Sky Mansion</div>
+                <div style="font-size: small; opacity: 0.6; margin-top: 5px;">2DK</div>
+                <div style="font-size: small; opacity: 0.6;  margin-top: 5px;">Kita-ku, Sapporo</div>
+                <div style="font-size: larger; margin-top: 5px;">$ 12162
+                </div>
+            </div>
+
+            <div>
+                <div class="list-img-container">
+                    <img class="list-home-img" src="./assets/images/home.jpeg">
+                </div>
+                <div style="font-size: larger;">Sapporo New Sky Mansion</div>
+                <div style="font-size: small; opacity: 0.6; margin-top: 5px;">2DK</div>
+                <div style="font-size: small; opacity: 0.6;  margin-top: 5px;">Kita-ku, Sapporo</div>
+                <div style="font-size: larger; margin-top: 5px;">$ 12162
+                </div>
+            </div>
+
+            <div>
+                <div class="list-img-container">
+                    <img class="list-home-img" src="./assets/images/home.jpeg">
+                </div>
+                <div style="font-size: larger;">Sapporo New Sky Mansion</div>
+                <div style="font-size: small; opacity: 0.6; margin-top: 5px;">2DK</div>
+                <div style="font-size: small; opacity: 0.6;  margin-top: 5px;">Kita-ku, Sapporo</div>
+                <div style="font-size: larger; margin-top: 5px;">$ 12162
+                </div>
+            </div>
+
+            <div>
+                <div class="list-img-container">
+                    <img class="list-home-img" src="./assets/images/home.jpeg">
+                </div>
+                <div style="font-size: larger;">Sapporo New Sky Mansion</div>
+                <div style="font-size: small; opacity: 0.6; margin-top: 5px;">2DK</div>
+                <div style="font-size: small; opacity: 0.6;  margin-top: 5px;">Kita-ku, Sapporo</div>
+                <div style="font-size: larger; margin-top: 5px;">$ 12162
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="flex-row-between"
+        style="border-bottom: 100px solid #d3381c; margin-top: 40px; background-color: #613e9c; color: #ffffff;">
+
+        <div id="footer" style="padding: 20px;">
+
+            <h3>Buy your dream home in Hokkaido, Japan</h3>
+
+            <div style="margin-top: 10px; cursor: pointer;">House in Sapporo</div>
+            <div style="margin-top: 10px; cursor: pointer;">House in Asahikawa</div>
+            <div style="margin-top: 10px; cursor: pointer;">House in Hakodate</div>
+            <div style="margin-top: 10px; cursor: pointer;">House in Kushiro</div>
+            <div style="margin-top: 10px; cursor: pointer;">House in Obihiro</div>
+            <div style="margin-top: 10px; cursor: pointer;">House in Kitami</div>
+            <div style="margin-top: 10px; cursor: pointer;">House in Iwamizawa</div>
+            <div style="margin-top: 10px; cursor: pointer;">House in Abashiri</div>
+            <div style="margin-top: 10px; cursor: pointer;">House in Wakkanai</div>
+            <div style="margin-top: 10px; cursor: pointer;">House in Nemuro</div>
+            <div style="margin-top: 10px; cursor: pointer;">House in Rumoi</div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
