@@ -30,8 +30,11 @@ category: Python
 1. Find an element
 1. Sum of numbers
 1. Average of numbers
+1. Even numbers less than given number
+1. Odd numbers less than given number
+1. Multiples of given number 3x 1-10
 
-## Comparision
+## Comparison
 
 1. Given age return if the person can vote
 
