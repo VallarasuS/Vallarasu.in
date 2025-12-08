@@ -42,3 +42,11 @@ category: Python
 
 1. Given score compute grade - A, B, C, D
 1. Given age get interest rage - child -> 7, adult -> 8, senior -> 9
+
+## List / Array / Sequence
+
+1. Print even / odd numbers out of given numbers
+1. Square given numbers in place
+1. Find sum of given numbers
+1. Sort given numbers in asc, desc order
+1. Find min / max number from given number
