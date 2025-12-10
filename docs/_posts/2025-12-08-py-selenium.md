@@ -7,7 +7,7 @@ category: Selenium
 
 1. [Schedule](#schedule)
 1. [Setup](#setup)
-1. [Introduction To Computers](#references)
+1. [Introduction To Computers](#introduction-to-computers)
 1. [Introduction to Programming](#introduction-to-programming)
 1. [Input and Output](#input-and-output)
 1. [References](#references)
