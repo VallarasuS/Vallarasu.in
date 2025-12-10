@@ -15,6 +15,8 @@ category: Python
 1. [Built-in Function](https://docs.python.org/3/library/functions.html)
 1. [Operators](#operators)
 1. [Conditional Statements](#conditional-statements)
+1. [List](#list)
+1. [Set](#set)
 1. [Python Exercises](./programming-excercises)
 1. [References](#references)
 1. [Git](#git)
@@ -137,7 +139,7 @@ keyword.kwlist
 - No duplicates are allowed
 - Iterable, Mutable
 - union, intersection, difference, symmetric_difference, add, remove, clear
-- Data elements should be immutable
+- Data elements with-in a set must be immutable
 
 ## References
 
