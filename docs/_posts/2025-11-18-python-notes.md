@@ -122,6 +122,22 @@ keyword.kwlist
 - while
 - match case
 
+## List
+
+- Ordered collection of data
+- Zero based index access -> nums[0] = 10
+- Iterable
+- append, pop, clear, extend, insert, reverse, sort
+
+![Python List](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/py-list.webp)
+
+## Set
+
+- Un-ordered collection of unique data
+- No duplicates are allowed
+- Iterable, Mutable
+- union, intersection, difference, symmetric_difference
+
 ## References
 
 - [Docs - The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
