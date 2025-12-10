@@ -124,7 +124,7 @@ keyword.kwlist
 
 ## List
 
-- Ordered collection of data
+- Ordered collection of data elements
 - Zero based index access -> nums[0] = 10
 - Iterable
 - append, pop, clear, extend, insert, reverse, sort
@@ -133,10 +133,11 @@ keyword.kwlist
 
 ## Set
 
-- Un-ordered collection of unique data
+- Un-ordered collection of unique data elements
 - No duplicates are allowed
 - Iterable, Mutable
-- union, intersection, difference, symmetric_difference
+- union, intersection, difference, symmetric_difference, add, remove, clear
+- Data elements should be immutable
 
 ## References
 
