@@ -3,12 +3,22 @@ layout: post
 category: Selenium
 ---
 
-## Python Selenium  
+#### Contents
 
-| Day     | Date     | Topics                      | Work |
-|---------|----------|-----------------------------|------|
-| Day 001 | 8/DEC/25 | Introduction to Computers   |      |
-| Day 002 | 9/DEC/25 | Introduction to Programming |      |
+1. [Schedule](#schedule)
+1. [Setup](#setup)
+1. [Introduction To Computers](#references)
+1. [Introduction to Programming](#introduction-to-programming)
+1. [Input and Output](#input-and-output)
+1. [References](#references)
+
+## Schedule
+
+| Day     | Date      | Topics                | Work |
+|---------|-----------|-----------------------|------|
+| Day 001 | 08/DEC/25 | Intro to Computers    |      |
+| Day 002 | 09/DEC/25 | Intro to Programming  |      |
+| Day 003 | 10/DEC/25 | Input & Print         |      |
 
 
 ## Intro
@@ -24,7 +34,17 @@ category: Selenium
 
 ## Setup
 
-1. PyCharm by jet brains
+- Install PyCharm by jet brains or VS Code by Microsoft
+- Download & Install latest version from here [Python Release](https://www.python.org/downloads/windows/)
+- Add installation dir to PATH environment variable.
+- Download & Install VS Code from here [VS Code](https://code.visualstudio.com/download)
+- Install Python extension from Marketplace [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- Open Command Prompt / Terminal and type 'python' to verify installation.
+
+## Introduction To Computers
+
+Von Nuemann Architecture
+![Von Nuemann Architecture](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/Von_Neumann_Architecture.webp)
 
 ## Introduction to Programming
 
@@ -45,3 +65,17 @@ category: Selenium
     - Interpreted vs Compiled
     - Script mode vs Interactive Mode
 
+# Input and Output
+
+    - Save python file  \<file_name\>.py
+    - Run code using: py file_name.py \| python file_name.py \| python3 file_name.py
+    - Input Syntax, Return type str, -> input("enter your name: ")
+    - Print Syntax, Return type None, -> print("Hello World!")
+
+# References
+- [Docs - The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [Book - How to Think Like a Computer Scientist](https://www.openbookproject.net/thinkcs/python/english3e/)
+- [Book - Learn Python The Hard Way](https://learnpythonthehardway.org/python3/)
+- [Docs - Git Setup](https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup)
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [Git Repo Class Room](https://github.com/VallarasuS/Py-Selenium-Payil)
