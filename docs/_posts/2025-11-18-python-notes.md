@@ -141,6 +141,8 @@ keyword.kwlist
 - union, intersection, difference, symmetric_difference, add, remove, clear
 - Data elements with-in a set must be immutable
 
+![Python Set Venn Diagram](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/sets.webp)
+
 ## References
 
 - [Docs - The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
