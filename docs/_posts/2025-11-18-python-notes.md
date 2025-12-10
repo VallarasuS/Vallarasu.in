@@ -143,7 +143,7 @@ keyword.kwlist
 
 ![Python Set Venn Diagram](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/sets.webp)
 
-- A | B -> All unique elements from A , B
+- A \| B -> All unique elements from A , B
 - A - B -> Elements in A, but not in B
 - A & B -> Elements in both A and B
 - A ^ B -> Elements in A and B but not in both
