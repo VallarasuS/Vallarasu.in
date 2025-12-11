@@ -148,6 +148,9 @@ keyword.kwlist
 - A & B -> Elements in both A and B
 - A ^ B -> Elements in A and B but not in both
 
+![Python Set Example Code](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/python_set_example.webp)
+
+
 ## References
 
 - [Docs - The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
