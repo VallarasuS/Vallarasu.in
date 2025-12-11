@@ -14,12 +14,12 @@ category: Selenium
 
 ## Schedule
 
-| Day     | Date      | Topics                | Work |
-|---------|-----------|-----------------------|------|
-| Day 001 | 08/DEC/25 | Intro to Computers    |      |
-| Day 002 | 09/DEC/25 | Intro to Programming  |      |
-| Day 003 | 10/DEC/25 | Input & Print         |      |
-
+| Day     | Date      | Topics               | Work         |
+|---------|-----------|----------------------|--------------|
+| Day 001 | 08/DEC/25 | Intro to Computers   |              |
+| Day 002 | 09/DEC/25 | Intro to Programming |              |
+| Day 003 | 10/DEC/25 | Input & Print        |              |
+| Day 004 | 11/DEC/25 | Input & Print        | read & write |
 
 ## Intro
 
@@ -71,6 +71,8 @@ Von Nuemann Architecture
     - Run code using: py file_name.py \| python file_name.py \| python3 file_name.py
     - Input Syntax, Return type str, -> input("enter your name: ")
     - Print Syntax, Return type None, -> print("Hello World!")
+
+
 
 # References
 - [Docs - The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
