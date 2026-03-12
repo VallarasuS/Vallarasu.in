@@ -5,7 +5,7 @@ category: Python
 
 #### Contents
 
-1. [Variables and Data Types](#vairables-and-data-types)
+1. [Variables and Data Types](#variables-and-data-types)
 1. [Input and Output](#input-and-output)
 
 ## Variables and Data Types
@@ -21,10 +21,10 @@ married = True  # Boolean -> bool
 
 ```python
 # Read Input from terminal window
-name = input("Enter Name")
+name = input("Enter Name")  # -> John
 
 # Write name to terminal window
-print(name)     
+print(name) # -> John
 ```
 
 ## Arithmetic Operators
