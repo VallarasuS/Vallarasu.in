@@ -14,10 +14,10 @@ entries:
 
   - title: apps
     entries:
-      - title: RFM Analysis
-        url: /r/rfm-analysis
       - title: Automation Test Site
         url: /test/index
+      - title: RFM Analysis
+        url: /r/rfm-analysis
       - title: Tax Comparison 2025
         url: /r/tax-calculator
 
