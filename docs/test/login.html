@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Login Auth Automation Testing</title>
+    <link rel="icon" type="image/x-icon" href="https://vallarasu.in/logo.png">
+
+    <!-- Keeping your meta tags & analytics -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Login Auth Automation Testing">
+    <meta property="og:url" content="https://vallarasu.in/">
+    <meta property="og:description" content="Practice automation testing with free realistic website...">
+    <meta property="og:image" content="https://vallarasu.in/assets/images/vallarasu.png">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-K8YR7VFP9F');
+    </script>
+
+    <style type="text/css">
+        /* Keeping your original global & button group styles */
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+    </style>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", Roboto, Arial, sans-serif;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 20px;
+            background: #000;
+        }
+
+        .form-container {
+            border: 1px solid rgb(47, 51, 54);
+            background-color: #16181c;
+            width: 100%;
+            max-width: 560px;
+            padding: 40px 28px 28px;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 8px;
+            color: #fff;
+            font-size: 1.55rem;
+            font-weight: 500;
+            font-family: "Google Sans", Roboto, Arial, sans-serif;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #9aa0a6;
+            margin-bottom: 32px;
+            font-size: 16px;
+        }
+
+        input[type="email"],
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 14px 16px;
+            margin: 0 0 20px;
+            font-size: 16px;
+            border: 1px solid #5f6368;
+            background-color: #000000;
+            color: #e8eaed;
+            border-radius: 6px;
+            transition: border-color 0.2s;
+        }
+
+        input:focus {
+            border-color: #8ab4f8;
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(138, 180, 248, 0.3);
+        }
+
+        .forgot {
+            display: block;
+            text-align: right;
+            margin: -8px 0 24px;
+            color: #8ab4f8;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .forgot:hover {
+            text-decoration: underline;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 24px;
+            gap: 16px;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 15px;
+            font-weight: 500;
+            border-radius: 6px;
+            cursor: pointer;
+            border: none;
+            transition: all 0.2s;
+        }
+
+        button[type="submit"] {
+            background: #fff;
+            color: #000;
+            font-weight: 600;
+        }
+
+        button[type="submit"]:hover {
+            background: #cfcfcf;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .create-link {
+            color: #8ab4f8;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .create-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 520px) {
+            .form-container {
+                padding: 32px 20px 24px;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            button {
+                padding: 11px 20px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>Sign in</h2>
+        <div class="subtitle">to continue to your account</div>
+
+        <form id="loginForm" onsubmit="return false">
+            <input id="login-user" data-testid="login-user" type="text" name="email" placeholder="Email or phone"
+                required autofocus>
+
+            <input id="login-pass" data-testid="login-pass" type="password" name="password" placeholder="Password"
+                required>
+
+            <a href="#" class="forgot">Forgot password?</a>
+
+            <div class="buttons">
+                <a href="#" class="create-link">Create account</a>
+                <button type="button" id="login-button" data-testid="login-button">Next</button>
+            </div>
+        </form>
+
+        <div class="subtitle">user, pass: admin</div>
+    </div>
+
+    <script>
+
+        loginButton = document.getElementById("login-button")
+        loginButton.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const user = document.getElementById("login-user").value.trim();
+            const pass = document.getElementById("login-pass").value;
+
+            if (!user || !pass) {
+                return;
+            }
+
+            login(user, pass);
+        });
+
+        function login(user, pass) {
+            if (user == "admin" && pass == "admin") {
+                window.location = "./home.html?logged-in=1"
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
