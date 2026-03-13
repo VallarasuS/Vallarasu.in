@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Drag and Drop Automation Testing</title>
+    <link rel="icon" type="image/x-icon" href="https://vallarasu.in/logo.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Drag and Drop Automation Testing">
+    <meta property="og:url" content="https://vallarasu.in/">
+    <meta property="og:description"
+        content="Practice automation testing with free realistic website for automation testing. Perfect demo site for Selenium, Cypress, Playwright — featuring carts, checkout, login, dynamic UI & responsive design.">
+    <meta property="og:image" content="https://vallarasu.in/assets/images/vallarasu.png">
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-K8YR7VFP9F');
+    </script>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
+        .form-container {
+            flex: 1;
+            background: #16181c;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            padding: 20px;
+            min-height: 400px;
+        }
+
+        h3 {
+            margin-top: 0;
+            color: white;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            min-height: 300px;
+        }
+
+        li {
+            padding: 12px 16px;
+            margin: 8px 0;
+            background: #000000;
+            border: 1px solid #d0d8e0;
+            border-radius: 6px;
+            cursor: move;
+            user-select: none;
+            transition: all 0.12s;
+        }
+
+        li:hover {
+            background: #1a1a1a;
+            border: 1px solid #fff;
+            box-shadow: 1px 1px #eee;
+        }
+
+        li.dragging {
+            opacity: 0.4;
+            transform: scale(0.98);
+        }
+
+        .dragover {
+            background: #000 !important;
+            border: 1px solid #fff;
+            border-radius: 6px;
+        }
+
+        .dropzone {
+            border: 1px solid transparent;
+            border-radius: 6px;
+            padding: 3px 3px;
+        }
+
+        .empty-message {
+            color: #999;
+            font-style: italic;
+            padding: 40px 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="form-container" id="all-items-container">
+            <h3>All Items</h3>
+            <ul id="all-items" class="dropzone">
+                <li draggable="true">
+                    <div>
+                        <svg style="align-self: center; vertical-align: middle;" width="20px" height="20px"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM7.07 18.28C7.5 17.38 10.12 16.5 12 16.5C13.88 16.5 16.51 17.38 16.93 18.28C15.57 19.36 13.86 20 12 20C10.14 20 8.43 19.36 7.07 18.28ZM12 14.5C13.46 14.5 16.93 15.09 18.36 16.83C19.38 15.49 20 13.82 20 12C20 7.59 16.41 4 12 4C7.59 4 4 7.59 4 12C4 13.82 4.62 15.49 5.64 16.83C7.07 15.09 10.54 14.5 12 14.5ZM12 6C10.06 6 8.5 7.56 8.5 9.5C8.5 11.44 10.06 13 12 13C13.94 13 15.5 11.44 15.5 9.5C15.5 7.56 13.94 6 12 6ZM10.5 9.5C10.5 10.33 11.17 11 12 11C12.83 11 13.5 10.33 13.5 9.5C13.5 8.67 12.83 8 12 8C11.17 8 10.5 8.67 10.5 9.5Z"
+                                fill="#fff" />
+                        </svg>
+                        <span>John Adam</span>
+                    </div>
+                </li>
+                <li draggable="true">
+                    <div>
+                        <svg style="align-self: center; vertical-align: middle;" width="20px" height="20px"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM7.07 18.28C7.5 17.38 10.12 16.5 12 16.5C13.88 16.5 16.51 17.38 16.93 18.28C15.57 19.36 13.86 20 12 20C10.14 20 8.43 19.36 7.07 18.28ZM12 14.5C13.46 14.5 16.93 15.09 18.36 16.83C19.38 15.49 20 13.82 20 12C20 7.59 16.41 4 12 4C7.59 4 4 7.59 4 12C4 13.82 4.62 15.49 5.64 16.83C7.07 15.09 10.54 14.5 12 14.5ZM12 6C10.06 6 8.5 7.56 8.5 9.5C8.5 11.44 10.06 13 12 13C13.94 13 15.5 11.44 15.5 9.5C15.5 7.56 13.94 6 12 6ZM10.5 9.5C10.5 10.33 11.17 11 12 11C12.83 11 13.5 10.33 13.5 9.5C13.5 8.67 12.83 8 12 8C11.17 8 10.5 8.67 10.5 9.5Z"
+                                fill="#fff" />
+                        </svg>
+                        <span>Justin Timberlake</span>
+                    </div>
+                </li>
+                <li draggable="true">
+                    <div>
+                        <svg style="align-self: center; vertical-align: middle;" width="20px" height="20px"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM7.07 18.28C7.5 17.38 10.12 16.5 12 16.5C13.88 16.5 16.51 17.38 16.93 18.28C15.57 19.36 13.86 20 12 20C10.14 20 8.43 19.36 7.07 18.28ZM12 14.5C13.46 14.5 16.93 15.09 18.36 16.83C19.38 15.49 20 13.82 20 12C20 7.59 16.41 4 12 4C7.59 4 4 7.59 4 12C4 13.82 4.62 15.49 5.64 16.83C7.07 15.09 10.54 14.5 12 14.5ZM12 6C10.06 6 8.5 7.56 8.5 9.5C8.5 11.44 10.06 13 12 13C13.94 13 15.5 11.44 15.5 9.5C15.5 7.56 13.94 6 12 6ZM10.5 9.5C10.5 10.33 11.17 11 12 11C12.83 11 13.5 10.33 13.5 9.5C13.5 8.67 12.83 8 12 8C11.17 8 10.5 8.67 10.5 9.5Z"
+                                fill="#fff" />
+                        </svg>
+                        <span>David Jones</span>
+                    </div>
+                </li>
+                <li draggable="true">
+                    <div>
+                        <svg style="align-self: center; vertical-align: middle;" width="20px" height="20px"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM7.07 18.28C7.5 17.38 10.12 16.5 12 16.5C13.88 16.5 16.51 17.38 16.93 18.28C15.57 19.36 13.86 20 12 20C10.14 20 8.43 19.36 7.07 18.28ZM12 14.5C13.46 14.5 16.93 15.09 18.36 16.83C19.38 15.49 20 13.82 20 12C20 7.59 16.41 4 12 4C7.59 4 4 7.59 4 12C4 13.82 4.62 15.49 5.64 16.83C7.07 15.09 10.54 14.5 12 14.5ZM12 6C10.06 6 8.5 7.56 8.5 9.5C8.5 11.44 10.06 13 12 13C13.94 13 15.5 11.44 15.5 9.5C15.5 7.56 13.94 6 12 6ZM10.5 9.5C10.5 10.33 11.17 11 12 11C12.83 11 13.5 10.33 13.5 9.5C13.5 8.67 12.83 8 12 8C11.17 8 10.5 8.67 10.5 9.5Z"
+                                fill="#fff" />
+                        </svg>
+                        <span>Chris Martin</span>
+                    </div>
+                </li>
+                <li draggable="true">
+                    <div>
+                        <svg style="align-self: center; vertical-align: middle;" width="20px" height="20px"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM7.07 18.28C7.5 17.38 10.12 16.5 12 16.5C13.88 16.5 16.51 17.38 16.93 18.28C15.57 19.36 13.86 20 12 20C10.14 20 8.43 19.36 7.07 18.28ZM12 14.5C13.46 14.5 16.93 15.09 18.36 16.83C19.38 15.49 20 13.82 20 12C20 7.59 16.41 4 12 4C7.59 4 4 7.59 4 12C4 13.82 4.62 15.49 5.64 16.83C7.07 15.09 10.54 14.5 12 14.5ZM12 6C10.06 6 8.5 7.56 8.5 9.5C8.5 11.44 10.06 13 12 13C13.94 13 15.5 11.44 15.5 9.5C15.5 7.56 13.94 6 12 6ZM10.5 9.5C10.5 10.33 11.17 11 12 11C12.83 11 13.5 10.33 13.5 9.5C13.5 8.67 12.83 8 12 8C11.17 8 10.5 8.67 10.5 9.5Z"
+                                fill="#fff" />
+                        </svg>
+                        <span>Christina Aguilera</span>
+                    </div>
+                </li>
+                <li draggable="true">
+                    <div>
+                        <svg style="align-self: center; vertical-align: middle;" width="20px" height="20px"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM7.07 18.28C7.5 17.38 10.12 16.5 12 16.5C13.88 16.5 16.51 17.38 16.93 18.28C15.57 19.36 13.86 20 12 20C10.14 20 8.43 19.36 7.07 18.28ZM12 14.5C13.46 14.5 16.93 15.09 18.36 16.83C19.38 15.49 20 13.82 20 12C20 7.59 16.41 4 12 4C7.59 4 4 7.59 4 12C4 13.82 4.62 15.49 5.64 16.83C7.07 15.09 10.54 14.5 12 14.5ZM12 6C10.06 6 8.5 7.56 8.5 9.5C8.5 11.44 10.06 13 12 13C13.94 13 15.5 11.44 15.5 9.5C15.5 7.56 13.94 6 12 6ZM10.5 9.5C10.5 10.33 11.17 11 12 11C12.83 11 13.5 10.33 13.5 9.5C13.5 8.67 12.83 8 12 8C11.17 8 10.5 8.67 10.5 9.5Z"
+                                fill="#fff" />
+                        </svg>
+                        <span>Avril Lavigne</span>
+                    </div>
+                </li>
+                <li draggable="true">
+                    <div>
+                        <svg style="align-self: center; vertical-align: middle;" width="20px" height="20px"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM7.07 18.28C7.5 17.38 10.12 16.5 12 16.5C13.88 16.5 16.51 17.38 16.93 18.28C15.57 19.36 13.86 20 12 20C10.14 20 8.43 19.36 7.07 18.28ZM12 14.5C13.46 14.5 16.93 15.09 18.36 16.83C19.38 15.49 20 13.82 20 12C20 7.59 16.41 4 12 4C7.59 4 4 7.59 4 12C4 13.82 4.62 15.49 5.64 16.83C7.07 15.09 10.54 14.5 12 14.5ZM12 6C10.06 6 8.5 7.56 8.5 9.5C8.5 11.44 10.06 13 12 13C13.94 13 15.5 11.44 15.5 9.5C15.5 7.56 13.94 6 12 6ZM10.5 9.5C10.5 10.33 11.17 11 12 11C12.83 11 13.5 10.33 13.5 9.5C13.5 8.67 12.83 8 12 8C11.17 8 10.5 8.67 10.5 9.5Z"
+                                fill="#fff" />
+                        </svg>
+                        <span>Alicia Keys</span>
+                    </div>
+                </li>
+                <li draggable="true">
+                    <div>
+                        <svg style="align-self: center; vertical-align: middle;" width="20px" height="20px"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM7.07 18.28C7.5 17.38 10.12 16.5 12 16.5C13.88 16.5 16.51 17.38 16.93 18.28C15.57 19.36 13.86 20 12 20C10.14 20 8.43 19.36 7.07 18.28ZM12 14.5C13.46 14.5 16.93 15.09 18.36 16.83C19.38 15.49 20 13.82 20 12C20 7.59 16.41 4 12 4C7.59 4 4 7.59 4 12C4 13.82 4.62 15.49 5.64 16.83C7.07 15.09 10.54 14.5 12 14.5ZM12 6C10.06 6 8.5 7.56 8.5 9.5C8.5 11.44 10.06 13 12 13C13.94 13 15.5 11.44 15.5 9.5C15.5 7.56 13.94 6 12 6ZM10.5 9.5C10.5 10.33 11.17 11 12 11C12.83 11 13.5 10.33 13.5 9.5C13.5 8.67 12.83 8 12 8C11.17 8 10.5 8.67 10.5 9.5Z"
+                                fill="#fff" />
+                        </svg>
+                        <span>Andre Benjamin</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="form-container" id="selected-items-container">
+            <h3>Selected Items</h3>
+            <ul id="selected-items" class="dropzone">
+                <!-- items will be dropped here -->
+                <div class="empty-message">Drop items here</div>
+            </ul>
+        </div>
+
+    </div>
+
+    <script>
+        let draggedItem = null;
+
+        const allItems = document.getElementById('all-items');
+        const selectedItems = document.getElementById('selected-items');
+
+        function updateEmptyMessage(list) {
+            const hasItems = list.querySelectorAll('li').length > 0;
+            const msg = list.querySelector('.empty-message');
+            if (msg) {
+                msg.style.display = hasItems ? 'none' : 'block';
+            }
+        }
+
+        document.querySelectorAll('li').forEach(item => {
+            item.addEventListener('dragstart', (e) => {
+                draggedItem = item;
+                setTimeout(() => item.classList.add('dragging'), 0);
+            });
+
+            item.addEventListener('dragend', () => {
+                item.classList.remove('dragging');
+                draggedItem = null;
+            });
+        });
+
+        [allItems, selectedItems].forEach(zone => {
+            zone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                zone.classList.add('dragover');
+            });
+
+            zone.addEventListener('dragleave', () => {
+                zone.classList.remove('dragover');
+            });
+
+            zone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                zone.classList.remove('dragover');
+
+                if (draggedItem) {
+                    // Remove empty message if exists
+                    const msg = zone.querySelector('.empty-message');
+                    if (msg) msg.remove();
+
+                    // Move item
+                    zone.appendChild(draggedItem);
+
+                    // Update empty messages in both zones
+                    updateEmptyMessage(allItems);
+                    updateEmptyMessage(selectedItems);
+                }
+            });
+        });
+
+        updateEmptyMessage(selectedItems);
+    </script>
+
+</body>
+
+</html>
