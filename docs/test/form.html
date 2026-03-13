@@ -162,7 +162,7 @@
 <body>
 
     <div class="form-container">
-        <h2>Register your details</h2>
+        <h2>Update your details</h2>
 
         <form>
             <input id="name-input" data-testid="name-input" type="text" name="name" placeholder="Full Name" required>
@@ -173,10 +173,10 @@
             <input id="location-input" data-testid="location-input" type="text" name="location"
                 placeholder="Current Location" required>
             <input id="graduation-input" data-testid="graduation-input" type="text" name="graduation"
-                placeholder="Degree / Diploma" required>
+                placeholder="Educational Qualification" required>
 
             <select id="graduation-select" data-testid="graduation-select" name="year" required>
-                <option value="" disabled selected>Year of Graduation</option>
+                <option value="" disabled selected>Year of Study</option>
                 <option>2026</option>
                 <option>2025</option>
                 <option>2024</option>
@@ -185,18 +185,15 @@
             </select>
 
             <div class="radio-group">
-                <label><input id="Online-radio" data-testid="Online-radio" type="radio" name="mode" value="Online"
-                        checked> Online</label>
-                <label><input id="Offline-radio" data-testid="Offline-radio" type="radio" name="mode" value="Offline">
-                    Offline</label>
+                <label><input id="male-radio" data-testid="male-radio" type="radio" name="gender" value="Male" checked>
+                    Male</label>
+                <label><input id="female-radio" data-testid="female-radio" type="radio" name="gender" value="Female">
+                    Female</label>
             </div>
 
-            <input id="tech-input" data-testid="tech-input" type="text" name="tech"
-                placeholder="Which technology do you want to learn?" required>
-
             <div class="buttons">
+                <button id="reset-button" data-testid="reset-button" type="button">Reset</button>
                 <button id="register-button" data-testid="register-button" type="submit">Register Now</button>
-                <button id="schedule-button" data-testid="schedule-button" type="button">Schedule a Call</button>
             </div>
         </form>
     </div>
