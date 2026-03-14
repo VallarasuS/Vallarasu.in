@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Drag and Drop Automation Testing</title>
+    <link rel="icon" type="image/x-icon" href="https://vallarasu.in/logo.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Drag and Drop Automation Testing">
+    <meta property="og:url" content="https://vallarasu.in/">
+    <meta property="og:description"
+        content="Practice automation testing with free realistic website for automation testing. Perfect demo site for Selenium, Cypress, Playwright — featuring carts, checkout, login, dynamic UI & responsive design.">
+    <meta property="og:image" content="https://vallarasu.in/assets/images/vallarasu.png">
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-K8YR7VFP9F');
+    </script>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem;
+            margin: 0 auto;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
+        .form-container {
+            flex: 1;
+            background: #16181c;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            padding: 20px;
+            min-height: 400px;
+        }
+
+        .form-field input {
+            margin: 10px 0px;
+            width: 100%;
+            box-sizing: border-box;
+            line-height: 1.3rem;
+        }
+
+        .form-field input[type='button'] {
+            width: auto;
+        }
+
+        h3 {
+            margin-top: 0;
+            color: white;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
+</head>
+
+<body>
+
+    <template id="contact-item-template">
+        <div id="contact-container"
+            style="display: flex; justify-content: space-between; border-bottom: 1px solid grey; padding: 5px 5px;">
+            <div id="name">John</div>
+            <div id="phone">+91 9486 180 175</div>
+            <input type="button" value="delete" onclick="remove(this)">
+        </div>
+    </template>
+
+    <div class="container">
+        <div class="flex-container">
+
+            <div class="form-container">
+
+                <h3>
+                    Add Contact
+                </h3>
+
+                <div class="form-field">
+                    <div> Name: </div>
+                    <input id="name-input" value="John">
+                </div>
+
+                <div class="form-field">
+                    <div> Phone: </div>
+                    <input id="phone-input" value="(+91) 9874 123 654">
+                </div>
+
+                <div class="form-field" style="display: flex; justify-content: end;">
+                    <input id="add-contact-btn" type="button" value="Add">
+                </div>
+
+
+            </div>
+
+            <div id="phone-book" class="form-container">
+
+                <h3>
+                    Phone Book
+                </h3>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+
+
+        btn = document.getElementById("add-contact-btn")
+        btn.addEventListener("click", () => {
+
+            template = document.getElementById("contact-item-template")
+
+            ni = document.getElementById("name-input")
+            pi = document.getElementById("phone-input")
+
+            const instance = template.content.cloneNode(true);
+            const name = instance.getElementById("name");
+            const phone = instance.getElementById("phone");
+
+            name.textContent = ni.value
+            phone.textContent = pi.value
+
+            book = document.getElementById("phone-book")
+            book.appendChild(instance)
+
+            queueMicrotask(() => alert("Contact Added"))
+        })
+
+        remove = (e) => {
+
+            can_delete = window.confirm("Are you sure to delete?")
+
+            if (can_delete)
+                e.closest("#contact-container").remove()
+        }
+
+    </script>
+
+</body>
+
+</html>
