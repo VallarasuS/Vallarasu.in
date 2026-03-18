@@ -15,7 +15,7 @@ entries:
   - title: apps
     entries:
       - title: Automation Test Site
-        url: /test/index
+        url: /test
       - title: RFM Analysis
         url: /r/rfm-analysis
       - title: Tax Comparison 2025
