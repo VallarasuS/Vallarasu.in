@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Select Automation Testing</title>
+    <link rel="icon" type="image/x-icon" href="https://vallarasu.in/logo.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Select Automation Testing">
+    <meta property="og:url" content="https://vallarasu.in/">
+    <meta property="og:description"
+        content="Practice automation testing with free realistic website for automation testing. Perfect demo site for Selenium, Cypress, Playwright — featuring carts, checkout, login, dynamic UI & responsive design.">
+    <meta property="og:image" content="https://vallarasu.in/assets/images/vallarasu.png">
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-K8YR7VFP9F');
+    </script>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem;
+            margin: 0 auto;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
+        .form-container {
+            flex: 1;
+            background: #16181c;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            padding: 20px;
+            min-height: 200px;
+            margin: 10px;
+        }
+
+        .form-container>div {
+            margin: 15px;
+        }
+
+        .form-field input {
+            margin: 10px 0px;
+            width: 100%;
+            box-sizing: border-box;
+            line-height: 1.3rem;
+        }
+
+        .form-field input[type='button'] {
+            width: auto;
+        }
+
+        h3 {
+            margin-top: 0;
+            color: white;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="form-container">
+
+            <h3>
+                Multi Select Dropdown
+            </h3>
+
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <label>Language:</label>
+                <select id="language_select" multiple style="width: 50%;">
+                    <option value="1">Tamil</option>
+                    <option value="2">Telugu</option>
+                    <option value="3">Malayalam</option>
+                    <option value="4">English</option>
+                    <option value="5">French</option>
+                    <option value="6">German</option>
+                </select>
+            </div>
+
+            <div style="display: flex; align-items: center; justify-content: space-between">
+                <label>Countries:</label>
+                <select id="country_select" multiple style="width: 50%;">
+                    <option value="IND">India</option>
+                    <option value="JPN">Japan</option>
+                    <option value="CAD">Canada</option>
+                    <option value="ITA">Italy</option>
+                    <option value="AUS">Australia</option>
+                    <option value="DEU">Germany</option>
+                </select>
+            </div>
+
+            <div style="display: flex; align-items: center; justify-content: space-between">
+                <label>Role:</label>
+                <select id="role_select" multiple style="width: 50%;">
+                    <option value="1">Associate Engineer</option>
+                    <option value="2">Junior Engineer</option>
+                    <option value="3">Senior Engineer</option>
+                    <option value="4">Lead Engineer</option>
+                    <option value="5">Engineering Manager</option>
+                    <option value="6">Engineering Director</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="form-container">
+
+            <h3>
+                Results
+            </h3>
+
+            <div>
+                <label>Languages:</label>
+                <br>
+                <label id="languages_selected"></label>
+            </div>
+
+            <div>
+                <label>Countries:</label>
+                <br>
+                <label id="countries_selected"></label>
+            </div>
+
+            <div>
+                <label>Role:</label>
+                <br>
+                <label id="roles_selected"></label>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div style="display: flex; justify-content: center;">
+        <a href="/test/index" target="_top" style="color: #a9e573;">back</a>
+    </div>
+
+    <script>
+
+        language = document.getElementById("language_select")
+        country = document.getElementById("country_select")
+        role = document.getElementById("role_select")
+
+
+        function wire(source, target) {
+            select = document.getElementById(source)
+            select.addEventListener("change", () => {
+                select = document.getElementById(source)
+                values = Array.from(select.selectedOptions).map(o => o.text).join(",")
+                el = document.getElementById(target)
+                el.textContent = values
+            })
+        }
+
+        [
+            { source: "language_select", target: "languages_selected" },
+            { source: "country_select", target: "countries_selected" },
+            { source: "role_select", target: "roles_selected" }
+        ].map(({ source, target }) => wire(source, target))
+
+    </script>
+
+</body>
+
+</html>
