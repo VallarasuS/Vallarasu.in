@@ -16,5 +16,8 @@ New channel is also focused on technology so I believe both can converge at some
 For now this is about increasing the luck surface. And It’s all an experiment at this moment.
 
 
-Reminded of a book titled ~  “Ready, Fire, Aim” 🔥
+Reminded of quote from a book titled ~  “Ready, Fire, Aim” 🔥
+
+"anytime you want to reach a goal quickly, you simply need to act first, then make any necessary adjustments and correct for any mistakes later"
+
 Enjoy your weekend!
