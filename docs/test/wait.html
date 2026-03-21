@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Select Automation Testing</title>
+    <link rel="icon" type="image/x-icon" href="https://vallarasu.in/logo.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Select Automation Testing">
+    <meta property="og:url" content="https://vallarasu.in/">
+    <meta property="og:description"
+        content="Practice automation testing with free realistic website for automation testing. Perfect demo site for Selenium, Cypress, Playwright — featuring carts, checkout, login, dynamic UI & responsive design.">
+    <meta property="og:image" content="https://vallarasu.in/assets/images/vallarasu.png">
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8YR7VFP9F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-K8YR7VFP9F');
+    </script>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem;
+            margin: 0 auto;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
+        .form-container {
+            flex: 1;
+            background: #16181c;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            padding: 20px;
+            min-height: 200px;
+            margin: 10px;
+        }
+
+        .form-container>div {
+            margin: 15px;
+        }
+
+        .form-field input {
+            margin: 10px 0px;
+            width: 100%;
+            box-sizing: border-box;
+            line-height: 1.3rem;
+        }
+
+        .form-field input[type='button'] {
+            width: auto;
+        }
+
+        h3 {
+            margin-top: 0;
+            color: white;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+
+        a {
+            color: #a9e573;
+        }
+    </style>
+
+    <style>
+        .loader {
+            height: 3px;
+            width: 100%;
+            background: linear-gradient(90deg,
+                    transparent 0%,
+                    #4facfe 20%,
+                    #00f2fe 50%,
+                    #4facfe 80%,
+                    transparent 100%);
+            background-size: 200% 100%;
+            animation: loading 1.6s linear infinite;
+        }
+
+        @keyframes loading {
+            to {
+                background-position: -200% 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <template id="resources-template">
+        <ul id="resources-list">
+            <li><a target="_blank" href="https://docs.python.org/3/tutorial/">Python Official Tutorial</a></li>
+            <li><a target="_blank" href="https://cs50.harvard.edu/python/2022/">CS50's Introduction to
+                    Programming with
+                    Python</a></li>
+            <li><a target="_blank" href="https://www.youtube.com/watch?v=rfscVS0vtbw">freeCodeCamp
+                    Certification</a>
+            </li>
+            <li><a target="_blank" href="https://automatetheboringstuff.com/">Automate the Boring Stuff with
+                    Python</a>
+            </li>
+        </ul>
+    </template>
+
+    <div class="container">
+
+        <div class="form-container">
+
+            <h3>
+                Wait Time:
+            </h3>
+
+            <label> The world is a complex place, elements load late, network hiccups,
+                waiting strategies are how selenium bring predictability to this chaotic mess.</label>
+
+            <div id="resources-container">
+                <h4>Loading...</h4>
+                <div class="loader"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div style="display: flex; justify-content: center;">
+        <a href="/test/index" target="_top" style="color: #a9e573;">back</a>
+    </div>
+
+    <script>
+
+        function populate() {
+
+            results = document.getElementById("resources-container")
+            results.replaceChildren()
+
+            template = document.getElementById("resources-template")
+            items = template.content.cloneNode(true)
+
+            results.appendChild(items)
+        }
+
+        const delay = Math.floor(Math.random() * 10000) + 10000;
+        setTimeout(() => populate(), delay)
+
+    </script>
+
+</body>
+
+</html>
