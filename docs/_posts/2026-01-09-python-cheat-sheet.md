@@ -11,6 +11,12 @@ category: Python
 1. [Comparison Operators](#comparison-operators)
 1. [Logical Operators](#logical-operators)
 1. [Membership Operators](#membership-operators)
+1. [if elif else](#if-elif-else)
+1. [String Operations](#string-operations)
+1. [While Loop](#while-loop)
+1. [For Loop](#for-loop)
+1. [List and Operations](#list-and-operations)
+1. [Tuples](#tuples)
 
 
 ## Variables and Data Types
@@ -135,7 +141,7 @@ for i in range(1, 11):     # Start=1, Stop=10, Step=1
     print(i)
 ```
 
-## List Operations
+## List and Operations
 
 ```python
 numbers = [10, 30, 20, 40]
