@@ -3,6 +3,12 @@ layout: post
 category: Python
 ---
 
+<style>
+    .code {
+        font-size: 14px;
+    }
+</style>
+
 #### Contents
 
 1. [Variables and Data Types](#variables-and-data-types)
@@ -27,7 +33,7 @@ category: Python
 name = "John"   # string  ->  str
 age = 30        # number  ->  int
 weight = 63.5   # number  ->  float
-married = True  # Boolean -> bool
+married = True  # Boolean ->  bool
 ```
 
 ## Input and Output
@@ -46,13 +52,13 @@ print(name) # -> John
 ```python
 x = 10
 y = 3
-z = x + y   # addition -> 13
-z = x - y   # subtraction -> 7
-z = x * y   # multiplication -> 30
-z = x / y   # true division -> 3.3333
-z = x // y  # floor division -> 3
-z = x ** y  # exponent -> 1000
-z = x % y   # modulo division -> 1
+z = x + y   # addition          -> 13
+z = x - y   # subtraction       -> 7
+z = x * y   # multiplication    -> 30
+z = x / y   # true division     -> 3.3333
+z = x // y  # floor division    -> 3
+z = x ** y  # exponent          -> 1000
+z = x % y   # modulo division   -> 1
 ```
 
 ## Comparison Operators
@@ -110,21 +116,21 @@ else:
 ```python
 text = "  Hello Python World!  "
 
-print(text.upper())          #   HELLO PYTHON WORLD!
-print(text.lower())          #   hello python world!
+print(text.upper())                     #   HELLO PYTHON WORLD!
+print(text.lower())                     #   hello python world!
 
-print(text.strip())          # Hello Python World!
-print(text.split())          # ['Hello', 'Python', 'World!']
+print(text.strip())                     # Hello Python World!
+print(text.split())                     # ['Hello', 'Python', 'World!']
 
 fruits = ["apple", "banana", "cherry"]
-print(", ".join(fruits))     # apple, banana, cherry
+print(", ".join(fruits))                # apple, banana, cherry
 
-print("Python".find("th"))   # 2
-print("Python".find("java")) # -1
+print("Python".find("th"))              # 2
+print("Python".find("java"))            # -1
 
 name = "John"
-print("Hello, {}".format(name))   # Hello, John
-print(f"Hello, {name}!")          # Hello, John!
+print("Hello, {}".format(name))         # Hello, John
+print(f"Hello, {name}!")                # Hello, John!
 ```
 
 ## While Loop
@@ -149,7 +155,7 @@ for i in range(1, 11):     # Start=1, Stop=10, Step=1
 numbers = [10, 30, 20, 40]
 
 numbers.append(50)         # [10, 30, 20, 40, 50]
-numbers.insert(1, 15)   # [10, 15, 30, 20, 40, 50]
+numbers.insert(1, 15)      # [10, 15, 30, 20, 40, 50]
 numbers.extend([60, 70])   # [10, 15, 30, 20, 40, 50, 60, 70]
 
 numbers.pop()              # removes 70
@@ -158,8 +164,8 @@ numbers.pop(2)             # removes 30
 numbers.clear()            # []
 
 nums = [4, 1, 3, 2]
-nums.sort()            # [1, 2, 3, 4]
-nums.reverse()         # [4, 3, 2, 1]
+nums.sort()                # [1, 2, 3, 4]
+nums.reverse()             # [4, 3, 2, 1]
 ```
 
 List Slicing
