@@ -83,8 +83,8 @@ y = 5
 z = 15
 
 result = (x > y) and (z > y)    # and  -> True (both conditions true)
-result = (x > y) or (z < y)     # or   -> True (at least one condition true)
-result = not (x > y)            # not  -> False (reverses the condition)
+result = (x > y) or (z < y)     # or   -> True (any one condition true)
+result = not (x > y)            # not  -> False (negate condition)
 ```
 
 ## Membership Operators
@@ -145,7 +145,7 @@ while i <= 10:           # Stop when i > 10
 ## For Loop
 
 ```python
-for i in range(1, 11):     # Start=1, Stop=10, Step=1
+for i in range(1, 11, 1):     # Start -> 1, Stop -> 11, Step -> 1
     print(i)
 ```
 
