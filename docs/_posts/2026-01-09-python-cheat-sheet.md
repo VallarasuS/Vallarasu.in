@@ -11,7 +11,7 @@ category: Python
 1. [Comparison Operators](#comparison-operators)
 1. [Logical Operators](#logical-operators)
 1. [Membership Operators](#membership-operators)
-1. [if elif else](#if-elif-else)
+1. [If elif else](#if-elif-else)
 1. [String Operations](#string-operations)
 1. [While Loop](#while-loop)
 1. [For Loop](#for-loop)
@@ -94,7 +94,7 @@ result = "java" not in name          # not in   -> True
 result = "banana" not in fruits      # not in   -> False
 ```
 
-## If Elif Else
+## If elif else
 
 ```python
 if number > 0:
