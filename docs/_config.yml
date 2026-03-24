@@ -10,7 +10,9 @@ permalink: /:slug.html
 favicon: "favicon.ico"
 
 remote_theme: riggraz/no-style-please
+
 highlighter: rouge
+markdown: kramdown
 
 theme_config:
   appearance: "auto"
