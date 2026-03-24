@@ -132,38 +132,3 @@ img {
   display: block;
   margin: 0 auto;
 }
-
-// python highlight
-.highlight pre,
-.highlight code {
-  font-family: monospace;
-  white-space: pre;
-  overflow-x: auto;
-}
-
-/* Basic token colors - works well for Python */
-.highlight .k {
-  color: #d73a49;
-}
-
-/* keywords */
-.highlight .s {
-  color: #032f62;
-}
-
-/* strings */
-.highlight .mi {
-  color: #005cc5;
-}
-
-/* numbers */
-.highlight .c {
-  color: #6a737d;
-}
-
-/* comments */
-.highlight .n {
-  color: #24292e;
-}
-
-/* names */
