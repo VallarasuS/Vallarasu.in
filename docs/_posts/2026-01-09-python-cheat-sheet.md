@@ -17,6 +17,8 @@ category: Python
 1. [For Loop](#for-loop)
 1. [List and Operations](#list-and-operations)
 1. [Tuples](#tuples)
+1. [Set](#set)
+1. [Dictionary](#dictionary)
 
 
 ## Variables and Data Types
@@ -92,7 +94,7 @@ result = "java" not in name          # not in   -> True
 result = "banana" not in fruits      # not in   -> False
 ```
 
-## if elif else
+## If Elif Else
 
 ```python
 if number > 0:
@@ -134,7 +136,7 @@ while i <= 10:           # Stop when i > 10
     i = i + 1            # Step
 ```
 
-### For Loop
+## For Loop
 
 ```python
 for i in range(1, 11):     # Start=1, Stop=10, Step=1
@@ -147,7 +149,7 @@ for i in range(1, 11):     # Start=1, Stop=10, Step=1
 numbers = [10, 30, 20, 40]
 
 numbers.append(50)         # [10, 30, 20, 40, 50]
-lsnumberst.insert(1, 15)   # [10, 15, 30, 20, 40, 50]
+numbers.insert(1, 15)   # [10, 15, 30, 20, 40, 50]
 numbers.extend([60, 70])   # [10, 15, 30, 20, 40, 50, 60, 70]
 
 numbers.pop()              # removes 70
@@ -181,4 +183,44 @@ colors = ("red", "green", "blue", "yellow")
 
 print(colors)          # ('red', 'green', 'blue', 'yellow')
 print(type(colors))    # <class 'tuple'>
+```
+
+## Set
+
+```python
+nums = {1, 2, 3, 4, 5}
+
+nums.add(6)            # Add single item
+nums.update([7, 8, 9]) # Add multiple items
+
+nums.remove(3)         # Remove item (error if not found)
+nums.discard(10)       # Remove item (no error if not found)
+
+print(len(nums))       # 8
+```
+
+## Dictionary
+
+```python
+student = {
+    "name": "John",
+    "age": 20,
+    "grade": "A",
+    "city": "New York"
+}
+
+print(student)
+print(student["name"])     # John
+print(student.get("age"))  # 20
+
+student["age"] = 21        # Update value
+student["country"] = "USA" # Add new key-value
+
+print(student.keys())      # dict_keys(['name', 'age', 'grade', 'city', 'country'])
+print(student.values())    # dict_values(['John', 21, 'A', 'New York', 'USA'])
+print(student.items())     # dict_items([('name', 'John'), ...])
+
+del student["city"]        # Delete a key
+student.pop("grade")       # Remove and return value
+student.clear()            # Remove all items
 ```
