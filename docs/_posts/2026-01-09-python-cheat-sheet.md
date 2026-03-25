@@ -99,12 +99,23 @@ body {
 1. [Membership Operators](#membership-operators)
 1. [If elif else](#if-elif-else)
 1. [String Operations](#string-operations)
+1. [Functions](#functions)
 1. [While Loop](#while-loop)
 1. [For Loop](#for-loop)
 1. [List and Operations](#list-and-operations)
+    - [List Operations](#list-operations)
+    - [List Comprehension](#list-comprehension)
+    - [List Slicing](#list-slicing)
 1. [Tuples](#tuples)
 1. [Set](#set)
 1. [Dictionary](#dictionary)
+1. [Exception Handling](#exception-handling)
+1. [File Handling](#file-handling)
+    - [Read Mode](#read-mode)
+    - [Write Mode](#write-mode)
+    - [Append Mode](#append-mode)
+1. [Common Built-in Functions](#common-built-in-functions)
+
 
 
 ## Variables and Data Types
@@ -254,7 +265,15 @@ for i in range(1, 11, 1):     # Start -> 1, Stop -> 11, Step -> 1
     print(i)
 ```
 
-## List and Operations
+## List 
+
+Lists are non-primitive data type to hold multiple items.
+Can contain any types and number of items
+Can have duplicates
+Can be mutated
+Allows zero based index read and write
+
+### List Operations
 
 ```python
 numbers = [10, 30, 20, 40]
