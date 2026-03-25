@@ -4,6 +4,86 @@ category: Python
 ---
 
 <style>
+
+body {
+        filter: none !important;
+        background: #000000;
+        color: white;
+    }
+
+    a {
+        color: #ffff10;
+    }
+
+    code {
+        background: #2d2d2d;
+    }
+
+    /* Pygments syntax highlighting (only used classes kept) */
+    pre { 
+        line-height: 125%; 
+    }
+
+    .highlight {
+        background: #000000;
+        color: #cccccc;
+    }
+
+    .highlight .hll { background-color: #222222; }
+
+    /* Comments */
+    .highlight .c, .highlight .ch, .highlight .cm, 
+    .highlight .cp, .highlight .cpf, .highlight .c1 { 
+        color: #00d600; 
+    }
+
+    /* Keywords */
+    .highlight .k, .highlight .kc, .highlight .kd, 
+    .highlight .kn, .highlight .kp, .highlight .kr, 
+    .highlight .kt, .highlight .ow { 
+        color: #cdcd00; 
+    }
+
+    /* Strings */
+    .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, 
+    .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, 
+    .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, 
+    .highlight .s1, .highlight .ss { 
+        color: #ed9d13; 
+    }
+
+    /* Numbers */
+    .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, 
+    .highlight .mi, .highlight .mo, .highlight .il { 
+        color: #cd00cd; 
+    }
+
+    /* Builtins & Names */
+    .highlight .nb, .highlight .bp { 
+        color: #cd00cd; 
+    }
+
+    .highlight .nc, .highlight .nv, .highlight .vc, .highlight .vg, 
+    .highlight .vi, .highlight .vm { 
+        color: #00cdcd; 
+    }
+
+    /* Operators */
+    .highlight .o { 
+        color: #3399cc; 
+    }
+
+    /* Special */
+    .highlight .cs { 
+        color: #cd0000; 
+        font-weight: bold; 
+    }
+
+    .highlight .err { 
+        color: #cccccc; 
+        border: 1px solid #FF0000; 
+    }
+
     .code {
         font-size: 14px;
     }
@@ -212,19 +292,19 @@ student = {
     "name": "John",
     "age": 20,
     "grade": "A",
-    "city": "New York"
+    "city": "Chennai"
 }
 
 print(student)
-print(student["name"])     # John
-print(student.get("age"))  # 20
+print(student["name"])       # John
+print(student.get("age"))    # 20
 
-student["age"] = 21        # Update value
-student["country"] = "USA" # Add new key-value
+student["age"] = 21          # Update value
+student["country"] = "India" # Add new key-value
 
-print(student.keys())      # dict_keys(['name', 'age', 'grade', 'city', 'country'])
-print(student.values())    # dict_values(['John', 21, 'A', 'New York', 'USA'])
-print(student.items())     # dict_items([('name', 'John'), ...])
+print(student.keys())      # ['name', 'age', 'grade', 'city', 'country']
+print(student.values())    # ['John', 21, 'A', 'Chennai', 'India']
+print(student.items())     # [('name', 'John'), ...]
 
 del student["city"]        # Delete a key
 student.pop("grade")       # Remove and return value
