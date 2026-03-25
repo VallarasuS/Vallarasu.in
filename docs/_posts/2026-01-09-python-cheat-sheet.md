@@ -213,6 +213,31 @@ print("Hello, {}".format(name))         # Hello, John
 print(f"Hello, {name}!")                # Hello, John!
 ```
 
+## Functions
+
+```python
+def greet():
+    print("Hello World!")
+    
+def hello(name):
+    print("Hello", name)        
+
+def add(x, y):
+    return x + y
+
+def increment(x, y = 1)
+    return x + y
+
+greet()                         # Hello World!
+hello("John")                   # Hello John!
+
+total = add(10, 20)
+print(total)                    # 30
+
+result = increment(10)
+print(result)                   # 11 
+```
+
 ## While Loop
 
 ```python
@@ -248,7 +273,7 @@ nums.sort()                # [1, 2, 3, 4]
 nums.reverse()             # [4, 3, 2, 1]
 ```
 
-List Slicing
+### List Slicing
 
 ```python
 numbers = [10, 20, 30, 40, 50, 60, 70, 80]
@@ -259,6 +284,16 @@ numbers[2:5:1]    # [30, 40, 50]
 numbers[:4]       # [10, 20, 30, 40]
 numbers[3:]       # [40, 50, 60, 70, 80]
 numbers[::-1]     # [80, 70, 60, 50, 40, 30, 20, 10]  reverse
+```
+
+### List Comprehension
+
+```python
+numbers = [1, 2, 3, 4, 5]
+print(numbers)                      # [1, 2, 3, 4, 5]
+
+square = [x**2 for x in numbers]
+print(square)                       # [1, 4, 9, 16, 25]
 ```
 
 ## Tuples
@@ -310,3 +345,65 @@ del student["city"]        # Delete a key
 student.pop("grade")       # Remove and return value
 student.clear()            # Remove all items
 ```
+
+## Exception Handling
+
+```python
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+
+try:
+    x = "10"
+    y = "ABC"
+
+    result = int(x) / int(y)
+except ValueError:
+    print("Invalid input, can not convert to int")
+finally:
+    print("Clean up resources in finally")
+```
+
+## File Handling
+
+### Read Mode
+
+- throws error when file not found
+
+```python
+file = open("Quotes.txt", "r")      # r - Read
+all_string = file.read()
+one_line   = file.readline()
+all_lines  = file.readlines()
+file.close()
+```
+
+### Write Mode
+
+- Create file when not present
+- Caution overwrites when file already exists
+
+```python
+file = open("Quotes.txt", "w")      # w - Write
+file.write("Hello from python")
+file.writelines(["First Line\n", "Second Line\n"])
+file.close()
+```
+
+### Append Mode
+
+- Create file when not present
+- Appends to existing file.
+
+```python
+file = open("Quotes.txt", "a")      # a - append
+file.write("Hello from python")
+file.writelines(["First Line\n", "Second Line\n"])
+file.close()
+```
+
+## Common Built-in Functions
+
+`len(), sum(), min(), max(), sorted()`
+
