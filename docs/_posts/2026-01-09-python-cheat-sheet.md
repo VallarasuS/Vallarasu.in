@@ -435,8 +435,20 @@ file.close()
 len(), sum(), min(), max(), sorted(), type(str), dir(list)
 
 
+<style>
+    .highlight:hover {
+        svg {
+            visibility: visible
+        }
+    }
+
+    svg {
+        visibility: hidden
+    }
+</style>
+
 <template id="copy-icon-template">
-    <div style="width: 16px; height: 16px; border-radius: 5px; position: absolute; right: 10px; top: 10px; padding: 10px;
+    <div id="copy-icon" style="width: 16px; height: 16px; border-radius: 5px; position: absolute; right: 10px; top: 10px; padding: 10px;
         border-radius: 5px;" onmouseenter="this.style.background='#715A5A'"
         onmouseleave="this.style.background='transparent'" onmousedown="this.style.background='black'"
         onmouseup="this.style.background='transparent'" onclick="copy(this)">
