@@ -267,11 +267,11 @@ for i in range(1, 11, 1):     # Start -> 1, Stop -> 11, Step -> 1
 
 ## List 
 
-Lists are non-primitive data type to hold multiple items.
-Can contain any types and number of items
-Can have duplicates
-Can be mutated
-Allows zero based index read and write
+- Lists are non-primitive data type to hold multiple items.
+- Can contain any types and number of items
+- Can have duplicates
+- Mutable - Can modify values
+- Allows zero based index read and write
 
 ### List Operations
 
@@ -317,6 +317,9 @@ print(square)                       # [1, 4, 9, 16, 25]
 
 ## Tuples
 
+- Immutable, can not modify after creation
+- Faster than list
+
 ```python
 # Creating a tuple
 colors = ("red", "green", "blue", "yellow")
@@ -326,6 +329,9 @@ print(type(colors))    # <class 'tuple'>
 ```
 
 ## Set
+
+- Can not have duplicates
+- Mutable
 
 ```python
 nums = {1, 2, 3, 4, 5}
@@ -340,6 +346,9 @@ print(len(nums))       # 8
 ```
 
 ## Dictionary
+
+- Key, Value Pairs
+- Commonly used as look-up table
 
 ```python
 student = {
@@ -424,5 +433,5 @@ file.close()
 
 ## Common Built-in Functions
 
-`len(), sum(), min(), max(), sorted()`
+`len()`, `sum()`, `min()`, `max()`, `sorted()`, `type(str)`, `dir(list)`
 
