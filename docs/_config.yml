@@ -3,7 +3,7 @@ author: Vallarasu Sambathkumar
 email: vals@live.in
 url: https://vallarasu.in
 baseurl: ""
-description: A personal blogging space for mostly tech related contents.
+description: Personal blog for tech, books, life and other things.
 
 permalink: /:slug.html
 

@@ -3,6 +3,10 @@ layout: page
 title: Journal
 ---
 
+06-04-2026<br>
+Been a long time, teaching and learning a lot<br>
+Job board is live on [CS101.in/jobs/chennai](https://cs101.in/jobs/chennai)
+
 18-11-2025<br>
 Into many things lately and first Python demo class for students happened today. 
 
