@@ -3,6 +3,10 @@ layout: page
 title: Journal
 ---
 
+12-04-2026<br>
+Tried  google antigravity and it crunched lot of pages in one afternoon<br>
+e-Com site is live at [CS101.in/ecom](https://cs101.in/ecom/)
+
 06-04-2026<br>
 Been a long time, teaching and learning a lot<br>
 Job board is live on [CS101.in/jobs/chennai](https://cs101.in/jobs/chennai)
