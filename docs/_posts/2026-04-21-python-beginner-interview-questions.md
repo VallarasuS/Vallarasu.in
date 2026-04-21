@@ -1,0 +1,84 @@
+---
+layout: post
+category: Python
+---
+
+## Python Data Analyst Interview Questions
+
+### Beginner Level
+
+- What is Python?
+- What is PEP 8?
+- What is a Python module?
+- What is a package in Python?
+- What is a Python package manager?
+- What is a Python virtual environment?
+- What is a dictionary in Python?
+- What is a Python generator?
+- What is a lambda function in Python?
+- What is a decorator in Python?
+- What is a Python class?
+- What is inheritance in Python?
+- What is method overriding in Python?
+- What is a Python interface?
+- What is a metaclass in Python?
+- What is monkey patching in Python?
+- Explain list comprehension in Python?
+- What is the use of "if name == 'main':" statement in Python?
+- Differences between a list and a tuple in Python?
+- Differences between a function and a method in Python?
+- Differences between a dictionary and a list in Python?
+- Differences between "is" and "==" in Python?
+- Differences between "append" and "extend" in Python?
+- Differences between "iter" and "next" in Python?
+- Differences between a deep copy and a shallow copy in Python?
+- Differences between a function and a coroutine in Python?
+- Differences between a local variable and a global variable in Python?
+- Differences between pip and conda in Python?
+- Differences between "range" and "xrange" in Python?
+- Differences between "open" and "with open" in Python?
+- What is the GIL in Python?
+- What is the use of "yield" keyword in Python?
+- What is the use of "map" function in Python?
+- What is the use of "filter" function in Python?
+- What is the use of "reduce" function in Python?
+- What is the use of "init" method in Python?
+- What is the use of "repr" method in Python?
+- What is the use of "str" method in Python?
+- What is the use of "call" method in Python?
+- What is the use of "len" method in Python?
+- What is the use of "iter" method in Python?
+- What is the use of "next" method in Python?
+- What is the use of "enter" method in Python?
+- What is the use of "exit" method in Python?
+- What is the use of "super" function in Python?
+- What is the use of "pass" keyword in Python?
+- What is the use of "break" keyword in Python?
+- What is the use of "continue" keyword in Python?
+- What is the use of "assert" keyword in Python?
+- What is the use of "try" and "except" statements in Python?
+- What is the use of "finally" statement in Python?
+- What is the use of "raise" keyword in Python?
+- What is the use of "isinstance" function in Python?
+- What is the use of "type" function in Python?
+- What is the use of "id" function in Python?
+- What is the use of "enumerate" function in Python?
+- What is the use of "zip" function in Python?
+- What is the use of "sorted" function in Python?
+- What is the use of "reversed" function in Python?
+- What is the use of "all" function in Python?
+- What is the use of "any" function in Python?
+- What is the use of "sum" function in Python?
+- What is the use of "max" function in Python?
+- What is the use of "min" function in Python?
+- What is the use of "round" function in Python?
+- What is the use of "sorted" method in Python?
+- What is the use of "range" function in Python?
+- What is the use of "len" function in Python?
+- What is the use of "bool" function in Python?
+- What is the use of "int" function in Python?
+- What is the use of "float" function in Python?
+- What is the use of "str" function in Python?
+- What is the use of "list" function in Python?
+- What is the use of "dict" function in Python?
+- What is the use of "set" function in Python?
