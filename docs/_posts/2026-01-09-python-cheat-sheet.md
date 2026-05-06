@@ -91,6 +91,7 @@ category: Python
 #### Contents
 
 1. [Variables and Data Types](#variables-and-data-types)
+1. [Variables Naming Convention](#variables-naming-convention)
 1. [Input and Output](#input-and-output)
 1. [Arithmetic Operators](#arithmetic-operators)
 1. [Comparison Operators](#comparison-operators)
@@ -125,6 +126,14 @@ age = 30        # number  ->  int
 weight = 63.5   # number  ->  float
 married = True  # Boolean ->  bool
 ```
+
+### Variables Naming Convention
+
+- Use description names in lower case
+- Use UPPER_CASE for constants
+- Use CamelCase for class names
+- Use leading under score for private, protected variables
+- Avoid using space, keywords, special characters 
 
 ## Input and Output
 
