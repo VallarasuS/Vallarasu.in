@@ -57,5 +57,8 @@ category: Python
 1. Reverse digits
 1. Sum of digits
 1. Factorial
+1. Sum of squares
 1. Palindrome
 1. Armstrong number 
+1. Count of characters in string
+1. First unique character in string
