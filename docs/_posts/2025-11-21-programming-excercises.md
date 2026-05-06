@@ -50,3 +50,12 @@ category: Python
 1. Find sum of given numbers
 1. Sort given numbers in asc, desc order
 1. Find min / max number from given number
+
+## Advanced Loops
+
+1. Length of digits
+1. Reverse digits
+1. Sum of digits
+1. Factorial
+1. Palindrome
+1. Armstrong number 
