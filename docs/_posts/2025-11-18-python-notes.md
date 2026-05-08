@@ -58,6 +58,7 @@ category: Python
 - Download & Install VS Code from here [VS Code](https://code.visualstudio.com/download)
 - Install Python extension from Marketplace [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - Open Command Prompt / Terminal and type 'python' to verify installation.
+- Download and Install Github Desktop [Github Desktop](https://desktop.github.com/download/)
 
 ## Keywords
 
