@@ -31,3 +31,10 @@ category: Python
 1. Check if a candidate is eligible to appear for a role with age limit 21-32
 1. Given a day check if it falls on week end (sat/sun) 
 1. Given a color name check if it is primary color (Red/Green/Blue)
+
+# String
+
+1. Find file type image.png, file.pdf, file.docx
+1. Find position of given word
+1. Reverse string
+1. Parse csv ""
