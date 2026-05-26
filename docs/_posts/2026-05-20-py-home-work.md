@@ -38,3 +38,28 @@ category: Python
 1. Find position of given word
 1. Reverse string
 1. Parse csv ""
+
+# Loop
+
+1. Find total of numbers from 1 ... N
+1. Print each character in a string
+1. Count number of vowels (a,e,i,o,u) from given string
+1. Reverse given string using while loop
+1. Extract only numbers from given string
+	a. ex: "abc122dkjf834"
+1. Find total from csv data:
+	a. ex: "John,45,23,76,87,98"
+1. Print 1, 2, 3 … 10
+1. Print 2, 4 ,6 … 20
+1. Print  Table given a number 
+	a. Ex: 2 -> 1x2, 2x2, 3x2 … 10x2
+1. Find all odd numbers until given number
+	a. Ex: 10 -> 1, 3, 5, 7, 9
+1. Find all numbers divisible by 3 until given number
+	a. Ex: 10 -> 3,  6, 9
+1. Find all numbers divisible by 3 and 5 until given number
+	a. Ex: 50 -> 15, 30, 45
+1. Sum of natural numbers until given number
+	a. Ex: input:  4  ->  1 + 2 + 3 + 4 ->  10
+1. Find factorial of given number
+	a. Ex: input 5 ->  5 * 4 * 3 * 2 * 1 -> 120
