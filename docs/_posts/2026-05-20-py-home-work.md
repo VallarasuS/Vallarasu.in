@@ -63,3 +63,25 @@ category: Python
 	a. Ex: input:  4  ->  1 + 2 + 3 + 4 ->  10
 1. Find factorial of given number
 	a. Ex: input 5 ->  5 * 4 * 3 * 2 * 1 -> 120
+
+# Revision:
+
+1. Reverse a string using index:
+
+```python
+    data = "hello world"
+  
+    start = 0
+    stop = len(data)
+    step = 1
+
+    for i in range(0, len(data), 1):
+        print(data[i])
+```
+
+1. Sum of square of even numbers upto N
+1. Find total, pass / fail, average, rank
+```python
+	data = "John,30,40,50,60\nDave,10,20,30,45,50\nAdam,40,95,87,67,50"
+```
+  
