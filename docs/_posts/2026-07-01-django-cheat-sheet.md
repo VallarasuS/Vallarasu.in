@@ -90,21 +90,43 @@ category: Python
 
 #### Contents
 
-1. [Installation and Setup](#installation-and-setup)
-1. [Django CLI](#variables-and-data-types)
+1. [Python Setup](#python-setup)
+1. [Django Setup](#django-setup)
+1. [Django CLI Commands](#variables-and-data-types)
 
+## Python Setup
 
-## Installation and Setup
+- Install PyCharm by jet brains or VS Code by Microsoft
+- Download & Install latest version from here [Python Release](https://www.python.org/downloads/windows/)
+- Add installation dir to PATH environment variable.
+- Download & Install VS Code from here [VS Code](https://code.visualstudio.com/download)
+- Install Python extension from Marketplace [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- Open Command Prompt / Terminal and type 'python' to verify installation.
+
+## Django Setup
+
+Open a terminal window and run the following to install django
+
 ```shell
-c:\> py -m pip install django
+py -m pip install django
+```
+
+once complete, run the following command to verify django
+
+```shell
+py -m django --version
 ```
 
 ## Django CLI
 
+- `startproject` creates a new project (notice the . at the end, creates project at current dir)
+- `startapp` creates a new application
+- `runserver` runs the project in development mode at this url [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
 ```shell
-c:\> django-admin startproject project-name .
-c:\> py manage.py startapp app-name
-c:\> py manage.py runserver
+django-admin startproject project-name .
+py manage.py startapp app-name
+py manage.py runserver
 ```
 
 <style>
