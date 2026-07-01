@@ -108,25 +108,31 @@ category: Python
 Open a terminal window and run the following to install django
 
 ```shell
+
 py -m pip install django
+
 ```
 
 once complete, run the following command to verify django
 
 ```shell
+
 py -m django --version
+
 ```
 
 ## Django CLI
 
-- `startproject` creates a new project (notice the . at the end, creates project at current dir)
-- `startapp` creates a new application
-- `runserver` runs the project in development mode at this url [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+- `startproject` - creates a new project (notice the . at the end, creates project at current dir)
+- `startapp` - creates a new application
+- `runserver` - runs the project in development mode at this url [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ```shell
+
 django-admin startproject project-name .
 py manage.py startapp app-name
 py manage.py runserver
+
 ```
 
 <style>
