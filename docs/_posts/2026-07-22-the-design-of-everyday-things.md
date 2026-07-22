@@ -9,11 +9,11 @@ Don Norman, author of 'The Design of Everyday Things' starts
 chapter six of his book with a bold statement 'One of my rules in consulting is:
 Never solve the problem I am asked to solve.'
 
-It feels counter intuitive to read at first, but imagine being a doctor and a patient reports of symptom, would you treat the symptom or address the cause?
+It feels counter intuitive to read at first, but imagine being a doctor and a patient reports of a discomfort (symptom) they experience, Now would you treat the symptom or address the cause?
 
 If you did treat the 'cause' that's exactly the whole point of this chapter.
 
-Most often than not customers report symptoms of the problems they have, and the first job of the designer is to find the right problem to solve, and then finding a right solution.
+Most often than not, customers report symptoms of the problems they have, You don't just start addressing the symptom, But first find the right problem to solve, and then finding a right solution.
 
 Don Norman proposes a model to this approach that he calls 'The Double Diamond Model of Design'
 
