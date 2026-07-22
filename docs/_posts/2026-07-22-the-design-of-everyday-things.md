@@ -6,7 +6,7 @@ category: Books
 ## The Design of Everyday Things
 
 Don Norman, author of 'The Design of Everyday Things' starts 
-chapter six of his books a bold statement 'One of my rules in consulting is:
+chapter six of his book with a bold statement 'One of my rules in consulting is:
 Never solve the problem I am asked to solve.'
 
 It feels counter intuitive to read at first, but imagine being a doctor and a patient reports of symptom, would you treat the symptom or address the cause?
