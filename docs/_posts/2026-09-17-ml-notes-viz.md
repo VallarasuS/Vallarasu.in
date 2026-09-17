@@ -51,7 +51,7 @@ category: Machine Learning
 
 ---
 
-![Machine Learning Visual Notes](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/ml-notes/ml-notes-12.png)
+![Machine Learning Visual Notes](https://raw.githubusercontent.com/VallarasuS/Vallarasu.in/master/docs/_screenshots/ml-notes/ml-notes-13.png)
 
 ---
 
