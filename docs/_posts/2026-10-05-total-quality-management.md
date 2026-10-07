@@ -19,17 +19,17 @@ Total Quality Management (TQM) is a continuous, organization-wide approach to ac
 ## Action Plan
 
 1.	Develop
-    a.	Core Values
-    b.	Vision Statement
-    c.	Mission Statement
-    d.	Quality Policy
+    - Core Values
+    - Vision Statement
+    - Mission Statement
+    - Quality Policy
 
 2.	Develop long term Quality Improvement Program
-    a.	Customer Needs
-    b.	Gap Analysis
-    c.	Closing the Gap
-    d.	Alignment with Mission, Vision and Core Values
-    e.	Implementation
+    - Customer Needs
+    - Gap Analysis
+    - Closing the Gap
+    - Alignment with Mission, Vision and Core Values
+    - Implementation
 
 3.	Create Education and Training Plan
 
